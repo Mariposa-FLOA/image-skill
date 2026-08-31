@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0 — 2026-08-31
+
+- Published the first complete set of 14 original Skill directories.
+- Added a named example image for every installable Skill (15 images including the historical retired visual example).
+- Added beginner usage guides for Codex, WorkBuddy / Workbuddy, and other custom-Skill agents.
+- Kept the WeChat QR entry intentionally empty for this release.
+- Excluded external starter Skills, distilled adaptations, raw source media, and the explicitly excluded `level-17-show-time.png`.
+
 ## v1.0.0-rc2 — 2026-08-31
 
 - Added project-generated non-person examples for the remaining original Skills.

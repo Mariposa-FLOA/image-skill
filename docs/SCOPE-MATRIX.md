@@ -1,6 +1,6 @@
 # Release scope matrix
 
-This table is the publication contract for release candidate `v1.0.0-rc2`.
+This table is the publication contract for the first public release `v1.0.0`.
 
 | Item | Classification | Included in source release | Public example in rc2 |
 | --- | --- | --- | --- |

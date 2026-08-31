@@ -109,4 +109,4 @@ Reserved location: [`assets/community/`](assets/community/).
 
 ## Version
 
-Local release candidate: `v1.0.0-rc2`. The QR code is intentionally omitted from this Release and can be added in a later version.
+Current public version: `v1.0.0`. The QR code is intentionally omitted from this Release and can be added in a later version.

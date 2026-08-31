@@ -1,6 +1,6 @@
 {
-  "version": "v1.0.0-rc2",
-  "status": "release-candidate",
+  "version": "v1.0.0",
+  "status": "ready-for-publication",
   "skill_count": 14,
   "skills": [
     "cinematic-key-art-poster",

@@ -1,5 +1,5 @@
 {
-  "status": "release-candidate",
+  "status": "public-release",
   "selection_rule": "Historical assets are maintainer-approved red-marked examples; all new assets are project-generated, clean, and non-person unless explicitly requested.",
   "excluded_assets": [
     "level-17-show-time.png",

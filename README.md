@@ -115,7 +115,7 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 ## 版本
 
-当前本地发布候选版本：`v1.0.0-rc2`。二维码暂不放入本次 Release；公开仓库推送后可在后续版本补入。
+当前公开版本：`v1.0.0`。二维码暂不放入本次 Release，后续可在新版本补入。
 
 ## 目录
 
