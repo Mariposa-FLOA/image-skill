@@ -11,4 +11,5 @@
 - [x] Keep the WeChat QR code intentionally omitted for this Release; retain a reserved location for a future update.
 - [x] Every installable Skill has a corresponding example image; the Y2K output uses the two references explicitly requested by the maintainer.
 - [ ] Confirm the GitHub repository name and visibility.
-- [ ] Create the public GitHub repository, push `main`, and publish tag `v1.0.0`.
+- [x] Create the public GitHub repository, push `main`, and publish tag `v1.0.0`.
+- [x] Create the GitHub Release page for `v1.0.0`.

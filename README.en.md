@@ -110,3 +110,5 @@ Reserved location: [`assets/community/`](assets/community/).
 ## Version
 
 Current public version: `v1.0.0`. The QR code is intentionally omitted from this Release and can be added in a later version.
+
+Formal Release: [v1.0.0](https://github.com/dujiaxi2359-cloud/our-original-visual-skills/releases/tag/v1.0.0).

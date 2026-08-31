@@ -117,6 +117,8 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 当前公开版本：`v1.0.0`。二维码暂不放入本次 Release，后续可在新版本补入。
 
+正式 Release：[v1.0.0](https://github.com/dujiaxi2359-cloud/our-original-visual-skills/releases/tag/v1.0.0)。
+
 ## 目录
 
 ```text
