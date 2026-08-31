@@ -6,6 +6,19 @@ A collection of original visual Skills for Codex. Each Skill reads the source ev
 
 > **Release boundary:** this repository contains only Skills we designed and independently packaged. External starter Skills, distilled adaptations, and third-party repositories are excluded.
 
+## Start here: using the Skills
+
+Read [`docs/USAGE.en.md`](docs/USAGE.en.md) first. It explains how beginners can import and call these Skills in Codex, WorkBuddy / Workbuddy, and other agents that support custom Skill folders or Markdown instructions, including platform ratios and `test` / `accepted` delivery states.
+
+Shortest call:
+
+```text
+Use $graphic-composition-poster.
+Make a native 3:4 Xiaohongshu poster, preserve the subject identity, and return a test first.
+```
+
+中文 guide: [`docs/USAGE.md`](docs/USAGE.md).
+
 ## What this is
 
 This is not a filter pack and not a one-style template. Every Skill has a distinct visual responsibility, reset rule, and delivery boundary:

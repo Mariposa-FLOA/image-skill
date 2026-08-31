@@ -6,6 +6,19 @@
 
 > **发布边界**：本仓库只收录我们自主建立或独立封装的原创 Skill。外部初始 Skill、蒸馏加强 Skill 和第三方仓库不会混入。
 
+## 先看：怎么使用
+
+第一次使用时，先看 [`docs/USAGE.md`](docs/USAGE.md)。它用新手能直接照做的方式说明 Codex、WorkBuddy / Workbuddy 和其他支持自定义 Skill 的智能体如何导入、选择、调用，以及如何写清楚平台比例、保留项和 `test` / `accepted` 状态。
+
+最短调用方式：
+
+```text
+请使用 $graphic-composition-poster。
+做一张小红书 3:4 原生海报，保留主体身份，先给 test，不要自动归档。
+```
+
+English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
+
 ## 这是什么
 
 这不是一个滤镜包，也不是把所有照片套成同一种风格。每个 Skill 都有自己的视觉职责、失败重置规则和输出边界：
@@ -137,6 +150,8 @@ our-original-visual-skills/
 │   ├── vintage-offset-cinema-poster/
 │   └── y2k-street-cutout-poster/
 └── docs/
+    ├── USAGE.md
+    └── USAGE.en.md
 ```
 
 ## 维护者说明
