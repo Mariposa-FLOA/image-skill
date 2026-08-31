@@ -4,8 +4,6 @@
 
 Image skill is a collection of original visual Skills for Codex, WorkBuddy, and compatible agents. Each Skill reads source evidence, chooses one governing visual mechanism, and produces a clean, art-directed result with honest boundaries.
 
-> **Release boundary:** this repository contains only Skills we designed and independently packaged. External starter Skills, distilled adaptations, and third-party repositories are excluded.
-
 ## Start here: using the Skills
 
 Read [`docs/USAGE.en.md`](docs/USAGE.en.md) first. It explains how beginners can import and call these Skills in Codex, WorkBuddy / Workbuddy, and other agents that support custom Skill folders or Markdown instructions, including platform ratios and `test` / `accepted` delivery states.
@@ -53,26 +51,25 @@ The same source can take different paths, but it is never forced into one templa
 | [`mixed-media-photo-collage-poster`](skills/mixed-media-photo-collage-poster/) | Truthful photo anchor and printed extension |
 | [`vintage-offset-cinema-poster`](skills/vintage-offset-cinema-poster/) | Mid-century offset narrative poster logic |
 
-> `stained-glass-mosaic-poster` is retired and appears only as a historical visual example, not as an installable Skill.
-
 ## Examples
 
-The release includes historical image assets explicitly marked as approved by the maintainer plus new project-generated examples created without personal source material. Unapproved archive images are not copied or substituted.
+Each of the 14 Skills has a primary example, with one additional Y2K variant. Click a Skill name for its instructions.
 
-![Selected original Skill examples](assets/brand/selected-examples-hero-v2.png)
+| | |
+| --- | --- |
+| [Film key art · TWO DIRECTIONS](skills/cinematic-key-art-poster/)<br><img src="examples/cinematic-key-art-poster.png" alt="Film key art · TWO DIRECTIONS" width="360"> | [Graphic composition · NO DATE](skills/graphic-composition-poster/)<br><img src="examples/graphic-composition-poster.png" alt="Graphic composition · NO DATE" width="360"> |
+| [Impossible space · FAULT LINE](skills/impossible-space-editorial-poster/)<br><img src="examples/impossible-space-editorial-poster.png" alt="Impossible space · FAULT LINE" width="360"> | [Album cover · DETOUR](skills/music-album-cover-art/)<br><img src="examples/music-album-cover-art.png" alt="Album cover · DETOUR" width="360"> |
+| [Symbolic narrative · THE GAP](skills/symbolic-narrative-poster/)<br><img src="examples/symbolic-narrative-poster.png" alt="Symbolic narrative · THE GAP" width="360"> | [Y2K · RED SIGNAL](skills/y2k-street-cutout-poster/)<br><img src="examples/y2k-street-cutout-poster.png" alt="Y2K · RED SIGNAL" width="360"> |
+| [High-chroma screenprint](skills/high-chroma-screenprint-poster/)<br><img src="examples/high-chroma-screenprint-poster.png" alt="High-chroma screenprint" width="360"> | [Kinetic contour field](skills/kinetic-contour-field-poster/)<br><img src="examples/kinetic-contour-field-poster.png" alt="Kinetic contour field" width="360"> |
+| [Layered paper relief](skills/layered-paper-relief-poster/)<br><img src="examples/layered-paper-relief-poster.png" alt="Layered paper relief" width="360"> | [Mineral shadow reliquary](skills/mineral-shadow-reliquary-poster/)<br><img src="examples/mineral-shadow-reliquary-poster.png" alt="Mineral shadow reliquary" width="360"> |
+| [Mixed-media photo collage](skills/mixed-media-photo-collage-poster/)<br><img src="examples/mixed-media-photo-collage-poster.png" alt="Mixed-media photo collage" width="360"> | [Optical refraction](skills/optical-refraction-visual/)<br><img src="examples/optical-refraction-visual.png" alt="Optical refraction" width="360"> |
+| [Vintage offset cinema](skills/vintage-offset-cinema-poster/)<br><img src="examples/vintage-offset-cinema-poster.png" alt="Vintage offset cinema" width="360"> | [Static page-flip showcase](skills/page-flip-showcase/)<br><img src="examples/page-flip-showcase.png" alt="Static page-flip showcase" width="360"> |
 
-See [`examples/README.md`](examples/README.md) for the image index and provenance notes. Approved assets currently included:
+Y2K · URBAN SIGNAL（变体 / variant）
 
-- `high-chroma-screenprint-poster.png`
-- `kinetic-contour-field-poster.png`
-- `mineral-shadow-reliquary-poster.png`
-- `historical-chromatic-glass-mosaic.png` (historical/retired visual language)
+<img src="examples/variants/y2k-street-cutout-poster-urban-signal.png" alt="Y2K URBAN SIGNAL" width="360">
 
-Project-generated completion examples include `page-flip-showcase.png` and the other current Skill assets. The Y2K example uses the two references explicitly supplied by the maintainer; raw references remain outside the repository.
-
-All installable Skills have a named example file in `examples/`; raw inputs and unapproved process images remain outside the repository.
-
-See [`docs/SCOPE-MATRIX.md`](docs/SCOPE-MATRIX.md) for the complete inclusion, exclusion, and example-status matrix.
+See the [complete gallery](examples/README.md). RED SIGNAL and URBAN SIGNAL are the maintainer's supplied Skill outputs, preserved unchanged.
 
 ## Installation
 
@@ -94,6 +91,8 @@ done
 
 Restart Codex after installation. Each directory's `SKILL.md` is the source of truth for its workflow and output contract.
 
+These are model-agnostic Markdown workflows. Download them into Codex, Image 2, or another agent that supports custom instructions and image generation, then name the model you want in the request.
+
 ## Find the author
 
 Author: `AIGC-泷`
@@ -102,11 +101,12 @@ Unified Douyin and other-platform username: `AIGC-泷`. Search this name on your
 
 If you share this repository publicly, attribution is welcome: `Image Skill by @AIGC-泷`
 
-## WeChat group
+## Collaboration
 
-The WeChat group location is reserved. The QR code is intentionally omitted from this Release and can be added in a later version after the maintainer supplies and approves it. We do not invent a group number or publish private chat screenshots as a QR code.
+- `AIGC-泷`: author and maintainer
+- `Codex`: AI collaborator for Skill packaging, example completion, cross-agent usage docs, and release validation
 
-Reserved location: [`assets/community/`](assets/community/).
+GitHub's Contributors graph is generated from commit identities; this section records the actual human–AI collaboration behind the project.
 
 ## Licensing
 
@@ -117,6 +117,6 @@ Reserved location: [`assets/community/`](assets/community/).
 
 ## Version
 
-Current public version: `v1.0.1`. The QR code is intentionally omitted from this Release and can be added in a later version.
+Current public version: `v1.0.2`.
 
-Formal Release: [v1.0.1](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.1).
+Formal Release: [v1.0.2](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.2).

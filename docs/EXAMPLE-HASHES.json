@@ -1,28 +1,31 @@
 [
   {
     "file": "examples/cinematic-key-art-poster.png",
+    "kind": "primary",
     "size": [
-      1086,
-      1448
+      1024,
+      1536
     ],
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "5c673b237065d62df08de53416de4f1ff6154e15916cc63098acba85a8d56e86"
+    "sha256": "35f813257fdbe1631dad36a565a7eea5eb1e8b52597bebb6ff9732bb13164c36"
   },
   {
     "file": "examples/graphic-composition-poster.png",
+    "kind": "primary",
     "size": [
-      1086,
-      1448
+      1024,
+      1536
     ],
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "74aa79ead42b0fb12e4ac710461f96b5cef31f59c9b830edb2beccc3aa66a9f9"
+    "sha256": "95cafc58bdf3de2f7065c8f5c195abcd089d14ae99eb5fa052b1b5eeb16f0e0d"
   },
   {
     "file": "examples/high-chroma-screenprint-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -33,29 +36,20 @@
     "sha256": "42b4a8a603d21885793e833b18294e87de307a02dd4b63773fcd7593a6a788e1"
   },
   {
-    "file": "examples/historical-chromatic-glass-mosaic.png",
-    "size": [
-      1086,
-      1448
-    ],
-    "mode": "RGB",
-    "format": "PNG",
-    "has_alpha": false,
-    "sha256": "7ecaf424f6e5170afcc451e1aa19af5dd123c5791fd233b1f220cb429bff1bdd"
-  },
-  {
     "file": "examples/impossible-space-editorial-poster.png",
+    "kind": "primary",
     "size": [
-      1086,
-      1448
+      1024,
+      1536
     ],
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "c24e03a2ffc7d80458816b566da3b5d7bfac1044623a44588994ae031f5d21d2"
+    "sha256": "ae08de16d7e4cb0e67aff29291e8fdff56ca352bab5a7e725ba24eff8d074c0e"
   },
   {
     "file": "examples/kinetic-contour-field-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -67,6 +61,7 @@
   },
   {
     "file": "examples/layered-paper-relief-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -78,6 +73,7 @@
   },
   {
     "file": "examples/mineral-shadow-reliquary-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -89,6 +85,7 @@
   },
   {
     "file": "examples/mixed-media-photo-collage-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -100,17 +97,19 @@
   },
   {
     "file": "examples/music-album-cover-art.png",
+    "kind": "primary",
     "size": [
-      1086,
-      1448
+      1024,
+      1536
     ],
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "680b4b0de327e12df372124640659c31129805d91d310e48e8b3f2b53f00ae61"
+    "sha256": "d5c6350377a79316a82a5a274efabc95487d189128c487b15f55b1757680aed1"
   },
   {
     "file": "examples/optical-refraction-visual.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -122,6 +121,7 @@
   },
   {
     "file": "examples/page-flip-showcase.png",
+    "kind": "primary",
     "size": [
       1600,
       2200
@@ -133,17 +133,19 @@
   },
   {
     "file": "examples/symbolic-narrative-poster.png",
+    "kind": "primary",
     "size": [
-      1086,
-      1448
+      1024,
+      1536
     ],
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "be2d2f205cde7ca8fb5feaefb124d9be07628ea531f451b60106070068f1238d"
+    "sha256": "5341ec7bc39e58bc5d93dc2ac5bece98b585f5be1c187f707d8190ab0607baf1"
   },
   {
     "file": "examples/vintage-offset-cinema-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -155,6 +157,7 @@
   },
   {
     "file": "examples/y2k-street-cutout-poster.png",
+    "kind": "primary",
     "size": [
       1086,
       1448
@@ -162,6 +165,18 @@
     "mode": "RGB",
     "format": "PNG",
     "has_alpha": false,
-    "sha256": "8010b96caef28ed01c6678488e20215d79c235a91149f658b8d28283cfea7c48"
+    "sha256": "39d671647b23b93d97a6f3e9feba6557b52b8ded91e8ada89a50f19d363e21a5"
+  },
+  {
+    "file": "examples/variants/y2k-street-cutout-poster-urban-signal.png",
+    "kind": "variant",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "6a190e56a6f38483e0721c891a629f7f912678c61b34c8c93bd699d425017ae3"
   }
 ]

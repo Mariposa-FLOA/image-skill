@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "status": "ready-for-publication",
   "skill_count": 14,
   "skills": [
@@ -18,12 +18,12 @@
     "vintage-offset-cinema-poster",
     "y2k-street-cutout-poster"
   ],
-  "example_count": 15,
+  "primary_example_count": 14,
+  "variant_count": 1,
   "examples": [
     "examples/cinematic-key-art-poster.png",
     "examples/graphic-composition-poster.png",
     "examples/high-chroma-screenprint-poster.png",
-    "examples/historical-chromatic-glass-mosaic.png",
     "examples/impossible-space-editorial-poster.png",
     "examples/kinetic-contour-field-poster.png",
     "examples/layered-paper-relief-poster.png",
@@ -35,6 +35,9 @@
     "examples/symbolic-narrative-poster.png",
     "examples/vintage-offset-cinema-poster.png",
     "examples/y2k-street-cutout-poster.png"
+  ],
+  "variants": [
+    "examples/variants/y2k-street-cutout-poster-urban-signal.png"
   ],
   "level_17_present": false,
   "raw_source_present": false

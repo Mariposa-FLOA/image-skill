@@ -1,66 +1,101 @@
-# Example image index
+# Example gallery
 
-The images in this directory are the example assets selected or generated for this release candidate. Three current visual-language images and one historical image were explicitly approved by the maintainer; the remaining examples are new project assets. The Y2K example was generated from two references explicitly supplied for that purpose. No raw input photos are included.
+本页把 14 个可安装 Skill 的主示例全部展开显示，并额外保留一张 Y2K 变体。点击图片或 Skill 名称即可查看对应说明。七张维护者提供的成图按确认的 Skill 归属原样保留，其余主示例为项目补齐图。
 
-## Approved current visual languages
+## 14 个主示例
 
-### High-Chroma Screenprint
+### 1. 电影主视觉 · cinematic-key-art-poster
+
+[打开 Skill](../skills/cinematic-key-art-poster/)
+
+![TWO DIRECTIONS — cinematic key art](cinematic-key-art-poster.png)
+
+### 2. 平面构成 · graphic-composition-poster
+
+[打开 Skill](../skills/graphic-composition-poster/)
+
+![NO DATE — graphic composition](graphic-composition-poster.png)
+
+### 3. 高彩丝网版画 · high-chroma-screenprint-poster
+
+[打开 Skill](../skills/high-chroma-screenprint-poster/)
 
 ![High-Chroma Screenprint](high-chroma-screenprint-poster.png)
 
-`high-chroma-screenprint-poster` — limited-ink planes, source-derived colour, and controlled registration.
+### 4. 错层空间 · impossible-space-editorial-poster
 
-### Kinetic Contour Field
+[打开 Skill](../skills/impossible-space-editorial-poster/)
+
+![FAULT LINE — impossible space editorial](impossible-space-editorial-poster.png)
+
+### 5. 动态轮廓场 · kinetic-contour-field-poster
+
+[打开 Skill](../skills/kinetic-contour-field-poster/)
 
 ![Kinetic Contour Field](kinetic-contour-field-poster.png)
 
-`kinetic-contour-field-poster` — a source-driven contour field that visualizes one real force.
+### 6. 分层纸雕 · layered-paper-relief-poster
 
-### Mineral Shadow Reliquary
+[打开 Skill](../skills/layered-paper-relief-poster/)
+
+![Layered Paper Relief](layered-paper-relief-poster.png)
+
+### 7. 矿物暗影浮雕 · mineral-shadow-reliquary-poster
+
+[打开 Skill](../skills/mineral-shadow-reliquary-poster/)
 
 ![Mineral Shadow Reliquary](mineral-shadow-reliquary-poster.png)
 
-`mineral-shadow-reliquary-poster` — carved dark material with one motivated luminous event.
+### 8. 混合媒介拼贴 · mixed-media-photo-collage-poster
 
-## Historical visual language
+[打开 Skill](../skills/mixed-media-photo-collage-poster/)
 
-### Chromatic Glass Mosaic (retired)
+![Mixed-Media Photo Collage](mixed-media-photo-collage-poster.png)
 
-![Historical Chromatic Glass Mosaic](historical-chromatic-glass-mosaic.png)
+### 9. 专辑封面 · music-album-cover-art
 
-Historical example only. The corresponding Skill is retired and is not included under `skills/`.
+[打开 Skill](../skills/music-album-cover-art/)
 
-## Additional original Skill examples
+![DETOUR — album cover art](music-album-cover-art.png)
 
-The remaining current Skills use clean project-generated example assets. Each file name matches the Skill directory name so the visual relationship is easy to audit.
+### 10. 光学折射 · optical-refraction-visual
 
-### Page-Flip Showcase
+[打开 Skill](../skills/optical-refraction-visual/)
+
+![Optical Refraction Visual](optical-refraction-visual.png)
+
+### 11. 静态翻页展示 · page-flip-showcase
+
+[打开 Skill](../skills/page-flip-showcase/)
 
 ![Page-Flip Showcase](page-flip-showcase.png)
 
-Static editorial page-turn demonstration composed from repository examples; it is not an animation.
+### 12. 符号叙事 · symbolic-narrative-poster
 
-## Complete Skill-to-image mapping
+[打开 Skill](../skills/symbolic-narrative-poster/)
 
-| Skill | Example |
-| --- | --- |
-| `cinematic-key-art-poster` | [`cinematic-key-art-poster.png`](cinematic-key-art-poster.png) |
-| `graphic-composition-poster` | [`graphic-composition-poster.png`](graphic-composition-poster.png) |
-| `high-chroma-screenprint-poster` | [`high-chroma-screenprint-poster.png`](high-chroma-screenprint-poster.png) |
-| `impossible-space-editorial-poster` | [`impossible-space-editorial-poster.png`](impossible-space-editorial-poster.png) |
-| `kinetic-contour-field-poster` | [`kinetic-contour-field-poster.png`](kinetic-contour-field-poster.png) |
-| `layered-paper-relief-poster` | [`layered-paper-relief-poster.png`](layered-paper-relief-poster.png) |
-| `mineral-shadow-reliquary-poster` | [`mineral-shadow-reliquary-poster.png`](mineral-shadow-reliquary-poster.png) |
-| `mixed-media-photo-collage-poster` | [`mixed-media-photo-collage-poster.png`](mixed-media-photo-collage-poster.png) |
-| `music-album-cover-art` | [`music-album-cover-art.png`](music-album-cover-art.png) |
-| `optical-refraction-visual` | [`optical-refraction-visual.png`](optical-refraction-visual.png) |
-| `page-flip-showcase` | [`page-flip-showcase.png`](page-flip-showcase.png) |
-| `symbolic-narrative-poster` | [`symbolic-narrative-poster.png`](symbolic-narrative-poster.png) |
-| `vintage-offset-cinema-poster` | [`vintage-offset-cinema-poster.png`](vintage-offset-cinema-poster.png) |
-| `y2k-street-cutout-poster` | [`y2k-street-cutout-poster.png`](y2k-street-cutout-poster.png) |
+![THE GAP — symbolic narrative](symbolic-narrative-poster.png)
 
-## Exclusions
+### 13. 复古胶印电影海报 · vintage-offset-cinema-poster
 
-- The image `level-17-show-time.png` is explicitly excluded by the maintainer and is not present here.
-- The two failed checkerboard transparency PNGs from the earlier album-cover task are excluded.
-- Original user portraits, raw source files, process screenshots, and unapproved archive images are excluded.
+[打开 Skill](../skills/vintage-offset-cinema-poster/)
+
+![Vintage Offset Cinema Poster](vintage-offset-cinema-poster.png)
+
+### 14. Y2K 街头剪裁拼贴 · y2k-street-cutout-poster
+
+[打开 Skill](../skills/y2k-street-cutout-poster/)
+
+![RED SIGNAL — Y2K street cutout](y2k-street-cutout-poster.png)
+
+## Y2K 变体
+
+同一 Skill 的第二张维护者提供成图作为变体，不计入 14 张主示例：
+
+![URBAN SIGNAL — Y2K variant](variants/y2k-street-cutout-poster-urban-signal.png)
+
+## 排除项
+
+- level-17-show-time.png 不在本仓库。
+- 不包含原始用户人像、私人输入文件、过程截图或未确认图片。
+- 以上示例图是成品展示；不要把示例图当作新的原始输入素材。

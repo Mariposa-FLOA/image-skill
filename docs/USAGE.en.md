@@ -52,6 +52,10 @@ Build the wordless composition first, preserve my supplied text exactly, and ret
 
 If the host accepts only Markdown, missing companion files may make some references or scripts unavailable. Do not treat a pasted excerpt as a complete installation.
 
+### Image 2 and other image models
+
+These Skills are model-agnostic Markdown workflows; they do not lock you to one image provider. After downloading, import the complete Skill folder into Codex, Image 2, or another agent that accepts image generation, reference images, and custom instructions. State the model in your request, for example: “Use Image 2 with this Skill.” If a model uses different controls, adapt only the invocation format and keep the Skill's composition, subject-protection, and negative constraints intact.
+
 ## Choosing a Skill
 
 Use `cinematic-key-art-poster` for film narrative key art, `graphic-composition-poster` for crop/grid/type composition, `impossible-space-editorial-poster` for spatial contradiction, `music-album-cover-art` for record identity and layered masters, `optical-refraction-visual` for believable transparent media, `symbolic-narrative-poster` for one visual metaphor, and `y2k-street-cutout-poster` for Y2K street collage. Use the matching Skill for screenprint, contour, paper relief, mineral relief, mixed media, offset print, or page-turn presentation.

@@ -11,7 +11,7 @@ The project also has a separate internal archive for distilled adaptations. Thos
 
 ## Our examples
 
-The four images under `examples/` are project-generated or project-authored presentation assets selected by the maintainer for this release candidate. They are not raw user uploads. The historical chromatic-glass image is shown as a retired visual-language record only.
+The gallery contains 14 primary examples and one Y2K variant. Seven finished Skill outputs were supplied by the maintainer and are preserved unchanged. The remaining eight primary examples are existing project-generated or maintainer-approved assets. Individual provenance is recorded in `examples/manifest.json`.
 
 ## No implied endorsement
 

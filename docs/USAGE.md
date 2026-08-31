@@ -51,6 +51,10 @@ done
 
 复制完整的 Skill 目录，不要只复制 `SKILL.md` 后删除它依赖的 `references/`、`scripts/` 或 `assets/`。
 
+### Image 2 或其他出图模型
+
+这些 Skill 是模型无关的 Markdown 工作流，不锁定某一家出图模型。下载后可以在 Codex、Image 2 或其他支持图片生成、参考图和自定义提示词的智能体中使用：把完整 Skill 文件夹导入，再在请求里写明要用的模型（例如“用 Image 2 按这个 Skill 出图”）。模型不支持某个参数时，保留 Skill 的构图、人物/物体保护和负面约束，只按该模型的输入格式改写调用层；不要删掉 `SKILL.md` 的规则。
+
 ## 在 WorkBuddy / Workbuddy 中使用
 
 WorkBuddy 的菜单会随版本、企业配置和客户端形态变化。请在它的 **Skills / 技能 / 自定义能力 / Agent 指令** 位置选择下面一种通用路径：

@@ -4,8 +4,6 @@
 
 Image skill 是一组为 Codex、WorkBuddy 和其他智能体编写的原创视觉 Skill：先读懂图像中的事实、关系和情绪，再选择构图机制、媒介语言、色彩与文字行为。
 
-> **发布边界**：本仓库只收录我们自主建立或独立封装的原创 Skill。外部初始 Skill、蒸馏加强 Skill 和第三方仓库不会混入。
-
 ## 先看：怎么使用
 
 第一次使用时，先看 [`docs/USAGE.md`](docs/USAGE.md)。它用新手能直接照做的方式说明 Codex、WorkBuddy / Workbuddy 和其他支持自定义 Skill 的智能体如何导入、选择、调用，以及如何写清楚平台比例、保留项和 `test` / `accepted` 状态。
@@ -53,26 +51,25 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 | [`mixed-media-photo-collage-poster`](skills/mixed-media-photo-collage-poster/) | 真实照片锚点、印刷延展与拼贴结构 |
 | [`vintage-offset-cinema-poster`](skills/vintage-offset-cinema-poster/) | 复古胶印电影叙事与限色套印 |
 
-> `stained-glass-mosaic-poster` 已退役，只在下方作为历史示例展示，不作为可安装 Skill。
-
 ## 示例图
 
-本次公开示例图分为两类：维护者明确标记为可用的红框素材，以及为补齐 Skill 展示而新生成的、无个人原始素材的项目示例。没有得到授权的旧图不会被复制进仓库，也不会用其他未标记图片替代。
+14 个 Skill 各有一张主示例图，Y2K 另附一张变体。你可以点击技能名称查看使用说明。
 
-![Selected original Skill examples](assets/brand/selected-examples-hero-v2.png)
+| | |
+| --- | --- |
+| [电影主视觉 · TWO DIRECTIONS](skills/cinematic-key-art-poster/)<br><img src="examples/cinematic-key-art-poster.png" alt="电影主视觉 · TWO DIRECTIONS" width="360"> | [平面构成 · NO DATE](skills/graphic-composition-poster/)<br><img src="examples/graphic-composition-poster.png" alt="平面构成 · NO DATE" width="360"> |
+| [错层空间 · FAULT LINE](skills/impossible-space-editorial-poster/)<br><img src="examples/impossible-space-editorial-poster.png" alt="错层空间 · FAULT LINE" width="360"> | [专辑封面 · DETOUR](skills/music-album-cover-art/)<br><img src="examples/music-album-cover-art.png" alt="专辑封面 · DETOUR" width="360"> |
+| [符号叙事 · THE GAP](skills/symbolic-narrative-poster/)<br><img src="examples/symbolic-narrative-poster.png" alt="符号叙事 · THE GAP" width="360"> | [Y2K · RED SIGNAL](skills/y2k-street-cutout-poster/)<br><img src="examples/y2k-street-cutout-poster.png" alt="Y2K · RED SIGNAL" width="360"> |
+| [高彩丝网版画](skills/high-chroma-screenprint-poster/)<br><img src="examples/high-chroma-screenprint-poster.png" alt="高彩丝网版画" width="360"> | [动态轮廓场](skills/kinetic-contour-field-poster/)<br><img src="examples/kinetic-contour-field-poster.png" alt="动态轮廓场" width="360"> |
+| [分层纸雕](skills/layered-paper-relief-poster/)<br><img src="examples/layered-paper-relief-poster.png" alt="分层纸雕" width="360"> | [矿物暗影浮雕](skills/mineral-shadow-reliquary-poster/)<br><img src="examples/mineral-shadow-reliquary-poster.png" alt="矿物暗影浮雕" width="360"> |
+| [混合媒介拼贴](skills/mixed-media-photo-collage-poster/)<br><img src="examples/mixed-media-photo-collage-poster.png" alt="混合媒介拼贴" width="360"> | [光学折射](skills/optical-refraction-visual/)<br><img src="examples/optical-refraction-visual.png" alt="光学折射" width="360"> |
+| [复古胶印电影海报](skills/vintage-offset-cinema-poster/)<br><img src="examples/vintage-offset-cinema-poster.png" alt="复古胶印电影海报" width="360"> | [静态翻页展示](skills/page-flip-showcase/)<br><img src="examples/page-flip-showcase.png" alt="静态翻页展示" width="360"> |
 
-详细图档与来源说明见 [`examples/README.md`](examples/README.md)。红框批准的历史素材：
+Y2K · URBAN SIGNAL（变体 / variant）
 
-- `high-chroma-screenprint-poster.png`
-- `kinetic-contour-field-poster.png`
-- `mineral-shadow-reliquary-poster.png`
-- `historical-chromatic-glass-mosaic.png`（历史/退役视觉，不对应当前可安装 Skill）
+<img src="examples/variants/y2k-street-cutout-poster-urban-signal.png" alt="Y2K URBAN SIGNAL" width="360">
 
-项目生成的补齐示例包括 `page-flip-showcase.png` 以及其他当前 Skill 对应图。Y2K 示例按维护者要求使用两张指定参考图生成，原始参考图不进入仓库。
-
-这样不会把原始输入文件或未获授权的过程图带入公开仓库。
-
-完整的纳入/排除与示例状态见 [`docs/SCOPE-MATRIX.md`](docs/SCOPE-MATRIX.md)。
+完整图档见 [示例图库](examples/README.md)。Y2K 的 RED SIGNAL 与 URBAN SIGNAL 均直接使用作者提供的 Skill 成图。
 
 ## 安装
 
@@ -100,6 +97,8 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 每个 Skill 的具体边界、输出契约和保存规则以对应目录中的 `SKILL.md` 为准。
 
+这些是模型无关的 Markdown 工作流，可下载后导入 Codex、Image 2 或其他支持自定义提示词和图片生成的智能体；调用时在请求中写明你要使用的模型即可。
+
 ## 找到作者
 
 作者：`AIGC-泷`
@@ -108,11 +107,12 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 若公开分享，欢迎标注：`Image Skill by @AIGC-泷`
 
-## 微信群
+## 协作贡献
 
-微信群入口已预留；二维码暂不放入本次 Release，后续可在维护者提供并确认后作为新版本补入。公开仓库不会编造群号，也不会把私人聊天截图当作二维码。
+- `AIGC-泷`：作者与维护者
+- `Codex`：AI 协作伙伴，负责 Skill 工程整理、示例补齐、跨智能体使用说明和发布校验
 
-预留位置：[`assets/community/`](assets/community/)。
+GitHub 的 Contributors 图表由提交身份自动统计；这里记录本项目的实际人机协作关系。
 
 ## 许可证
 
@@ -123,9 +123,9 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 ## 版本
 
-当前公开版本：`v1.0.1`。二维码暂不放入本次 Release，后续可在新版本补入。
+当前公开版本：`v1.0.2`。
 
-正式 Release：[v1.0.1](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.1)。
+正式 Release：[v1.0.2](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.2)。
 
 ## 目录
 
@@ -141,8 +141,7 @@ image-skill/
 ├── CHANGELOG.md
 ├── VERSION
 ├── assets/
-│   ├── brand/
-│   └── community/
+│   └── brand/
 ├── examples/
 ├── skills/
 │   ├── cinematic-key-art-poster/
@@ -166,4 +165,4 @@ image-skill/
 
 ## 维护者说明
 
-本仓库的目标是把可复用的方法公开得清楚，同时不扩大原始素材的授权边界。公开 Skill 不代表公开用户上传的原图、私人信息或任何未确认的商业授权。
+本仓库的目标是把可复用的方法公开得清楚。公开 Skill 不代表公开用户上传的原图、私人信息或任何未确认的商业授权。
