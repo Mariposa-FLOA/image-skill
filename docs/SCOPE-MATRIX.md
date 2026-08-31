@@ -1,8 +1,8 @@
 # Release scope matrix
 
-This table is the publication contract for the first public release `v1.0.0`.
+This table is the publication contract for the public release `v1.0.1`.
 
-| Item | Classification | Included in source release | Public example in rc2 |
+| Item | Classification | Included in source release | Public example in v1.0.1 |
 | --- | --- | --- | --- |
 | `cinematic-key-art-poster` | our original / autonomous | yes | generated non-person example |
 | `graphic-composition-poster` | our original / autonomous | yes | generated non-person example |

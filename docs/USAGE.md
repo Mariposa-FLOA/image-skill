@@ -27,15 +27,15 @@
 ### 从 GitHub 安装
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/our-original-visual-skills.git
+git clone https://github.com/dujiaxi2359-cloud/image-skill.git
 mkdir -p ~/.codex/skills
-cp -R our-original-visual-skills/skills/graphic-composition-poster ~/.codex/skills/
+cp -R image-skill/skills/graphic-composition-poster ~/.codex/skills/
 ```
 
 把最后一行的目录名换成需要的 Skill。安装本次发布的全部 Skill：
 
 ```bash
-for skill in our-original-visual-skills/skills/*; do
+for skill in image-skill/skills/*; do
   cp -R "$skill" ~/.codex/skills/
 done
 ```
@@ -82,7 +82,7 @@ WorkBuddy 的菜单会随版本、企业配置和客户端形态变化。请在�
 如果 WorkBuddy 提供“从 GitHub/Git URL 导入”，使用：
 
 ```text
-https://github.com/dujiaxi2359-cloud/our-original-visual-skills
+https://github.com/dujiaxi2359-cloud/image-skill
 ```
 
 导入后检查技能列表是否识别到 `skills/` 下的子目录。若只支持本地上传，改用路径 A。

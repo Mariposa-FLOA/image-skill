@@ -1,8 +1,8 @@
-# Our Original Visual Skills
+# Image skill
 
 [中文](README.md) | English
 
-A collection of original visual Skills for Codex. Each Skill reads the source evidence, chooses one governing visual mechanism, and produces a clean, art-directed result with honest boundaries.
+Image skill is a collection of original visual Skills for Codex, WorkBuddy, and compatible agents. Each Skill reads source evidence, chooses one governing visual mechanism, and produces a clean, art-directed result with honest boundaries.
 
 > **Release boundary:** this repository contains only Skills we designed and independently packaged. External starter Skills, distilled adaptations, and third-party repositories are excluded.
 
@@ -59,7 +59,7 @@ The same source can take different paths, but it is never forced into one templa
 
 The release includes historical image assets explicitly marked as approved by the maintainer plus new project-generated examples created without personal source material. Unapproved archive images are not copied or substituted.
 
-![Approved examples](assets/brand/approved-examples-hero.png)
+![Selected original Skill examples](assets/brand/selected-examples-hero-v2.png)
 
 See [`examples/README.md`](examples/README.md) for the image index and provenance notes. Approved assets currently included:
 
@@ -79,20 +79,28 @@ See [`docs/SCOPE-MATRIX.md`](docs/SCOPE-MATRIX.md) for the complete inclusion, e
 Clone the repository and copy the Skill you need into your Codex Skills directory:
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/our-original-visual-skills.git
+git clone https://github.com/dujiaxi2359-cloud/image-skill.git
 mkdir -p ~/.codex/skills
-cp -R our-original-visual-skills/skills/cinematic-key-art-poster ~/.codex/skills/
+cp -R image-skill/skills/cinematic-key-art-poster ~/.codex/skills/
 ```
 
 To copy every Skill in this release:
 
 ```bash
-for skill in our-original-visual-skills/skills/*; do
+for skill in image-skill/skills/*; do
   cp -R "$skill" ~/.codex/skills/
 done
 ```
 
 Restart Codex after installation. Each directory's `SKILL.md` is the source of truth for its workflow and output contract.
+
+## Find the author
+
+Author: `AIGC-泷`
+
+Unified Douyin and other-platform username: `AIGC-泷`. Search this name on your usual platform to find the author and future work.
+
+If you share this repository publicly, attribution is welcome: `Image Skill by @AIGC-泷`
 
 ## WeChat group
 
@@ -109,6 +117,6 @@ Reserved location: [`assets/community/`](assets/community/).
 
 ## Version
 
-Current public version: `v1.0.0`. The QR code is intentionally omitted from this Release and can be added in a later version.
+Current public version: `v1.0.1`. The QR code is intentionally omitted from this Release and can be added in a later version.
 
-Formal Release: [v1.0.0](https://github.com/dujiaxi2359-cloud/our-original-visual-skills/releases/tag/v1.0.0).
+Formal Release: [v1.0.1](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.1).

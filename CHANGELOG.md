@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.1 — 2026-08-31
+
+- Replaced the README hero gallery with six selected original Skill examples.
+- Kept the prior approved-example archive image available but no longer used as the README hero.
+- Retained the same license, provenance, and external-Skill exclusion boundary.
+- Added the author and public-sharing attribution: `AIGC-泷` / `Image Skill by @AIGC-泷`.
+- Renamed the public project branding from `Our Original Visual Skills` to `Image skill`.
+
 ## v1.0.0 — 2026-08-31
 
 - Published the first complete set of 14 original Skill directories.

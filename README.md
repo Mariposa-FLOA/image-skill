@@ -1,8 +1,8 @@
-# Our Original Visual Skills
+# Image skill
 
 中文 | [English](README.en.md)
 
-一组为 Codex 编写的原创视觉 Skill：先读懂图像中的事实、关系和情绪，再选择构图机制、媒介语言、色彩与文字行为。
+Image skill 是一组为 Codex、WorkBuddy 和其他智能体编写的原创视觉 Skill：先读懂图像中的事实、关系和情绪，再选择构图机制、媒介语言、色彩与文字行为。
 
 > **发布边界**：本仓库只收录我们自主建立或独立封装的原创 Skill。外部初始 Skill、蒸馏加强 Skill 和第三方仓库不会混入。
 
@@ -59,7 +59,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 
 本次公开示例图分为两类：维护者明确标记为可用的红框素材，以及为补齐 Skill 展示而新生成的、无个人原始素材的项目示例。没有得到授权的旧图不会被复制进仓库，也不会用其他未标记图片替代。
 
-![Approved examples](assets/brand/approved-examples-hero.png)
+![Selected original Skill examples](assets/brand/selected-examples-hero-v2.png)
 
 详细图档与来源说明见 [`examples/README.md`](examples/README.md)。红框批准的历史素材：
 
@@ -79,15 +79,15 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 克隆仓库后，把需要的 Skill 复制到 Codex Skills 目录：
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/our-original-visual-skills.git
+git clone https://github.com/dujiaxi2359-cloud/image-skill.git
 mkdir -p ~/.codex/skills
-cp -R our-original-visual-skills/skills/cinematic-key-art-poster ~/.codex/skills/
+cp -R image-skill/skills/cinematic-key-art-poster ~/.codex/skills/
 ```
 
 也可以复制全部本次发布的 Skill：
 
 ```bash
-for skill in our-original-visual-skills/skills/*; do
+for skill in image-skill/skills/*; do
   cp -R "$skill" ~/.codex/skills/
 done
 ```
@@ -99,6 +99,14 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 ```
 
 每个 Skill 的具体边界、输出契约和保存规则以对应目录中的 `SKILL.md` 为准。
+
+## 找到作者
+
+作者：`AIGC-泷`
+
+抖音及其他内容平台统一用户名：`AIGC-泷`。在你常用的平台搜索这个名字，即可找到作者与后续作品。
+
+若公开分享，欢迎标注：`Image Skill by @AIGC-泷`
 
 ## 微信群
 
@@ -115,14 +123,14 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 ## 版本
 
-当前公开版本：`v1.0.0`。二维码暂不放入本次 Release，后续可在新版本补入。
+当前公开版本：`v1.0.1`。二维码暂不放入本次 Release，后续可在新版本补入。
 
-正式 Release：[v1.0.0](https://github.com/dujiaxi2359-cloud/our-original-visual-skills/releases/tag/v1.0.0)。
+正式 Release：[v1.0.1](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.1)。
 
 ## 目录
 
 ```text
-our-original-visual-skills/
+image-skill/
 ├── README.md
 ├── README.en.md
 ├── LICENSE

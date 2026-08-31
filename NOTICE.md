@@ -1,6 +1,10 @@
 # Notice
 
-Copyright © 2026 the repository maintainers.
+Project: `Image skill`.
+
+Copyright © 2026 `AIGC-泷`.
+
+Public sharing attribution: `Image Skill by @AIGC-泷`.
 
 This repository contains original visual Skills authored and packaged for this project. The two presentation categories in the README are organizational labels; both belong to the project's original work.
 

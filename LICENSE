@@ -2,6 +2,21 @@ Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 This license applies to the documentation and Skill instruction files in this repository unless another file states otherwise.
 
+Copyright © 2026 AIGC-泷.
+
+## 中文简明许可说明
+
+本仓库的 Skill 文档、方法规则与说明内容仅限个人、非商业使用。允许在保留作者署名、许可证链接并说明修改的前提下进行个人学习、研究和非商业分享。
+
+未经 `AIGC-泷` 明确书面许可，不允许：
+
+- 销售 Skill 或将其重新打包收费；
+- 收费生成、代做、咨询、培训或订阅服务；
+- 将 Skill 接入 SaaS、API、公司项目或客户项目并用于商业交付；
+- 删除作者与来源信息后重新发布，或宣称为他人原创。
+
+`scripts/` 目录中的程序代码采用 Apache-2.0，详见 [`LICENSE-CODE`](LICENSE-CODE)。`examples/` 中的示例图片有单独限制，详见 [`EXAMPLES-LICENSE.md`](EXAMPLES-LICENSE.md)。
+
 You are free to share and adapt the covered material for non-commercial purposes, provided that you give appropriate credit, link to the license, and indicate whether changes were made. You may not use the covered material for commercial purposes without separate written permission from the repository maintainers.
 
 Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode

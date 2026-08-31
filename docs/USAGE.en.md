@@ -23,9 +23,9 @@ Return a test image first; do not archive automatically.
 ## Codex
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/our-original-visual-skills.git
+git clone https://github.com/dujiaxi2359-cloud/image-skill.git
 mkdir -p ~/.codex/skills
-cp -R our-original-visual-skills/skills/graphic-composition-poster ~/.codex/skills/
+cp -R image-skill/skills/graphic-composition-poster ~/.codex/skills/
 ```
 
 Copy the complete Skill directory, including any `references/`, `scripts/`, or `assets/`. Restart Codex, then invoke it by its exact name:
@@ -41,7 +41,7 @@ WorkBuddy menus vary by client version and enterprise configuration. Use the pro
 
 1. **Import a folder or upload a package:** select `skills/<skill-name>/`, keeping `SKILL.md` and all companion files.
 2. **Paste Markdown:** paste the complete `SKILL.md`; upload companion references or scripts if the host supports attachments.
-3. **Import from Git URL:** if the host supports it, use `https://github.com/dujiaxi2359-cloud/our-original-visual-skills` and confirm that it discovered the child directories under `skills/`.
+3. **Import from Git URL:** if the host supports it, use `https://github.com/dujiaxi2359-cloud/image-skill` and confirm that it discovered the child directories under `skills/`.
 
 Then call it by name:
 
