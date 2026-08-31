@@ -13,6 +13,6 @@
 - [ ] Confirm the GitHub repository name and visibility.
 - [x] Create the public GitHub repository and push `main`.
 - [x] Create the GitHub Release page for `v1.0.0`.
-- [ ] Rename the GitHub repository to `image-skill`, push the branding update, and publish `v1.0.1`.
+- [x] Rename the GitHub repository to `image-skill`, push the branding update, and publish `v1.0.1`.
 - [x] Replace the README hero gallery with the selected original Skill examples.
 - [x] Add the author name, platform username, and public-sharing attribution.
