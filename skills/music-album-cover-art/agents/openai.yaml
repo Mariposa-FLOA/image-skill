@@ -1,0 +1,5 @@
+interface:
+  display_name: "音乐专辑封面视觉"
+  short_description: "原创专辑视觉、发行系统与可编辑分层母版"
+  brand_color: "#5C4B8A"
+  default_prompt: "Use $music-album-cover-art to create an original album cover and deliver a portable editable layer package from my image or music brief."

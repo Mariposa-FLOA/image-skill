@@ -1,0 +1,41 @@
+{
+  "version": "v1.0.0-rc2",
+  "status": "release-candidate",
+  "skill_count": 14,
+  "skills": [
+    "cinematic-key-art-poster",
+    "graphic-composition-poster",
+    "high-chroma-screenprint-poster",
+    "impossible-space-editorial-poster",
+    "kinetic-contour-field-poster",
+    "layered-paper-relief-poster",
+    "mineral-shadow-reliquary-poster",
+    "mixed-media-photo-collage-poster",
+    "music-album-cover-art",
+    "optical-refraction-visual",
+    "page-flip-showcase",
+    "symbolic-narrative-poster",
+    "vintage-offset-cinema-poster",
+    "y2k-street-cutout-poster"
+  ],
+  "example_count": 15,
+  "examples": [
+    "examples/cinematic-key-art-poster.png",
+    "examples/graphic-composition-poster.png",
+    "examples/high-chroma-screenprint-poster.png",
+    "examples/historical-chromatic-glass-mosaic.png",
+    "examples/impossible-space-editorial-poster.png",
+    "examples/kinetic-contour-field-poster.png",
+    "examples/layered-paper-relief-poster.png",
+    "examples/mineral-shadow-reliquary-poster.png",
+    "examples/mixed-media-photo-collage-poster.png",
+    "examples/music-album-cover-art.png",
+    "examples/optical-refraction-visual.png",
+    "examples/page-flip-showcase.png",
+    "examples/symbolic-narrative-poster.png",
+    "examples/vintage-offset-cinema-poster.png",
+    "examples/y2k-street-cutout-poster.png"
+  ],
+  "level_17_present": false,
+  "raw_source_present": false
+}

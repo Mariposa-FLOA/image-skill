@@ -1,0 +1,5 @@
+interface:
+  display_name: "翻页图像展示"
+  short_description: "把多张图片组织成有真实翻页感的编辑式展示"
+  brand_color: "#8C6F52"
+  default_prompt: "Use $page-flip-showcase to turn my supplied images into a refined editorial flipbook or page-turn showcase while preserving the source content."

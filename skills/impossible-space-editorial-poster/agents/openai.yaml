@@ -1,0 +1,5 @@
+interface:
+  display_name: "错层空间编辑海报"
+  short_description: "用一个可读的空间矛盾重构干净的错层编辑海报"
+  brand_color: "#315B63"
+  default_prompt: "Use $impossible-space-editorial-poster to transform my uploaded image into an original impossible-space editorial poster."

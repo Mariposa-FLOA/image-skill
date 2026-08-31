@@ -1,0 +1,5 @@
+interface:
+  display_name: "Y2K 街头拼贴海报"
+  short_description: "以人物姿态驱动干净、原创的 Y2K 街头杂志拼贴"
+  brand_color: "#00C7D9"
+  default_prompt: "Use $y2k-street-cutout-poster to turn my uploaded portrait into an original Y2K street-magazine collage poster."

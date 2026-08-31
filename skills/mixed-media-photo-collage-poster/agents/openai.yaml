@@ -1,0 +1,5 @@
+interface:
+  display_name: "混合媒介照片拼贴"
+  short_description: "以真实照片锚点延展源图印刷结构与受控撕纸构成"
+  brand_color: "#C73D2F"
+  default_prompt: "Use $mixed-media-photo-collage-poster to turn my uploaded image into an original torn-paper mixed-media editorial poster."

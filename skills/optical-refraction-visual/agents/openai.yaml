@@ -1,0 +1,5 @@
+interface:
+  display_name: "光学折射视觉"
+  short_description: "用一个源图特有的物理光学法则重构照片，拒绝玻璃滤镜"
+  brand_color: "#4C6D82"
+  default_prompt: "Use $optical-refraction-visual to transform my uploaded image through one clean, source-specific optical law."

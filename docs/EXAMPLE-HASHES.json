@@ -1,0 +1,167 @@
+[
+  {
+    "file": "examples/cinematic-key-art-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "5c673b237065d62df08de53416de4f1ff6154e15916cc63098acba85a8d56e86"
+  },
+  {
+    "file": "examples/graphic-composition-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "74aa79ead42b0fb12e4ac710461f96b5cef31f59c9b830edb2beccc3aa66a9f9"
+  },
+  {
+    "file": "examples/high-chroma-screenprint-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "42b4a8a603d21885793e833b18294e87de307a02dd4b63773fcd7593a6a788e1"
+  },
+  {
+    "file": "examples/historical-chromatic-glass-mosaic.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "7ecaf424f6e5170afcc451e1aa19af5dd123c5791fd233b1f220cb429bff1bdd"
+  },
+  {
+    "file": "examples/impossible-space-editorial-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "c24e03a2ffc7d80458816b566da3b5d7bfac1044623a44588994ae031f5d21d2"
+  },
+  {
+    "file": "examples/kinetic-contour-field-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "e1745dab3ca178b480e8664ea42e5df56962ee11c64a0973a355a11aeda0c010"
+  },
+  {
+    "file": "examples/layered-paper-relief-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "89f07102db788dd91094e19d6d14a3c2a9684b68760e40fdcee74e1b4edfffb6"
+  },
+  {
+    "file": "examples/mineral-shadow-reliquary-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "d2ee6a24a64f125df748e930cb70a585b21ac28c217ed69e7cfc2933ac11bc03"
+  },
+  {
+    "file": "examples/mixed-media-photo-collage-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "372a069b90adfd6d2f83fd03188e77ac560170306f1fcd8f7f33ff34fe7bc98c"
+  },
+  {
+    "file": "examples/music-album-cover-art.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "680b4b0de327e12df372124640659c31129805d91d310e48e8b3f2b53f00ae61"
+  },
+  {
+    "file": "examples/optical-refraction-visual.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "b17300f28d0a27c45b8b45876f87d8c4eccaa0b4fa39821bf731884ae1a56632"
+  },
+  {
+    "file": "examples/page-flip-showcase.png",
+    "size": [
+      1600,
+      2200
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "f9180ba190c232e6c5f4a96068905539103d2ec4dbe4a082d1c94037ff454037"
+  },
+  {
+    "file": "examples/symbolic-narrative-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "be2d2f205cde7ca8fb5feaefb124d9be07628ea531f451b60106070068f1238d"
+  },
+  {
+    "file": "examples/vintage-offset-cinema-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "802f6eb033051bb1dfb576f400c6ceb5adfcbae6445e55aba0c6af93039f3a32"
+  },
+  {
+    "file": "examples/y2k-street-cutout-poster.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB",
+    "format": "PNG",
+    "has_alpha": false,
+    "sha256": "8010b96caef28ed01c6678488e20215d79c235a91149f658b8d28283cfea7c48"
+  }
+]

@@ -1,0 +1,5 @@
+interface:
+  display_name: "纸雕剪纸浮雕"
+  short_description: "用源图形体、多层彩纸与一致光向重构浅浮雕海报"
+  brand_color: "#879D7A"
+  default_prompt: "Use $layered-paper-relief-poster to rebuild my uploaded image as an original layered paper-relief poster."

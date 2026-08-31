@@ -1,0 +1,5 @@
+interface:
+  display_name: "动态轮廓场"
+  short_description: "让源图真实动作驱动干净的手绘轮廓场与排版"
+  brand_color: "#243A7A"
+  default_prompt: "Use $kinetic-contour-field-poster to turn my uploaded image into an original ink poster driven by a meaningful contour field."

@@ -1,0 +1,84 @@
+{
+  "project_name": "release-name",
+  "status": "test",
+  "canvas": {
+    "width": 3000,
+    "height": 4000,
+    "ratio": "3:4",
+    "dpi": 300,
+    "color_space": "sRGB"
+  },
+  "release": {
+    "artist": "ARTIST NAME",
+    "title": "RELEASE TITLE"
+  },
+  "preview": "preview/cover-flat.png",
+  "sources": [
+    {
+      "file": "source/original-reference.png",
+      "name": "original-reference.png"
+    }
+  ],
+  "palette": {
+    "dominant": "#EEE8DD",
+    "anchor": "#111111",
+    "signal": "#E4312B"
+  },
+  "layers": [
+    {
+      "id": "background",
+      "name": "00 Background",
+      "role": "background",
+      "kind": "raster",
+      "file": "layers/00-background.png",
+      "editable": true,
+      "visible": true,
+      "opacity": 1.0,
+      "blend": "normal"
+    },
+    {
+      "id": "subject",
+      "name": "20 Subject",
+      "role": "subject",
+      "kind": "raster",
+      "file": "layers/20-subject.png",
+      "require_alpha": true,
+      "editable": true,
+      "visible": true,
+      "opacity": 1.0,
+      "blend": "normal"
+    },
+    {
+      "id": "cover-event",
+      "name": "30 Cover Event",
+      "role": "cover-event",
+      "kind": "raster",
+      "file": "layers/30-cover-event.png",
+      "require_alpha": true,
+      "editable": true,
+      "visible": true,
+      "opacity": 1.0,
+      "blend": "normal"
+    },
+    {
+      "id": "artist-name",
+      "name": "50 Artist Name",
+      "role": "type",
+      "kind": "text",
+      "text": "ARTIST NAME",
+      "x": 180,
+      "y": 240,
+      "font_family": "Arial",
+      "font_weight": "400",
+      "font_size": 72,
+      "letter_spacing": 12,
+      "fill": "#111111",
+      "text_anchor": "start",
+      "raster_file": "layers/50-artist-name-preview.png",
+      "editable": true,
+      "visible": true,
+      "opacity": 1.0,
+      "blend": "normal"
+    }
+  ]
+}

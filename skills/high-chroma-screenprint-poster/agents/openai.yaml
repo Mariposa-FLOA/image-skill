@@ -1,0 +1,5 @@
+interface:
+  display_name: "高纯度丝网版画"
+  short_description: "用源图几何、限色网版与受控半调重构干净的版画海报"
+  brand_color: "#E8492E"
+  default_prompt: "Use $high-chroma-screenprint-poster to rebuild my uploaded image as an original limited-ink screenprint poster."

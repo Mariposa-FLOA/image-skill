@@ -1,0 +1,5 @@
+interface:
+  display_name: "矿物阴影圣物盒"
+  short_description: "用可读暗部、单一动机光源和矿物浮雕重构城市或物件"
+  brand_color: "#B54325"
+  default_prompt: "Use $mineral-shadow-reliquary-poster to rebuild my uploaded image as an original dark mineral-relief poster with one luminous event."

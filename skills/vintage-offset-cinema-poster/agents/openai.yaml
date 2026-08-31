@@ -1,0 +1,5 @@
+interface:
+  display_name: "复古胶印电影海报"
+  short_description: "以源图方向、限色胶印与受控半调重构电影海报"
+  brand_color: "#315F97"
+  default_prompt: "Use $vintage-offset-cinema-poster to rebuild my uploaded scene as original vintage offset-printed cinematic key art."

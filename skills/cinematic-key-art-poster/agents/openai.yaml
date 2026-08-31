@@ -1,0 +1,5 @@
+interface:
+  display_name: "电影主视觉海报"
+  short_description: "先解决无字主视觉，再用构图、光色与字体完成原创电影海报"
+  brand_color: "#8F1D2C"
+  default_prompt: "Use $cinematic-key-art-poster to turn my uploaded image into an original cinematic key-art poster."

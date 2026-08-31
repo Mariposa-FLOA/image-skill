@@ -1,0 +1,40 @@
+{
+  "skill_name": "music-album-cover-art",
+  "evals": [
+    {
+      "id": 1,
+      "name": "portrait-led-release",
+      "prompt": "用我上传的人像做一张原创方形专辑封面。音乐是冷静、亲密、慢速的电子流行，保留人物身份，先解决无字画面，再把艺人名和专辑名作为结构的一部分。",
+      "expected_output": "一张在 64 px 缩略图上仍有清晰视觉事件、人物可辨认、文字精确且不靠滤镜撑起来的方形专辑封面。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "environment-as-recording",
+      "prompt": "把我上传的街景做成一张原创单曲封面。音乐是空旷、低速、带海风感的 ambient；不要做电影海报，不要堆颗粒，让街道或地平线承担声音的距离感。",
+      "expected_output": "一张以源图环境事实为核心、无字也成立、干净方形构图并有明确听觉空间感的单曲封面。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "object-as-score",
+      "prompt": "用我上传的一个日常物件制作原创 EP 封面。音乐有重复节拍和轻微失真；只使用源图物件，不要添加随机符号或假唱片公司信息。",
+      "expected_output": "一张由物件的形状、间隔或接触关系形成节拍感的方形封面，材质干净、视觉事件明确、文字克制。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "native-three-four-release-master",
+      "prompt": "用我上传的人像做一张原生 3:4 专辑视觉母版，同时说明它如何安全转换成流媒体 1:1 封面。不要把方形图拉长，也不要做成电影海报。",
+      "expected_output": "原生 3:4 构图具备竖向节奏、清晰主视觉与专辑身份，不出现电影演职员表；同时给出基于同一规则的 1:1 回流方案。",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "portable-editable-delivery",
+      "prompt": "把确认的专辑封面按可二次编辑方式导出，我之后可能用 Photoshop、Figma 或 Krita 修改人物、背景、颜色和文字。",
+      "expected_output": "交付扁平预览、同尺寸透明 PNG 图层、包含实时文字的 SVG、OpenRaster 分层文件、project.json 和编辑说明；不得伪造 PSD，不能把同一张扁平图重复成假图层。",
+      "files": []
+    }
+  ]
+}

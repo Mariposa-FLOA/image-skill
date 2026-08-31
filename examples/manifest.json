@@ -1,0 +1,103 @@
+{
+  "status": "release-candidate",
+  "selection_rule": "Historical assets are maintainer-approved red-marked examples; all new assets are project-generated, clean, and non-person unless explicitly requested.",
+  "excluded_assets": [
+    "level-17-show-time.png",
+    "raw user portraits",
+    "unmarked archive images",
+    "failed checkerboard transparency PNGs"
+  ],
+  "approved": [
+    {
+      "skill": "high-chroma-screenprint-poster",
+      "file": "high-chroma-screenprint-poster.png",
+      "source_archive": "2026-08-30 visual-language archive",
+      "status": "approved-example"
+    },
+    {
+      "skill": "kinetic-contour-field-poster",
+      "file": "kinetic-contour-field-poster.png",
+      "source_archive": "2026-08-30 visual-language archive",
+      "status": "approved-example"
+    },
+    {
+      "skill": "mineral-shadow-reliquary-poster",
+      "file": "mineral-shadow-reliquary-poster.png",
+      "source_archive": "2026-08-30 visual-language archive",
+      "status": "approved-example"
+    },
+    {
+      "skill": "stained-glass-mosaic-poster",
+      "file": "historical-chromatic-glass-mosaic.png",
+      "source_archive": "2026-08-30 visual-language archive",
+      "status": "historical-retired-example",
+      "installable_skill": false
+    },
+    {
+      "skill": "cinematic-key-art-poster",
+      "file": "cinematic-key-art-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "graphic-composition-poster",
+      "file": "graphic-composition-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "impossible-space-editorial-poster",
+      "file": "impossible-space-editorial-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "music-album-cover-art",
+      "file": "music-album-cover-art.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "optical-refraction-visual",
+      "file": "optical-refraction-visual.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "symbolic-narrative-poster",
+      "file": "symbolic-narrative-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "y2k-street-cutout-poster",
+      "file": "y2k-street-cutout-poster.png",
+      "source_archive": "generated from two maintainer-supplied references; raw references excluded",
+      "status": "generated-example"
+    },
+    {
+      "skill": "layered-paper-relief-poster",
+      "file": "layered-paper-relief-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "mixed-media-photo-collage-poster",
+      "file": "mixed-media-photo-collage-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "vintage-offset-cinema-poster",
+      "file": "vintage-offset-cinema-poster.png",
+      "source_archive": "new project-generated non-person example",
+      "status": "generated-example"
+    },
+    {
+      "skill": "page-flip-showcase",
+      "file": "page-flip-showcase.png",
+      "source_archive": "local static composition from repository examples",
+      "status": "generated-example"
+    }
+  ]
+}

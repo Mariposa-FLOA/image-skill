@@ -1,0 +1,5 @@
+interface:
+  display_name: "平面设计构成海报"
+  short_description: "用一个主构成机制、字体、色域与留白重构原创平面海报"
+  brand_color: "#305C78"
+  default_prompt: "Use $graphic-composition-poster to transform my uploaded image into an original graphic-design composition poster."
