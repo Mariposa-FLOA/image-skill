@@ -6,7 +6,7 @@
 - The release candidate now contains 14 installable original Skill directories, including `page-flip-showcase`.
 - Added the static `page-flip-showcase` Skill and its deterministic demonstration image.
 - Replaced the provisional Y2K example with a new composition generated from the two maintainer-supplied references.
-- Kept the WeChat group entry empty until a QR image or invite link is provided.
+- Kept the WeChat group entry intentionally empty for this Release; a QR image or invite link can be added later.
 
 ## v1.0.0-rc1 — 2026-08-31
 

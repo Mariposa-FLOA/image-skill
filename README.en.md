@@ -83,7 +83,7 @@ Restart Codex after installation. Each directory's `SKILL.md` is the source of t
 
 ## WeChat group
 
-The WeChat group entry will be added after the maintainer provides a QR image or invite link. We do not invent a group number or publish private chat screenshots as a QR code.
+The WeChat group location is reserved. The QR code is intentionally omitted from this Release and can be added in a later version after the maintainer supplies and approves it. We do not invent a group number or publish private chat screenshots as a QR code.
 
 Reserved location: [`assets/community/`](assets/community/).
 
@@ -96,4 +96,4 @@ Reserved location: [`assets/community/`](assets/community/).
 
 ## Version
 
-Local release candidate: `v1.0.0-rc2`. This is a prepared local repository and has not been pushed to GitHub. The formal Release will be created after the WeChat entry is complete.
+Local release candidate: `v1.0.0-rc2`. The QR code is intentionally omitted from this Release and can be added in a later version.

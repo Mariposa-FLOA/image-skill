@@ -89,7 +89,7 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 ## 微信群
 
-微信群入口会在维护者提供二维码或邀请链接后加入。公开仓库不会编造群号，也不会把私人聊天截图当作二维码。
+微信群入口已预留；二维码暂不放入本次 Release，后续可在维护者提供并确认后作为新版本补入。公开仓库不会编造群号，也不会把私人聊天截图当作二维码。
 
 预留位置：[`assets/community/`](assets/community/)。
 
@@ -102,7 +102,7 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 ## 版本
 
-当前本地发布候选版本：`v1.0.0-rc2`。这是公开仓库准备稿，尚未推送到 GitHub；微信群入口补齐后，才会创建正式 Release。
+当前本地发布候选版本：`v1.0.0-rc2`。二维码暂不放入本次 Release；公开仓库推送后可在后续版本补入。
 
 ## 目录
 
