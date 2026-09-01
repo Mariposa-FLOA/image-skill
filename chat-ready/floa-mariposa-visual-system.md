@@ -204,10 +204,6 @@ Use the host's image or layout tools. Preserve faces, body logic, products, obje
 - For a multi-page clickable viewer or real MP4 page flip, keep this Skill as the visual direction and hand the page mechanics to `page-flip-showcase`.
 - For a material-first transformation, use the matching specialist Skill only when that material is the user's main request. Do not let a material Skill erase the FLOA Mariposa brand identity.
 
-## Reference-led evolution
-
-When the user asks to research, benchmark, or upgrade this Skill, read [references/reference-led-evolution.md](references/reference-led-evolution.md). Search a bounded set of current domestic and international references, then extract observable design decisions rather than style adjectives. For each reference, record what to learn, how it becomes a FLOA rule, and what must not be copied. Introduce at most two new structural moves per iteration, test them on a different source, and log the date and outcome. Do not upload reference images, publish private source media, or make paid calls as part of research without explicit approval.
-
 ## Anti-patterns and reset rules
 
 Reject or rebuild when the result:
@@ -269,4 +265,3 @@ For accepted visuals in a local workspace, use the host's configured accepted-ou
 - Read [references/visual-language.md](references/visual-language.md) when you need the detailed brand map, source-derived motif catalogue, or palette/type guidance.
 - Read [references/brand-copy-contract.md](references/brand-copy-contract.md) when the user supplies product names, slogans, campaign copy, or a lockup that must remain exact.
 - Read [references/series-system.md](references/series-system.md) when building more than one poster and deciding what remains fixed versus what changes.
-- Read [references/reference-led-evolution.md](references/reference-led-evolution.md) when researching domestic/international design practice or evolving the Skill.

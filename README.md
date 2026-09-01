@@ -4,7 +4,7 @@
 
 Image skill 是一组为 Codex、WorkBuddy 和其他智能体编写的原创视觉 Skill：先读懂图像中的事实、关系和情绪，再选择构图机制、媒介语言、色彩与文字行为。
 
-新增品牌 Skill：[`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/)。它专门服务产品 `FLOA Mariposa`，正式风格名为“新编辑主义视觉”，不是泛用复古风格。详见 [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) 和 [`docs/REFERENCE-LED-ITERATION.md`](docs/REFERENCE-LED-ITERATION.md)。
+新增品牌 Skill：[`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/)。它专门服务产品 `FLOA Mariposa`，正式风格名为“新编辑主义视觉”，不是泛用复古风格。详见 [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md)。
 
 ## 先看：怎么使用
 

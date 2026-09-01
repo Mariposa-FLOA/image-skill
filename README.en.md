@@ -4,7 +4,7 @@
 
 Image skill is a collection of original visual Skills for Codex, WorkBuddy, and compatible agents. Each Skill reads source evidence, chooses one governing visual mechanism, and produces a clean, art-directed result with honest boundaries.
 
-New brand Skill: [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/). It is dedicated to the product `FLOA Mariposa`; its public style name is “Neo-Editorial Visual Language,” not generic vintage styling. See [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) and [`docs/REFERENCE-LED-ITERATION.md`](docs/REFERENCE-LED-ITERATION.md).
+New brand Skill: [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/). It is dedicated to the product `FLOA Mariposa`; its public style name is “Neo-Editorial Visual Language,” not generic vintage styling. See [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md).
 
 ## Start here: using the Skills
 
