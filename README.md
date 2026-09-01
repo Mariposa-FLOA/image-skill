@@ -63,7 +63,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 | [高彩丝网版画](skills/high-chroma-screenprint-poster/)<br><img src="examples/high-chroma-screenprint-poster.png" alt="高彩丝网版画" width="360"> | [动态轮廓场](skills/kinetic-contour-field-poster/)<br><img src="examples/kinetic-contour-field-poster.png" alt="动态轮廓场" width="360"> |
 | [分层纸雕](skills/layered-paper-relief-poster/)<br><img src="examples/layered-paper-relief-poster.png" alt="分层纸雕" width="360"> | [矿物暗影浮雕](skills/mineral-shadow-reliquary-poster/)<br><img src="examples/mineral-shadow-reliquary-poster.png" alt="矿物暗影浮雕" width="360"> |
 | [混合媒介拼贴](skills/mixed-media-photo-collage-poster/)<br><img src="examples/mixed-media-photo-collage-poster.png" alt="混合媒介拼贴" width="360"> | [光学折射](skills/optical-refraction-visual/)<br><img src="examples/optical-refraction-visual.png" alt="光学折射" width="360"> |
-| [复古胶印电影海报](skills/vintage-offset-cinema-poster/)<br><img src="examples/vintage-offset-cinema-poster.png" alt="复古胶印电影海报" width="360"> | [静态翻页展示](skills/page-flip-showcase/)<br><img src="examples/page-flip-showcase.png" alt="静态翻页展示" width="360"> |
+| [复古胶印电影海报](skills/vintage-offset-cinema-poster/)<br><img src="examples/vintage-offset-cinema-poster.png" alt="复古胶印电影海报" width="360"> | [静态翻页展示](skills/page-flip-showcase/)<br><img src="examples/page-flip-showcase.png" alt="静态翻页展示" width="360"><br>[观看 MP4 翻页演示](examples/page-flip-showcase.mp4) |
 
 Y2K · URBAN SIGNAL（变体 / variant）
 
