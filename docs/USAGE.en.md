@@ -7,14 +7,14 @@ This is the beginner-facing entry point. Different agent products may use differ
 Include four things:
 
 1. **Goal** — what should be made.
-2. **Platform and ratio** — for example, `Xiaohongshu 3:4` or `Douyin 9:16`.
+2. **Platform and ratio (optional)** — specify `Xiaohongshu 3:4` or `Douyin 9:16` only when there is a real publishing target; otherwise let the AI inspect the source composition and choose the best canvas.
 3. **Keep / avoid rules** — identity, product text, source relationships, and exclusions.
 4. **Delivery state** — `test` first, or `accepted` after approval.
 
 ```text
 Use <skill-name>.
 Goal: <what I want made>.
-Platform / ratio: <platform + native ratio>.
+Platform / ratio (optional): <platform + native ratio; if omitted, infer it from the source>.
 Keep: <identity, object, text, or relationship>.
 Avoid: <unwanted elements>.
 Return a test image first; do not archive automatically.
@@ -62,14 +62,14 @@ For a one-off chat, download one .md file from chat-ready/, upload it with any r
 
 Use `cinematic-key-art-poster` for film narrative key art, `graphic-composition-poster` for crop/grid/type composition, `impossible-space-editorial-poster` for spatial contradiction, `music-album-cover-art` for record identity and layered masters, `optical-refraction-visual` for believable transparent media, `symbolic-narrative-poster` for one visual metaphor, and `y2k-street-cutout-poster` for Y2K street collage. Use the matching Skill for screenprint, contour, paper relief, mineral relief, mixed media, offset print, or page-turn presentation.
 
-Choose one governing Skill per image. State the platform ratio explicitly and do not ask conflicting Skills to take over at once.
+Choose one governing Skill per image. State a platform ratio only when needed; otherwise let the Skill infer a source-preserving canvas. Do not ask conflicting Skills to take over at once.
 
 ## Images, type, and delivery
 
 - Label uploaded images as binding source, reference, or inspiration.
 - Protect product, packaging, screenshot, and supplied type exactly when required.
 - For dense copy, solve the wordless visual first and add live type locally or in SVG.
-- Write the platform and native ratio directly in the request.
+- Write the platform and native ratio when you have a publishing target; otherwise leave the ratio open for source-aware inference.
 - Treat `test` as a review draft. Only explicit approval should move work to `accepted` archival output.
 
 ## Boundary

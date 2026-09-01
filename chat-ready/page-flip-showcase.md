@@ -55,6 +55,8 @@ Read `references/layout-archetypes.md` when choosing among the main page structu
 - **Two or three images:** use an open spread plus one lifted page. Keep at least one image large enough to read at thumbnail size.
 - **Four to six images:** use a restrained sequence across a spread and one or two page layers. Keep the visual hierarchy clear; not every page needs equal size.
 - **Mixed aspect ratios:** place each image inside a believable printed area with margins or a controlled crop. Never stretch a portrait into landscape or vice versa.
+
+If no preferred ratio is specified, inspect the supplied images and choose a canvas that keeps their strongest orientation and reading order. Honor an explicit ratio only when the user provides one, and use contained pages or margins instead of distortion.
 - **A requested reading direction:** follow it. Otherwise, use the upload order and make the page movement obvious from right to left, as in a physical book being turned.
 
 Choose one governing composition: open book, lifted single sheet, accordion-like sequence, or close editorial page detail. Do not combine all four into one cluttered scene.

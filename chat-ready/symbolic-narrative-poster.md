@@ -148,7 +148,7 @@ Before delivery, verify:
 
 ## Format and delivery
 
-- Default to a 2:3 vertical poster unless the subject needs another ratio.
+- When no ratio is specified, inspect the source fact, transformed field, and negative space and choose the canvas that makes the visual sentence clearest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Keep type and anchor within safe margins.
 - Do not archive a test unless the user accepts it. For accepted work, save under `./accepted-outputs/01-我们的Skill/01-自主原创Skill/` in its own visual-language folder, without overwriting an earlier result.
 - Return the final image, status (`test` or `accepted`), used Skill, selected visual sentence, and saved absolute path only when archived.

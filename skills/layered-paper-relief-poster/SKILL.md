@@ -33,7 +33,7 @@ Preserve identity cues, expression, body proportions, pose, hairstyle, clothing 
 
 ## Format and quality gate
 
-- Default to 3:4 portrait; follow user ratio.
+- When no ratio is specified, inspect the source orientation, subject scale, and negative space and choose the canvas that preserves the composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - The whole scene must share one paper-material logic, one cast-shadow direction, and one clear source-derived mass at thumbnail size.
 - Run no-text and grayscale checks: the relief hierarchy and source anchor must survive without the title or colour accents.
 - Reject mixed photographic patches, clay, plastic, felt, glossy CGI, deep theatrical shadows, excessive tiny cutouts, random fibres, grain, or flat vector art without relief.

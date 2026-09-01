@@ -18,3 +18,4 @@
 - [x] Preserve the seven maintainer-supplied Skill outputs with the confirmed six-primary-plus-one-Y2K-variant mapping.
 - [x] Show all 14 primary examples inline in the README and example gallery.
 - [x] Add single-file chat-drop exports for all 14 Skills with Codex, Doubao, Image 2, and other-model instructions.
+- [x] Default to source-aware canvas inference; explicit platform ratios remain supported as overrides.

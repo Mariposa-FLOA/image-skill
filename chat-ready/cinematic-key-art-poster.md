@@ -22,6 +22,8 @@ This Skill is a campaign-image system, not a title generator. Before rendering, 
 
 The render order is **structure → source fidelity → light/value → colour → type → clean master**. Do not ask effects, grain, glow, or typography to rescue a weak composition. At thumbnail size the viewer must read the event first, the source anchor second, and the title third.
 
+When no ratio is specified, inspect the source orientation, hero event, and negative space and choose the canvas that makes the key-art read strongest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
+
 Default to a clean digital master: no random grain, sensor noise, dirty masks, AI micro-texture, fake film wear, or unmotivated lens effects. “Cinematic” means authored staging, light, omission, and tension—not a LUT.
 
 ## Read the story in the source
@@ -175,8 +177,7 @@ Typography may become part of the story world through interruption, erosion, con
 
 ## Format
 
-- Default to a 2:3 theatrical one-sheet.
-- Use 4:5 when the user explicitly asks for a social-feed poster and 3:4 only when requested or when matching a supplied series.
+- If no ratio is specified, use the source-aware canvas chosen above; do not force a theatrical one-sheet or stretch the result. Follow an explicit user ratio only when one is supplied.
 - Keep the title and essential face or symbol inside safe margins so later crops remain possible.
 - Follow any explicit aspect ratio, language, title, genre, or copy supplied by the user.
 

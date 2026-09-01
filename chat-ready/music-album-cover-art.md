@@ -18,7 +18,7 @@ This Skill translates musical qualities into visual decisions:
 - **sound identity:** tempo, density, silence, pulse, distortion, warmth, distance, repetition, intimacy, or release;
 - **cover event:** the one image relation that makes the record recognisable before its title is read;
 - **artist identity:** the person, object, place, gesture, or mark that anchors the release;
-- **format composition:** a dominant mass, counterweight, crop, and quiet zone composed natively for 1:1 or the requested ratio;
+- **format composition:** a dominant mass, counterweight, crop, and quiet zone composed natively for a ratio chosen from the source and brief;
 - **type lockup:** artist name and release title as an identity system, not generic poster copy;
 - **finish:** a deliberate digital, printed, photographic, illustrated, or tactile surface chosen after the concept works;
 - **release family:** a visual rule that can extend to back cover, inner sleeve, label, booklet, singles, social crops, or merchandise;
@@ -111,7 +111,7 @@ Borrow at most two principles. Never ask for “the style of” a named artist, 
 
 ## Compose for the requested format
 
-- Default to 1:1, but if the user requests 3:4, design natively at 3:4 from the beginning. Do not make a square cover and stretch it, or make a movie poster and crop it afterward.
+- When no ratio is specified, inspect the source, cover event, and intended use and choose the clearest native canvas. Follow an explicit user ratio only when one is supplied; never stretch a square cover or hard-crop a different format afterward.
 - Establish one dominant silhouette, image, type block, or colour field; one counterweight; and one purposeful quiet zone. Centering is allowed only when the centre has a reason.
 - Keep the first read visual: at 64 px the anchor or cover event must still be identifiable; at 256 px the relation and hierarchy must become clear.
 - Let crop, scale, edge, repetition, or negative space create identity. Do not reserve a generic strip at the bottom for the title.
@@ -175,7 +175,7 @@ python3 scripts/build_editable_album_package.py \
 ## Production sequence
 
 0. Study a small set of international references and write down the selected design grammar without naming a copied style.
-1. Write the cover thesis, choose one cover mode, define the release identity, and lock the requested ratio.
+1. Write the cover thesis, choose one cover mode, define the release identity, and lock the inferred or explicitly requested ratio.
 2. Define the editable layer plan and assign every major visual element to one owner group.
 3. Build a wordless composition with the anchor, cover proposition, dominant mass, counterweight, and quiet zone.
 4. Reconstruct or transform the source while protecting identity and physical relationships; keep separable elements on aligned layers.
@@ -220,7 +220,7 @@ Before delivery, confirm:
 - no automatic waveform, tuning fork, headphones, cassette, speaker, equalizer, vinyl, neon sound ring, or other literal music cliché appears without a source-specific reason;
 - no copied cover layout, artist identity, logo, title treatment, or visual punchline appears;
 - the output is distinct from the user's existing movie-poster, Y2K, collage, optical, and symbolic-narrative Skills;
-- the master was designed for its requested ratio rather than stretched or hard-cropped;
+- the master was designed for its inferred or explicitly requested ratio rather than stretched or hard-cropped;
 - named layers are real, aligned, and independently useful; live type and the flat preview agree;
 - any baked region or unavailable native format is disclosed honestly.
 
@@ -240,8 +240,8 @@ References may teach density, crop, type scale, material behaviour, or broad art
 
 ## Format and delivery
 
-- Default to a native 1:1 master with safe margins for streaming thumbnails, vinyl, CD, and social previews. If the user specifies 3:4, deliver a native 3:4 master and do not pretend it is a square crop.
-- Follow explicit platform ratio, language, artist name, release title, and copy requirements.
+- When no ratio is specified, choose a native canvas from the source, cover event, and intended use, with safe margins for the requested delivery. If the user specifies a ratio, design natively at that ratio and do not pretend another format is equivalent.
+- Follow explicit platform ratio, language, artist name, release title, and copy requirements when supplied; otherwise infer the format from the source and brief.
 - For normal delivery, return the flat preview and editable package unless the user explicitly asks for a quick flat-only concept.
 - Save accepted final covers and their editable packages under `./accepted-outputs/01-我们的Skill/01-自主原创Skill/07-音乐专辑封面/`, using one subfolder per release.
 - Never overwrite an accepted file; append `-v2`, `-v3`, or a descriptive suffix.

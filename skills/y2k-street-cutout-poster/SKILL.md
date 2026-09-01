@@ -49,7 +49,7 @@ When rejected, rebuild the crop, scale relation, graphic mechanism, and palette 
 
 ## Format and originality
 
-- Default to a 3:4 portrait master. Use 4:5 when the user specifies Xiaohongshu, Instagram, or a feed post; follow any explicit aspect ratio instead.
+- When no ratio is specified, inspect the source pose, cutout silhouette, type field, and negative space and choose the canvas that makes the page read best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Treat references as structural inspiration only. Create new shapes, crop relationships, palette, typography hierarchy, and copy for every source.
 - Do not import graphic elements, logos, signatures, or exact color-layout combinations from a reference image.
 - Maintain visible source-specific decisions: the final poster should make sense for this person's pose and clothing, not look like a reusable template with a swapped face.

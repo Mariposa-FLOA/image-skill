@@ -142,7 +142,7 @@ If the governing relation is weak, rebuild from the blank plane instead of addin
 
 ## Format and delivery
 
-- Default to 2:3 vertical posters; use 4:5 for social and another ratio only when the source or user requires it.
+- When no ratio is specified, inspect the source orientation, crop, grid, and quiet zone and choose the canvas that preserves the graphic composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Keep key type and the anchor inside safe margins.
 - Save accepted finals under `./accepted-outputs/01-我们的Skill/01-自主原创Skill/05-平面设计构成海报/`.
 - Do not overwrite accepted files; append `-v2`, `-v3`, or a descriptive suffix.

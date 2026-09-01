@@ -125,9 +125,9 @@ GitHub 的 Contributors 图表由提交身份自动统计；这里记录本项�
 
 ## 版本
 
-当前公开版本：`v1.0.3`。
+当前公开版本：`v1.0.4`。
 
-正式 Release：[v1.0.3](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.3)。
+正式 Release：[v1.0.4](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.4)。
 
 ## 目录
 

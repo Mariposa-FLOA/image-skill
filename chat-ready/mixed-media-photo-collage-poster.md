@@ -33,7 +33,7 @@ Keep recognizable faces, skin tone, expression, clothing, object relationships, 
 
 ## Format and quality gate
 
-- Default to 3:4 portrait; use 4:5 for social feeds or follow the user's ratio.
+- When no ratio is specified, inspect the source orientation, photographic opening, paper gesture, and quiet field and choose the canvas that preserves the collage best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - The result must read as assembled media, not a beige filter around a photo.
 - The photo opening, printed extension, saturated paper gesture, and typography must interact as one composition.
 - Run no-text and thumbnail checks: the opening, extension, and paper gesture must create a clear visual hierarchy before copy is read.

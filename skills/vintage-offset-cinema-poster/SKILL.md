@@ -15,6 +15,8 @@ Treat the offset language as a production system: first find the scene's directi
 
 Use halftone and plate behaviour as controlled structure, not a dirt pass. Default to a clean, high-resolution print master with restrained paper variation; no sensor grain, arbitrary grunge, fake folds, copied studio marks, or decorative distress. If rejected, change the charged frame, diagonal/axis, and spot-colour relationship before increasing print wear.
 
+When no ratio is specified, inspect the source orientation, directional force, and title geometry and choose the canvas that preserves the print composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
+
 ## Cinematic print grammar
 
 - Find the source's strongest directional device: road, gaze, hand, vehicle, corridor, horizon, architecture, or shadow. Use it to set a diagonal or off-axis reading path.
@@ -33,7 +35,7 @@ Preserve people, viewpoint, pose, clothing, vehicles, objects, and architecture.
 
 ## Format and quality gate
 
-- Default to 2:3 theatrical poster; use 3:4 when the source or user calls for it.
+- If no ratio is specified, use the source-aware canvas chosen above; do not force a theatrical format or stretch the result. Follow an explicit user ratio only when one is supplied.
 - Confirm the result is an illustrated limited-plate print, not sepia photography, and that the directional device is readable without type.
 - Run thumbnail and grayscale checks: crop, key plate, spot-colour mass, and source anchor must hold their hierarchy.
 - Reject glossy cinematic grading, orange-teal realism, modern sans-serif overlays, fake studio marks, billing blocks, lens flare, arbitrary grunge, random grain, and dirty edge noise.

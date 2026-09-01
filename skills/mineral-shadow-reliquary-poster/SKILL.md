@@ -33,7 +33,7 @@ When people appear, preserve viewpoint, silhouette, pose, identity cues, and pro
 
 ## Format and quality gate
 
-- Default to 3:4 portrait; follow explicit ratios.
+- When no ratio is specified, inspect the source orientation, subject mass, void, and luminous event and choose the canvas that preserves the value architecture best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Confirm the image reads as tactile relief with one controlled, source-motivated luminous event and a clear silhouette at thumbnail size.
 - Run no-text and grayscale checks: the void, mass, and light path must remain legible without the inscription or colour accent.
 - Reject global black filters, generic cyberpunk neon, glossy 3D, lava spectacle, horror iconography, floating text, excessive fog, random pitting, sensor grain, or multiple competing glows.

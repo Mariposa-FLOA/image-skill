@@ -119,6 +119,6 @@ GitHub's Contributors graph is generated from commit identities; this section re
 
 ## Version
 
-Current public version: `v1.0.3`.
+Current public version: `v1.0.4`.
 
-Formal Release: [v1.0.3](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.3).
+Formal Release: [v1.0.4](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.4).

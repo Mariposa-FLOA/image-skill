@@ -145,8 +145,8 @@ When evaluating or extending the Skill itself, read [references/validated-tests.
 
 ## Format and delivery
 
-- Default to a 2:3 vertical editorial poster.
-- Use 4:5 for social-feed delivery, landscape only when the source architecture requires it, and other ratios only when requested.
+- If no ratio is specified, use the source-aware canvas chosen above; do not force a vertical format or stretch the result.
+- When no ratio is specified, inspect the source orientation, spatial contradiction, dominant silhouette, and quiet zone and choose the canvas that keeps the planes readable. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Preserve safe margins around the title and essential subject.
 - Save accepted finals under `./accepted-outputs/01-我们的Skill/01-自主原创Skill/03-错层空间编辑海报/`.
 - Never overwrite an accepted image; add `-v2`, `-v3`, or a descriptive suffix.

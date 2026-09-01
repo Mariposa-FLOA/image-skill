@@ -33,7 +33,7 @@ Preserve identity, expression, hairstyle, skin tone, pose, clothing logic, and i
 
 ## Format and quality gate
 
-- Default to 3:4 portrait; follow explicit ratios.
+- When no ratio is specified, inspect the source orientation, subject scale, and negative space and choose the canvas that preserves the composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Confirm the image is genuinely separated into inks rather than globally posterized, and that one source-specific geometry drives the page.
 - Confirm one dominant ink, one supporting ink, a dark key layer, and visible paper remain distinct at thumbnail size.
 - Run no-text and grayscale checks: the source anchor, action, and value hierarchy must survive without copy or hue.

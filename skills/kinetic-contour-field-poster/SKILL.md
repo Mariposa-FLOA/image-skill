@@ -33,7 +33,7 @@ Preserve recognizable face structure, expression, pose, body proportions, clothi
 
 ## Format and quality gate
 
-- Default to 3:4 portrait; follow explicit ratios.
+- When no ratio is specified, inspect the source orientation, subject gesture, and negative space and choose the canvas that preserves the force path best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Every major contour must relate to the chosen source force.
 - Confirm the force, subject gesture, and page hierarchy read at thumbnail size before the title is considered.
 - Run a no-line check: the subject and composition must not collapse when the contour field is removed; run a grayscale check for value clarity.

@@ -150,7 +150,7 @@ If a distortion cannot be explained by a material surface, rebuild it rather tha
 
 ## Format and delivery
 
-- Use the source aspect ratio when it is part of the idea; otherwise default to 4:5 for portraits and 3:2 for objects, cars, or spaces.
+- When no ratio is specified, inspect the source orientation, optical medium, anchor, and quiet area and choose the canvas that makes the physical event clearest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 - Keep essential faces, product marks, and optical boundaries safely inside the composition.
 - Save accepted finals under `./accepted-outputs/01-我们的Skill/01-自主原创Skill/06-光学折射视觉/`.
 - Never overwrite an accepted file; append `-v2`, `-v3`, or a descriptive suffix.

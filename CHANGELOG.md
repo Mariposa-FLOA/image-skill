@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.4 — 2026-09-01
+
+- Made canvas ratio inference the default across the visual Skills: inspect the source before choosing a format, and honor a ratio only when the user supplies one.
+- Regenerated all 14 chat-drop files from the updated canonical Skills.
+
 ## v1.0.3 — 2026-08-31
 
 - Added a single-file chat-drop export for every installable Skill under chat-ready/.
