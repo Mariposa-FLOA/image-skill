@@ -111,6 +111,8 @@ Use a deliberate layer stack: colour field first, at most two cropped source fra
 
 When the user asks for background lines, first decide whether the lines actually strengthen the poster. If collage is the stronger visual language, make the lines subordinate: keep only the identity underline and at most one or two small crop/registration marks. Do not use a complete rectangular frame, a long vertical axis, or a full-width baseline as a default decoration; those can make the background read like UI scaffolding. If lines are retained, give them a hierarchy, vary their colour/angle with the active poster, and keep them outside the source artwork. If the user supplies fixed labels, place them in the requested corners as part of this system.
 
+When the user asks to improve the background or reference current design practice, use a bounded research pass: extract one compositional or material decision from domestic and international editorial/design references, translate it into a source-derived collage or page relationship, and record a do-not-copy boundary. Apply no more than two new structural moves in one iteration. Research may improve the page system, but it must not override the active poster's palette, subject readability, page order, or the user's approved identity labels.
+
 Prefer:
 
 - one dominant page-turn gesture;

@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a reference-led evolution protocol for domestic/international design research, do-not-copy boundaries, dated source notes, and two structural moves per iteration.
 - Added `floa-mariposa-visual-system`, a brand-specific Neo-Editorial visual system for the maintainer's product FLOA Mariposa, with reusable references, copy rules, series guidance, and cross-agent chat delivery.
 - Added one maintainer-authorized public example image for `floa-mariposa-visual-system`; the remaining source poster set stays outside the repository.
 - Upgraded `page-flip-showcase` from a static page-turn treatment to three explicit output modes: static showcase, clickable one-page-at-a-time viewer, and locally rendered MP4 page-flip animation.
