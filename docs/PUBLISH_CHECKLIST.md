@@ -9,7 +9,7 @@
 - [x] Skill frontmatter and source directories pass local `quick_validate.py`.
 - [x] Beginner usage guides explain Codex, WorkBuddy / Workbuddy, agent import paths, platform ratios, and test/accepted states.
 - [x] Exactly 14 installable Skills have 14 primary example images; the second Y2K image is recorded as a variant.
-- [x] Confirm the GitHub repository name and visibility: `dujiaxi2359-cloud/image-skill` is public.
+- [x] Confirm the GitHub repository name and visibility: `Mariposa-FLOA/image-skill` is public.
 - [x] Create the public GitHub repository and push `main`.
 - [x] Create the GitHub Release page for `v1.0.0`.
 - [x] Rename the GitHub repository to `image-skill`, push the branding update, and publish `v1.0.1`.
@@ -17,3 +17,4 @@
 - [x] Add the author name, platform username, and public-sharing attribution.
 - [x] Preserve the seven maintainer-supplied Skill outputs with the confirmed six-primary-plus-one-Y2K-variant mapping.
 - [x] Show all 14 primary examples inline in the README and example gallery.
+- [x] Add single-file chat-drop exports for all 14 Skills with Codex, Doubao, Image 2, and other-model instructions.

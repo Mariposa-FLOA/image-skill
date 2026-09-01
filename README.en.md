@@ -76,7 +76,7 @@ See the [complete gallery](examples/README.md). RED SIGNAL and URBAN SIGNAL are 
 Clone the repository and copy the Skill you need into your Codex Skills directory:
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/image-skill.git
+git clone https://github.com/Mariposa-FLOA/image-skill.git
 mkdir -p ~/.codex/skills
 cp -R image-skill/skills/cinematic-key-art-poster ~/.codex/skills/
 ```
@@ -91,7 +91,9 @@ done
 
 Restart Codex after installation. Each directory's `SKILL.md` is the source of truth for its workflow and output contract.
 
-These are model-agnostic Markdown workflows. Download them into Codex, Image 2, or another agent that supports custom instructions and image generation, then name the model you want in the request.
+These are model-agnostic Markdown workflows. For a permanent install, copy skills/<skill-name>/; for a one-off chat, download one .md file from [chat-ready/](chat-ready/) and drop it into Codex, Doubao, WorkBuddy, or another agent that accepts attachments. The agent then calls Image 2, Seedream, or another image-generation model.
+
+See [docs/CHAT-DROP.md](docs/CHAT-DROP.md) for the full handoff sentence.
 
 ## Find the author
 
@@ -117,6 +119,6 @@ GitHub's Contributors graph is generated from commit identities; this section re
 
 ## Version
 
-Current public version: `v1.0.2`.
+Current public version: `v1.0.3`.
 
-Formal Release: [v1.0.2](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.2).
+Formal Release: [v1.0.3](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.3).

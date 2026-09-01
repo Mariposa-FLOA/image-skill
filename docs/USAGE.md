@@ -27,7 +27,7 @@
 ### 从 GitHub 安装
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/image-skill.git
+git clone https://github.com/Mariposa-FLOA/image-skill.git
 mkdir -p ~/.codex/skills
 cp -R image-skill/skills/graphic-composition-poster ~/.codex/skills/
 ```
@@ -53,7 +53,9 @@ done
 
 ### Image 2 或其他出图模型
 
-这些 Skill 是模型无关的 Markdown 工作流，不锁定某一家出图模型。下载后可以在 Codex、Image 2 或其他支持图片生成、参考图和自定义提示词的智能体中使用：把完整 Skill 文件夹导入，再在请求里写明要用的模型（例如“用 Image 2 按这个 Skill 出图”）。模型不支持某个参数时，保留 Skill 的构图、人物/物体保护和负面约束，只按该模型的输入格式改写调用层；不要删掉 `SKILL.md` 的规则。
+这些 Skill 是模型无关的 Markdown 工作流，不锁定某一家出图模型。先在 Codex、豆包、WorkBuddy 等智能体中加载 Skill，再让智能体调用 Image 2、Seedream 或其他出图模型（例如“使用这个 Skill，让 Image 2 按规则出图”）。模型不支持某个参数时，保留 Skill 的构图、人物/物体保护和负面约束，只按该模型的输入格式改写调用层；不要删掉 `SKILL.md` 的规则。
+
+如果只是临时在聊天框试用，可从 chat-ready/ 下载单个 .md 文件，连同参考图一起上传，并发送“请把附件当作本次任务的视觉工作规范，不要复述，直接按它出图”。完整句式和豆包示例见 docs/CHAT-DROP.md。
 
 ## 在 WorkBuddy / Workbuddy 中使用
 
@@ -86,7 +88,7 @@ WorkBuddy 的菜单会随版本、企业配置和客户端形态变化。请在�
 如果 WorkBuddy 提供“从 GitHub/Git URL 导入”，使用：
 
 ```text
-https://github.com/dujiaxi2359-cloud/image-skill
+https://github.com/Mariposa-FLOA/image-skill
 ```
 
 导入后检查技能列表是否识别到 `skills/` 下的子目录。若只支持本地上传，改用路径 A。

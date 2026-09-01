@@ -76,7 +76,7 @@ Y2K · URBAN SIGNAL（变体 / variant）
 克隆仓库后，把需要的 Skill 复制到 Codex Skills 目录：
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/image-skill.git
+git clone https://github.com/Mariposa-FLOA/image-skill.git
 mkdir -p ~/.codex/skills
 cp -R image-skill/skills/cinematic-key-art-poster ~/.codex/skills/
 ```
@@ -97,7 +97,9 @@ Use $symbolic-narrative-poster to turn this photo into one clear visual sentence
 
 每个 Skill 的具体边界、输出契约和保存规则以对应目录中的 `SKILL.md` 为准。
 
-这些是模型无关的 Markdown 工作流，可下载后导入 Codex、Image 2 或其他支持自定义提示词和图片生成的智能体；调用时在请求中写明你要使用的模型即可。
+这些是模型无关的 Markdown 工作流。想长期安装就复制 skills/<skill-name>/；想临时试用，就从 [chat-ready/](chat-ready/) 下载一个 .md 文件直接拖进 Codex、豆包、WorkBuddy 或其他支持附件的智能体，并说明“按附件执行”。智能体再调用 Image 2、Seedream 或其他生图模型完成出图。
+
+聊天框投喂的完整句式见 [docs/CHAT-DROP.md](docs/CHAT-DROP.md)。
 
 ## 找到作者
 
@@ -123,9 +125,9 @@ GitHub 的 Contributors 图表由提交身份自动统计；这里记录本项�
 
 ## 版本
 
-当前公开版本：`v1.0.2`。
+当前公开版本：`v1.0.3`。
 
-正式 Release：[v1.0.2](https://github.com/dujiaxi2359-cloud/image-skill/releases/tag/v1.0.2)。
+正式 Release：[v1.0.3](https://github.com/Mariposa-FLOA/image-skill/releases/tag/v1.0.3)。
 
 ## 目录
 
@@ -140,6 +142,9 @@ image-skill/
 ├── THIRD_PARTY.md
 ├── CHANGELOG.md
 ├── VERSION
+├── chat-ready/
+│   ├── README.md
+│   └── <skill-name>.md
 ├── assets/
 │   └── brand/
 ├── examples/
@@ -158,7 +163,10 @@ image-skill/
 │   ├── symbolic-narrative-poster/
 │   ├── vintage-offset-cinema-poster/
 │   └── y2k-street-cutout-poster/
+├── scripts/
+│   └── build_chat_drop.py
 └── docs/
+    ├── CHAT-DROP.md
     ├── USAGE.md
     └── USAGE.en.md
 ```

@@ -23,7 +23,7 @@ Return a test image first; do not archive automatically.
 ## Codex
 
 ```bash
-git clone https://github.com/dujiaxi2359-cloud/image-skill.git
+git clone https://github.com/Mariposa-FLOA/image-skill.git
 mkdir -p ~/.codex/skills
 cp -R image-skill/skills/graphic-composition-poster ~/.codex/skills/
 ```
@@ -41,7 +41,7 @@ WorkBuddy menus vary by client version and enterprise configuration. Use the pro
 
 1. **Import a folder or upload a package:** select `skills/<skill-name>/`, keeping `SKILL.md` and all companion files.
 2. **Paste Markdown:** paste the complete `SKILL.md`; upload companion references or scripts if the host supports attachments.
-3. **Import from Git URL:** if the host supports it, use `https://github.com/dujiaxi2359-cloud/image-skill` and confirm that it discovered the child directories under `skills/`.
+3. **Import from Git URL:** if the host supports it, use `https://github.com/Mariposa-FLOA/image-skill` and confirm that it discovered the child directories under `skills/`.
 
 Then call it by name:
 
@@ -54,7 +54,9 @@ If the host accepts only Markdown, missing companion files may make some referen
 
 ### Image 2 and other image models
 
-These Skills are model-agnostic Markdown workflows; they do not lock you to one image provider. After downloading, import the complete Skill folder into Codex, Image 2, or another agent that accepts image generation, reference images, and custom instructions. State the model in your request, for example: “Use Image 2 with this Skill.” If a model uses different controls, adapt only the invocation format and keep the Skill's composition, subject-protection, and negative constraints intact.
+These Skills are model-agnostic Markdown workflows; they do not lock you to one image provider. Load a Skill in Codex, Doubao, WorkBuddy, or another agent, then have that agent call Image 2, Seedream, or another image-generation model (for example, “Use this Skill and ask Image 2 to generate the image”). If a model uses different controls, adapt only the invocation format and keep the Skill's composition, subject-protection, and negative constraints intact.
+
+For a one-off chat, download one .md file from chat-ready/, upload it with any reference image, and say “Treat the attachment as the visual task specification and follow it directly.” See docs/CHAT-DROP.md for the Doubao example and the full handoff sentence.
 
 ## Choosing a Skill
 

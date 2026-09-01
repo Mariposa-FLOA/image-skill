@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.3 — 2026-08-31
+
+- Added a single-file chat-drop export for every installable Skill under chat-ready/.
+- Added direct chat instructions for Codex, Doubao, Image 2, and other image models.
+- Added a deterministic scripts/build_chat_drop.py exporter so chat files stay synchronized with skills/.
+- Updated public repository and release links after the account rename to Mariposa-FLOA.
+
 ## v1.0.2 — 2026-08-31
 
 - Preserved seven supplied Skill outputs byte-for-byte with maintainer-confirmed assignments: six primary images and one Y2K variant.
