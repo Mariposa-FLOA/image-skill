@@ -73,6 +73,10 @@ See the [complete gallery](examples/README.md). RED SIGNAL and URBAN SIGNAL are 
 
 The page-flip showcase also includes a [real MP4 page-flip demo](examples/page-flip-showcase.mp4).
 
+<video src="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.mp4" poster="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.png" controls muted playsinline width="360">
+  This page cannot embed the video; open the [MP4 page-flip demo](examples/page-flip-showcase.mp4).
+</video>
+
 ## Installation
 
 Clone the repository and copy the Skill you need into your Codex Skills directory:

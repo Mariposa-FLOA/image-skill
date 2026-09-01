@@ -75,6 +75,10 @@ Y2K · URBAN SIGNAL（变体 / variant）
 
 `page-flip-showcase` 不只生成一张“像翻页”的静态图，还支持三种输出：静态翻页主视觉、可点击的一页一页电子画册，以及用本地 HyperFrames / FFmpeg 渲染的真实 MP4 翻页视频。它会先分析每张海报的色彩、构图、排版、材质和视觉母题，再决定背景色场、最多两个源图局部拼贴、纸片层和少量辅助线。这里有一个 [MP4 翻页演示](examples/page-flip-showcase.mp4)。详细输入、输出、验收和示例见 [`docs/PAGE-FLIP-SHOWCASE.md`](docs/PAGE-FLIP-SHOWCASE.md)。
 
+<video src="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.mp4" poster="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.png" controls muted playsinline width="360">
+  当前页面不支持内嵌视频，请打开 [MP4 翻页演示](examples/page-flip-showcase.mp4)。
+</video>
+
 ## 安装
 
 克隆仓库后，把需要的 Skill 复制到 Codex Skills 目录：

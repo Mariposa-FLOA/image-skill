@@ -72,6 +72,10 @@
 
 [查看真实翻页 MP4 演示](page-flip-showcase.mp4)
 
+<video src="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.mp4" poster="https://raw.githubusercontent.com/Mariposa-FLOA/image-skill/main/examples/page-flip-showcase.png" controls muted playsinline width="360">
+  当前页面不支持内嵌视频，请打开 [MP4 翻页演示](page-flip-showcase.mp4)。
+</video>
+
 该演示为 1080 × 1440、30 fps、约 16.3 秒，包含按顺序展示的海报页面和逐页翻动过程。它只用于说明 Skill 的视频输出形态，不替代用户自己的输入素材。
 
 ### 12. 符号叙事 · symbolic-narrative-poster
