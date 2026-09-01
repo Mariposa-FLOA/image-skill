@@ -18,7 +18,7 @@ This table is the publication contract for the public release `v1.0.4`.
 | `vintage-offset-cinema-poster` | our original visual language | yes | project-generated |
 | `y2k-street-cutout-poster` | our original / autonomous | yes | maintainer-supplied RED SIGNAL (+ URBAN SIGNAL variant) |
 | `stained-glass-mosaic-poster` | retired visual language | no | no |
-| `page-flip-showcase` | our original Skill | yes | generated static demonstration |
+| `page-flip-showcase` | our original Skill | yes | generated static demonstration; interactive viewer and local MP4 are supported without publishing user source media |
 | `scenes-gathered-zine-v1-3` | external starter Skill | no | no |
 | `scene-distillation-zine-v1-3` | external starter Skill | no | no |
 | `zy-cinematic-realism` | external Skill | no | no |

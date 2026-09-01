@@ -37,7 +37,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 | [`music-album-cover-art`](skills/music-album-cover-art/) | 专辑封面、发行身份与可编辑分层交付 |
 | [`optical-refraction-visual`](skills/optical-refraction-visual/) | 有物理依据的折射、镜面与透明介质 |
 | [`symbolic-narrative-poster`](skills/symbolic-narrative-poster/) | 单一视觉隐喻与语义变形 |
-| [`page-flip-showcase`](skills/page-flip-showcase/) | 编辑式静态翻页展示与源图保护 |
+| [`page-flip-showcase`](skills/page-flip-showcase/) | 静态展示、可点击逐页翻页、MP4 翻页，以及按海报分析生成的自适应拼贴背景 |
 | [`y2k-street-cutout-poster`](skills/y2k-street-cutout-poster/) | Y2K 街头杂志拼贴 |
 
 ### 我们的原创视觉语言 · 独立封装
@@ -70,6 +70,10 @@ Y2K · URBAN SIGNAL（变体 / variant）
 <img src="examples/variants/y2k-street-cutout-poster-urban-signal.png" alt="Y2K URBAN SIGNAL" width="360">
 
 完整图档见 [示例图库](examples/README.md)。Y2K 的 RED SIGNAL 与 URBAN SIGNAL 均直接使用作者提供的 Skill 成图。
+
+### 翻页展示功能说明
+
+`page-flip-showcase` 不只生成一张“像翻页”的静态图，还支持三种输出：静态翻页主视觉、可点击的一页一页电子画册，以及用本地 HyperFrames / FFmpeg 渲染的真实 MP4 翻页视频。它会先分析每张海报的色彩、构图、排版、材质和视觉母题，再决定背景色场、最多两个源图局部拼贴、纸片层和少量辅助线。详细输入、输出、验收和示例见 [`docs/PAGE-FLIP-SHOWCASE.md`](docs/PAGE-FLIP-SHOWCASE.md)。
 
 ## 安装
 

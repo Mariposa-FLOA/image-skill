@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Upgraded `page-flip-showcase` from a static page-turn treatment to three explicit output modes: static showcase, clickable one-page-at-a-time viewer, and locally rendered MP4 page-flip animation.
+- Added detailed Chinese usage documentation covering input/output contracts, adaptive poster-derived collage backgrounds, source-image protection, identity labels, file structure, and verification.
+- Added adaptive background guidance: analyse each poster's palette, composition, typography, material, and motif before choosing collage layers; keep linework subordinate when collage is stronger.
+- Refreshed the chat-ready export for `page-flip-showcase`.
+
 ## v1.0.4 — 2026-09-01
 
 - Made canvas ratio inference the default across the visual Skills: inspect the source before choosing a format, and honor a ratio only when the user supplies one.
