@@ -4,6 +4,8 @@
 
 Image skill 是一组为 Codex、WorkBuddy 和其他智能体编写的原创视觉 Skill：先读懂图像中的事实、关系和情绪，再选择构图机制、媒介语言、色彩与文字行为。
 
+新增品牌 Skill：[`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/)。它专门服务产品 `FLOA Mariposa`，正式风格名为“新编辑主义视觉”，不是泛用复古风格。详见 [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md)。
+
 ## 先看：怎么使用
 
 第一次使用时，先看 [`docs/USAGE.md`](docs/USAGE.md)。它用新手能直接照做的方式说明 Codex、WorkBuddy / Workbuddy 和其他支持自定义 Skill 的智能体如何导入、选择、调用，以及如何写清楚平台比例、保留项和 `test` / `accepted` 状态。
@@ -26,6 +28,12 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 同一张图可以进入不同的视觉路径，但不会被同一个模板强行处理。默认优先保证人物/物体可读、构图有明确主轴、文字准确、画面干净，并区分 `test` 与 `accepted`。
 
 ## 当前发布范围
+
+### 新增品牌 Skill · FLOA Mariposa（Unreleased）
+
+| Skill | 视觉职责 |
+| --- | --- |
+| [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/) · [详细说明](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) · [单文件投喂](chat-ready/floa-mariposa-visual-system.md) | FLOA Mariposa 产品专属的新编辑主义品牌视觉系统 |
 
 ### 我们的原创 Skill · 自主原创
 
@@ -53,7 +61,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 
 ## 示例图
 
-14 个 Skill 各有一张主示例图，Y2K 另附一张变体。你可以点击技能名称查看使用说明。
+下面是 v1.0.4 发布集的 14 张主示例图，Y2K 另附一张变体。新增的 FLOA Mariposa Skill 使用维护者授权的海报样本提炼规则，原始样本集不默认复制进公开示例目录。你可以点击技能名称查看使用说明。
 
 | | |
 | --- | --- |
@@ -158,6 +166,7 @@ image-skill/
 ├── examples/
 ├── skills/
 │   ├── cinematic-key-art-poster/
+│   ├── floa-mariposa-visual-system/
 │   ├── graphic-composition-poster/
 │   ├── high-chroma-screenprint-poster/
 │   ├── impossible-space-editorial-poster/

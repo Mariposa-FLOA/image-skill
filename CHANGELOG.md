@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `floa-mariposa-visual-system`, a brand-specific Neo-Editorial visual system for the maintainer's product FLOA Mariposa, with reusable references, copy rules, series guidance, and cross-agent chat delivery.
 - Upgraded `page-flip-showcase` from a static page-turn treatment to three explicit output modes: static showcase, clickable one-page-at-a-time viewer, and locally rendered MP4 page-flip animation.
 - Added detailed Chinese usage documentation covering input/output contracts, adaptive poster-derived collage backgrounds, source-image protection, identity labels, file structure, and verification.
 - Added adaptive background guidance: analyse each poster's palette, composition, typography, material, and motif before choosing collage layers; keep linework subordinate when collage is stronger.

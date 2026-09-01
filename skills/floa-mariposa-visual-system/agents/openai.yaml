@@ -1,0 +1,5 @@
+interface:
+  display_name: "FLOA Mariposa 新编辑主义视觉"
+  short_description: "把 FLOA Mariposa 做成有品牌识别度的编辑海报与视觉系统"
+  brand_color: "#D8432E"
+  default_prompt: "Use $floa-mariposa-visual-system to create an original FLOA Mariposa brand visual from my uploaded image or brief."

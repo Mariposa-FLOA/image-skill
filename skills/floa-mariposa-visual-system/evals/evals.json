@@ -1,0 +1,53 @@
+{
+  "skill_name": "floa-mariposa-visual-system",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用我上传的产品图做一张 FLOA Mariposa 品牌海报。不要做成普通复古海报，要有新编辑主义的排版、一个清楚的视觉事件和源图相关的几何构图。先给 test。",
+      "expected_output": "A brand-specific poster with one governing visual event, structural type, source-derived geometry, exact FLOA Mariposa identity, and no generic vintage treatment.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "根据这张夜景海报，为 FLOA Mariposa 做一张同品牌但不重复原构图的视觉。可以使用红色和深蓝，但不要直接套赛博朋克模板。",
+      "expected_output": "A dark signal-oriented visual using source-derived colour roles and one readable metaphor, without generic cyberpunk neon or copied layout.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "把这张舞台和麦克风图做成 FLOA Mariposa 的社交封面，保留空场、光束和鞋子的关系，文字只使用 FLOA Mariposa。",
+      "expected_output": "A threshold/performance composition preserving the supplied scene facts, integrating the exact product name, and avoiding invented claims or fake metadata.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "我想做 6 张 FLOA Mariposa 系列海报，每张来自不同图片。请保持品牌统一，但不要每张都使用同样的红蓝背景、边框和线条。",
+      "expected_output": "A series plan that keeps brand invariants while varying source-derived metaphors, palette relationships, crop, lockup placement, and material treatment.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "这些都是我做的海报，请从中提炼一个可以给其他智能体使用的 FLOA Mariposa 风格 Skill。不要把它命名为复古风格。",
+      "expected_output": "A reusable brand visual system named FLOA Mariposa Neo-Editorial Visual Language, with triggers, workflow, visual rules, boundaries, anti-patterns, and quality gates.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "请把 FLOA Mariposa 放在画面中，但不要默认拆成左上 FLOA、右下 Mariposa；根据这张图的构图决定一个更自然的字标位置。",
+      "expected_output": "The product name remains one exact identity and is placed according to the composition, not split into arbitrary corner labels.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "把这张海报做成可以一页一页翻的 FLOA Mariposa 作品集视频。先确定品牌视觉方向，再交给翻页流程，不要把静态图说成视频。",
+      "expected_output": "The skill defines a brand direction and explicitly hands page mechanics/rendering to page-flip-showcase, with truthful output-mode labeling.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "用户没有给宣传文案，只说产品叫 FLOA Mariposa。请做视觉方案，不要编造产品功能、发布日期、客户、奖项或技术参数。",
+      "expected_output": "A concise visual direction using the exact product name only, with no unsupported claims or fake editorial metadata.",
+      "files": []
+    }
+  ]
+}

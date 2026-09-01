@@ -41,3 +41,15 @@
 ```
 
 要长期在 Codex、WorkBuddy 或其他 Skill 系统中复用，则导入完整的 `skills/page-flip-showcase/` 文件夹。完整导入才能使用同目录的参考契约和静态合成脚本；单文件投喂适合理解规则，但不保证宿主一定能写网页或渲染 MP4。
+
+## FLOA Mariposa 品牌 Skill
+
+一次性使用时，下载 [`chat-ready/floa-mariposa-visual-system.md`](../chat-ready/floa-mariposa-visual-system.md)，和你的海报或产品图一起上传：
+
+```text
+请把附件中的 Markdown 当作 FLOA Mariposa 的视觉工作规范。
+把我上传的图片做成产品品牌海报，使用“新编辑主义视觉”，不要简单套复古、Y2K 或赛博朋克。
+保留 FLOA Mariposa 的准确拼写；根据源图分析色彩、构图、视觉事件和留白；先返回 test，不要自动归档。
+```
+
+如果要做多张系列海报，额外说明“保持品牌统一，但每张改变源图隐喻、构图轴线和色彩关系”。如果要做可点击画册或 MP4，再同时使用 `page-flip-showcase` 处理翻页机制。

@@ -4,6 +4,8 @@
 
 Image skill is a collection of original visual Skills for Codex, WorkBuddy, and compatible agents. Each Skill reads source evidence, chooses one governing visual mechanism, and produces a clean, art-directed result with honest boundaries.
 
+New brand Skill: [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/). It is dedicated to the product `FLOA Mariposa`; its public style name is “Neo-Editorial Visual Language,” not generic vintage styling. See [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md).
+
 ## Start here: using the Skills
 
 Read [`docs/USAGE.en.md`](docs/USAGE.en.md) first. It explains how beginners can import and call these Skills in Codex, WorkBuddy / Workbuddy, and other agents that support custom Skill folders or Markdown instructions, including platform ratios and `test` / `accepted` delivery states.
@@ -26,6 +28,12 @@ This is not a filter pack and not a one-style template. Every Skill has a distin
 The same source can take different paths, but it is never forced into one template. The system prioritizes readable subjects, a clear visual axis, exact type, clean masters, and an honest distinction between `test` and `accepted` work.
 
 ## Release scope
+
+### New brand Skill · FLOA Mariposa (Unreleased)
+
+| Skill | Responsibility |
+| --- | --- |
+| [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/) · [full guide](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) · [chat-ready file](chat-ready/floa-mariposa-visual-system.md) | Brand-specific Neo-Editorial visual system for FLOA Mariposa |
 
 ### Our Original Skills
 
@@ -53,7 +61,7 @@ The same source can take different paths, but it is never forced into one templa
 
 ## Examples
 
-Each of the 14 Skills has a primary example, with one additional Y2K variant. Click a Skill name for its instructions.
+The v1.0.4 release set has 14 primary example images, with one additional Y2K variant. The new FLOA Mariposa Skill is distilled from the maintainer-authorized poster set; the raw reference set is not copied into the public examples directory by default. Click a Skill name for its instructions.
 
 | | |
 | --- | --- |
