@@ -35,6 +35,10 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 | --- | --- |
 | [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/) · [详细说明](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) · [单文件投喂](chat-ready/floa-mariposa-visual-system.md) | FLOA Mariposa 产品专属的新编辑主义品牌视觉系统 |
 
+公开示例：
+
+[FLOA Mariposa 新编辑主义视觉](examples/floa-mariposa-visual-system.png)<br><img src="examples/floa-mariposa-visual-system.png" alt="FLOA Mariposa 新编辑主义视觉" width="360">
+
 ### 我们的原创 Skill · 自主原创
 
 | Skill | 视觉职责 |
@@ -61,7 +65,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 
 ## 示例图
 
-下面是 v1.0.4 发布集的 14 张主示例图，Y2K 另附一张变体。新增的 FLOA Mariposa Skill 使用维护者授权的海报样本提炼规则，原始样本集不默认复制进公开示例目录。你可以点击技能名称查看使用说明。
+下面是 v1.0.4 发布集的 14 张主示例图，Y2K 另附一张变体；FLOA Mariposa 另附 1 张维护者授权的公开示例。其余原始样本不复制进公开示例目录。你可以点击技能名称查看使用说明。
 
 | | |
 | --- | --- |

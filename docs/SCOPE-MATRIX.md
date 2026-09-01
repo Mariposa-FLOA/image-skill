@@ -25,4 +25,4 @@ This table is the publication contract for the public release `v1.0.4`.
 
 Every installable Skill has one primary example file in `examples/`; Y2K has one additional variant. The repository does not silently substitute unapproved archive images, personal portraits, or screenshots.
 
-`floa-mariposa-visual-system` is an unreleased addition on `main`; it is not included in the v1.0.4 count or example hash set. Its public Skill source and written visual references are included, while the maintainer's raw poster reference set remains outside the repository.
+`floa-mariposa-visual-system` is an unreleased addition on `main`; it is not included in the v1.0.4 Skill count or example hash set. Its public Skill source, written visual references, and one authorized representative example are included, while the remaining raw poster reference set remains outside the repository.

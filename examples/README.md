@@ -1,6 +1,14 @@
 # Example gallery
 
-本页把 14 个可安装 Skill 的主示例全部展开显示，并额外保留一张 Y2K 变体。点击图片或 Skill 名称即可查看对应说明。七张维护者提供的成图按确认的 Skill 归属原样保留，其余主示例为项目补齐图。
+本页把 v1.0.4 发布集的 14 个主示例全部展开显示，并额外保留一张 Y2K 变体和一张 FLOA Mariposa 品牌 Skill 公开示例。点击图片或 Skill 名称即可查看对应说明。七张维护者提供的成图按确认的 Skill 归属原样保留，其余主示例为项目补齐图。
+
+## FLOA Mariposa 新编辑主义视觉 · floa-mariposa-visual-system
+
+[打开 Skill](../skills/floa-mariposa-visual-system/)
+
+![FLOA Mariposa Neo-Editorial Visual Language](floa-mariposa-visual-system.png)
+
+这是从维护者原创海报样本中提炼出的品牌视觉示例，展示结构化大字、红/奶油白/深蓝色域、剪影和建筑几何关系。它是公开示例，不代表 Skill 只能复制这一张构图。
 
 ## 14 个主示例
 

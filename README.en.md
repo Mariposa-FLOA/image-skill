@@ -35,6 +35,10 @@ The same source can take different paths, but it is never forced into one templa
 | --- | --- |
 | [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/) · [full guide](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md) · [chat-ready file](chat-ready/floa-mariposa-visual-system.md) | Brand-specific Neo-Editorial visual system for FLOA Mariposa |
 
+Public example:
+
+[FLOA Mariposa Neo-Editorial Visual Language](examples/floa-mariposa-visual-system.png)<br><img src="examples/floa-mariposa-visual-system.png" alt="FLOA Mariposa Neo-Editorial Visual Language" width="360">
+
 ### Our Original Skills
 
 | Skill | Responsibility |
@@ -61,7 +65,7 @@ The same source can take different paths, but it is never forced into one templa
 
 ## Examples
 
-The v1.0.4 release set has 14 primary example images, with one additional Y2K variant. The new FLOA Mariposa Skill is distilled from the maintainer-authorized poster set; the raw reference set is not copied into the public examples directory by default. Click a Skill name for its instructions.
+The v1.0.4 release set has 14 primary example images, with one additional Y2K variant; FLOA Mariposa has one additional maintainer-authorized public example. The remaining raw reference set is not copied into the public examples directory. Click a Skill name for its instructions.
 
 | | |
 | --- | --- |
