@@ -27,3 +27,17 @@
 - 需要参考图时，把参考图和 Skill 文件一起上传，并明确哪张是必须保留的源图、哪张只是风格参考。
 - page-flip-showcase 的脚本输出、可编辑分层或精确排版仍可能需要宿主的文件工具；单靠图片模型不能保证交互或像素级可编辑结果。
 - chat-ready/ 是由 skills/ 导出的单文件副本；修改 Skill 后重新运行 python3 scripts/build_chat_drop.py。
+
+## page-flip-showcase 的投喂方式
+
+如果只想让一个智能体处理这一组海报，直接下载 [`chat-ready/page-flip-showcase.md`](../chat-ready/page-flip-showcase.md)，连同图片一起上传，并明确你要哪一种结果：
+
+```text
+请按附件中的 page-flip-showcase 规则处理这些海报。
+输出：可点击的一篇一篇翻页电子画册（如果当前环境不支持网页，请明确告诉我）。
+顺序：按上传顺序；固定身份文字：左上 FLOA，右下 Mariposa。
+视觉要求：逐张分析海报色彩、构图、排版和母题，背景用源图相关的拼贴纸片组织，不要使用一套固定线条。
+先给 test，确认后再给 accepted 成品。
+```
+
+要长期在 Codex、WorkBuddy 或其他 Skill 系统中复用，则导入完整的 `skills/page-flip-showcase/` 文件夹。完整导入才能使用同目录的参考契约和静态合成脚本；单文件投喂适合理解规则，但不保证宿主一定能写网页或渲染 MP4。

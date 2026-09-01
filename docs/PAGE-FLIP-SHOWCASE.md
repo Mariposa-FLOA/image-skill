@@ -106,6 +106,64 @@ skills/page-flip-showcase/
 
 `SKILL.md` 是运行规则；`references/` 保存构图和交互/视频契约；`scripts/` 保存可重复的静态合成工具。测试用例用于维护和回归，不是用户源图素材。
 
+## 可移植交付：给 Codex、WorkBuddy 或其他智能体
+
+这个 Skill 按两种方式发布，方便一次试用，也方便长期安装。
+
+### 方式 A：单文件投喂（最适合一次任务）
+
+下载 [`chat-ready/page-flip-showcase.md`](../chat-ready/page-flip-showcase.md)，把它和海报图片一起拖进支持附件的智能体，然后发送：
+
+```text
+请把附件中的 Markdown 当作本次任务的视觉工作规范，使用它处理我上传的海报。
+做成可以一篇一篇手动翻页的电子画册；如果当前环境不能生成网页，就先给出可执行的实现方案。
+按图片上传顺序处理，背景根据每张海报的色彩、构图和视觉母题做拼贴，不要套固定线框。
+左上角写 FLOA，右下角写 Mariposa。先返回 test，不要自动归档。
+```
+
+单文件版包含核心视觉规则、三种输出模式、源图保护和验收标准。它适合图片模型理解任务；如果要真正得到可点击网页或 MP4，还需要宿主具备文件写入、HTML 预览、HyperFrames 或 FFmpeg 等对应工具。
+
+### 方式 B：完整 Skill 文件夹（最适合 Codex / 长期复用）
+
+保留整个目录，不要只拿出 `SKILL.md`：
+
+```text
+skills/page-flip-showcase/
+├── SKILL.md
+├── agents/openai.yaml
+├── evals/evals.json
+├── references/
+└── scripts/
+```
+
+在 Codex 中，可将 `skills/page-flip-showcase/` 复制到 `~/.codex/skills/page-flip-showcase/` 后重启或刷新 Skill；在 WorkBuddy 或其他支持本地 Skill 的智能体中，选择导入这一层目录，并确认 `references/`、`scripts/` 一起被保留。若平台支持 Git URL 导入，可直接使用本仓库地址，然后选择 `skills/page-flip-showcase/`：
+
+```text
+https://github.com/Mariposa-FLOA/image-skill
+```
+
+### 按宿主能力选择结果
+
+| 宿主能力 | 可以可靠交付 | 需要如实说明 |
+| --- | --- | --- |
+| 能读 Markdown + 调用图片模型 | 静态翻页主视觉、拼贴背景设计 | 不能把图片模型输出冒充交互网页或 MP4 |
+| 能读写本地文件 + 预览 HTML/JavaScript | 可点击逐页电子画册 | 需要保留本地图片路径和交互状态 |
+| 有 HyperFrames + FFmpeg 或等效本地视频工具 | 真实翻页 MP4 | 需要检查中间翻页帧、时长、帧率和无黑帧 |
+| 只能生成文字/提示词 | 完整视觉方案与实现提示词 | 不能声称已经生成成品文件 |
+
+智能体应根据实际能力选择输出模式；如果宿主不支持某个模式，必须说明限制，不能静默降级成一张静态图后称为“视频”或“可翻页”。
+
+### 导入后的最小自测
+
+导入后可以直接发送：
+
+```text
+请使用 page-flip-showcase。
+先不要处理我的原图，告诉我你支持：静态展示、可点击电子画册、MP4 翻页中的哪些模式；再说明需要我提供什么。
+```
+
+随后用真实图片测试，并确认输出是否按 `test` / `accepted` 区分。任何智能体都应优先使用用户上传的原图，不上传到未获授权的第三方服务，不把私人原图写入公开仓库。
+
 ## 调用示例
 
 ### 静态图

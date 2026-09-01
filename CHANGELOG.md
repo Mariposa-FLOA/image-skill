@@ -6,6 +6,7 @@
 - Added detailed Chinese usage documentation covering input/output contracts, adaptive poster-derived collage backgrounds, source-image protection, identity labels, file structure, and verification.
 - Added adaptive background guidance: analyse each poster's palette, composition, typography, material, and motif before choosing collage layers; keep linework subordinate when collage is stronger.
 - Refreshed the chat-ready export for `page-flip-showcase`.
+- Added cross-agent delivery instructions covering one-file upload, full-folder import, host capability checks, and a minimal self-test for Codex, WorkBuddy, and other agents.
 
 ## v1.0.4 — 2026-09-01
 
