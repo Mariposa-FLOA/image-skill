@@ -37,7 +37,7 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 | [`music-album-cover-art`](skills/music-album-cover-art/) | 专辑封面、发行身份与可编辑分层交付 |
 | [`optical-refraction-visual`](skills/optical-refraction-visual/) | 有物理依据的折射、镜面与透明介质 |
 | [`symbolic-narrative-poster`](skills/symbolic-narrative-poster/) | 单一视觉隐喻与语义变形 |
-| [`page-flip-showcase`](skills/page-flip-showcase/) | 静态展示、可点击逐页翻页、MP4 翻页，以及按海报分析生成的自适应拼贴背景 |
+| [`page-flip-showcase`](skills/page-flip-showcase/) · [详细功能说明](docs/PAGE-FLIP-SHOWCASE.md) | 静态展示、可点击逐页翻页、MP4 翻页，以及按海报分析生成的自适应拼贴背景 |
 | [`y2k-street-cutout-poster`](skills/y2k-street-cutout-poster/) | Y2K 街头杂志拼贴 |
 
 ### 我们的原创视觉语言 · 独立封装

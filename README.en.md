@@ -37,7 +37,7 @@ The same source can take different paths, but it is never forced into one templa
 | [`music-album-cover-art`](skills/music-album-cover-art/) | Record identity and portable editable cover delivery |
 | [`optical-refraction-visual`](skills/optical-refraction-visual/) | Physically legible refraction, reflection, and transparent media |
 | [`symbolic-narrative-poster`](skills/symbolic-narrative-poster/) | One visual metaphor and semantic transformation |
-| [`page-flip-showcase`](skills/page-flip-showcase/) | Static, clickable one-page-at-a-time, and rendered page-flip outputs with adaptive collage backgrounds |
+| [`page-flip-showcase`](skills/page-flip-showcase/) · [full feature guide](docs/PAGE-FLIP-SHOWCASE.md) | Static, clickable one-page-at-a-time, and rendered page-flip outputs with adaptive collage backgrounds |
 | [`y2k-street-cutout-poster`](skills/y2k-street-cutout-poster/) | Y2K street-magazine collage |
 
 ### Original visual languages
