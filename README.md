@@ -6,6 +6,8 @@ Image skill 是一组为 Codex、WorkBuddy 和其他智能体编写的原创视�
 
 新增品牌 Skill：[`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/)。它专门服务产品 `FLOA Mariposa`，正式风格名为“新编辑主义视觉”，不是泛用复古风格。详见 [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md)。
 
+新增制作工具：[`poster-layered-psd-export`](skills/poster-layered-psd-export/)，用于把真实分层海报导出为 Photoshop PSD，详见 [`docs/LAYERED-PSD-EXPORT.md`](docs/LAYERED-PSD-EXPORT.md)。
+
 ## 先看：怎么使用
 
 第一次使用时，先看 [`docs/USAGE.md`](docs/USAGE.md)。它用新手能直接照做的方式说明 Codex、WorkBuddy / Workbuddy 和其他支持自定义 Skill 的智能体如何导入、选择、调用，以及如何写清楚平台比例、保留项和 `test` / `accepted` 状态。
@@ -38,6 +40,10 @@ English guide: [`docs/USAGE.en.md`](docs/USAGE.en.md)。
 公开示例：
 
 [FLOA Mariposa 新编辑主义视觉](examples/floa-mariposa-visual-system.png)<br><img src="examples/floa-mariposa-visual-system.png" alt="FLOA Mariposa 新编辑主义视觉" width="360">
+
+### 新增制作工具 · Photoshop PSD 分层（Unreleased）
+
+[`poster-layered-psd-export`](skills/poster-layered-psd-export/) · [功能说明](docs/LAYERED-PSD-EXPORT.md)：将真实的全画布 RGBA 图层、透明度、混合模式、中文图层名和合并预览写入 PSD，并输出可编辑性清单。
 
 ### 我们的原创 Skill · 自主原创
 
@@ -181,6 +187,7 @@ image-skill/
 │   ├── music-album-cover-art/
 │   ├── optical-refraction-visual/
 │   ├── page-flip-showcase/
+│   ├── poster-layered-psd-export/
 │   ├── symbolic-narrative-poster/
 │   ├── vintage-offset-cinema-poster/
 │   └── y2k-street-cutout-poster/

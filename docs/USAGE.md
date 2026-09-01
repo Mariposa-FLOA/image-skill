@@ -96,6 +96,7 @@ https://github.com/Mariposa-FLOA/image-skill
 ## 如何选择 Skill
 
 - FLOA Mariposa 品牌海报、系列视觉和产品视觉系统：`floa-mariposa-visual-system`
+- 需要拿到 Photoshop 继续编辑的海报 PSD：`poster-layered-psd-export`
 - 电影叙事、campaign 主视觉：`cinematic-key-art-poster`
 - 网格、裁切、字体和留白：`graphic-composition-poster`
 - 空间折叠、尺度矛盾：`impossible-space-editorial-poster`

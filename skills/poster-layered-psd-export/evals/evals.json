@@ -1,0 +1,29 @@
+{
+  "skill_name": "poster-layered-psd-export",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有一张已经完成的海报和背景、主体、文字、阴影四个 PNG 图层，请导出一个可以在 Photoshop 打开的分层 PSD，并保留图层名字和透明度。",
+      "expected_output": "A valid PSD plus manifest with four aligned pixel layers, preserved order, opacity, names, and a truthful raster-text note.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "不要把一张 PNG 改名成 PSD。请判断我提供的素材是否真的有分层；如果没有，就告诉我还需要什么，不能假装可编辑。",
+      "expected_output": "The agent rejects a flattened-only input as insufficient for semantic layers and explains the missing layer manifest/assets.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "把 FLOA Mariposa 海报输出成 PS 可继续编辑的 PSD，中文图层名也要保留，文字如果不是原生文字层请明确说明。",
+      "expected_output": "A Photoshop-readable layered PSD with Unicode layer names and an explicit distinction between raster text and native live text.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "请验证导出的 PSD 是否有正确画布尺寸、图层数量、图层顺序、透明度和合并预览，不要只检查文件扩展名。",
+      "expected_output": "The validator checks PSD structure, layer records, channel data, compression, and composite image data rather than relying on the extension.",
+      "files": []
+    }
+  ]
+}

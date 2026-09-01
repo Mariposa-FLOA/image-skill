@@ -1,0 +1,5 @@
+interface:
+  display_name: "海报 PSD 分层导出"
+  short_description: "把真实海报图层导出为可在 Photoshop 继续编辑的 PSD"
+  brand_color: "#2E3640"
+  default_prompt: "Use $poster-layered-psd-export to export my poster project as a verified layered Photoshop PSD with an editability manifest."

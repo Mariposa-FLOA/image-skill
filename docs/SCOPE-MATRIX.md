@@ -26,3 +26,5 @@ This table is the publication contract for the public release `v1.0.4`.
 Every installable Skill has one primary example file in `examples/`; Y2K has one additional variant. The repository does not silently substitute unapproved archive images, personal portraits, or screenshots.
 
 `floa-mariposa-visual-system` is an unreleased addition on `main`; it is not included in the v1.0.4 Skill count or example hash set. Its public Skill source, written visual references, and one authorized representative example are included, while the remaining raw poster reference set remains outside the repository.
+
+`poster-layered-psd-export` is an unreleased utility addition on `main`; it has no separate public visual example because it exports user-provided poster layers rather than generating example artwork.

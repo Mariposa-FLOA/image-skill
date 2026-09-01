@@ -1,6 +1,6 @@
 ---
 name: floa-mariposa-visual-system
-description: "Create original brand visuals for the user's product FLOA Mariposa through a neo-editorial visual system: structural typography, source-derived geometric space, silhouette or object-led narrative, directional colour fields, and controlled print or collage material. Use whenever the user mentions FLOA Mariposa, asks to build or extend its brand identity, requests a FLOA Mariposa poster, campaign image, cover, social visual, editorial graphic, or asks to extract a reusable style from their own reference posters. Treat FLOA Mariposa as one exact product name, not as two generic corner labels. Do not reduce the system to vintage, Y2K, cyberpunk, collage, or a fixed template."
+description: "Create original brand visuals for the user's product FLOA Mariposa through a neo-editorial visual system: structural typography, source-derived geometric space, silhouette or object-led narrative, directional colour fields, and controlled print or collage material. Use whenever the user mentions FLOA Mariposa, asks to build or extend its brand identity, requests a FLOA Mariposa poster, campaign image, cover, social visual, editorial graphic, editable Photoshop PSD, or asks to extract a reusable style from their own reference posters. Treat FLOA Mariposa as one exact product name, not as two generic corner labels. Do not reduce the system to vintage, Y2K, cyberpunk, collage, or a fixed template."
 ---
 
 # FLOA Mariposa 新编辑主义视觉系统
@@ -201,6 +201,7 @@ Use the host's image or layout tools. Preserve faces, body logic, products, obje
 ### Step 7 — hand off special outputs
 
 - For a poster, cover, campaign still, or social graphic, finish under this Skill.
+- If the user asks for a Photoshop PSD, plan the layer stack before rendering. Keep the background, source anchor, geometric planes, product lockup, texture, shadow, and other meaningful roles as aligned full-canvas assets, then hand the manifest to `poster-layered-psd-export`. If the host only produced a flattened image, report that a true semantic PSD cannot be reconstructed.
 - For a multi-page clickable viewer or real MP4 page flip, keep this Skill as the visual direction and hand the page mechanics to `page-flip-showcase`.
 - For a material-first transformation, use the matching specialist Skill only when that material is the user's main request. Do not let a material Skill erase the FLOA Mariposa brand identity.
 

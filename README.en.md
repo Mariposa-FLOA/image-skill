@@ -6,6 +6,8 @@ Image skill is a collection of original visual Skills for Codex, WorkBuddy, and 
 
 New brand Skill: [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-system/). It is dedicated to the product `FLOA Mariposa`; its public style name is “Neo-Editorial Visual Language,” not generic vintage styling. See [`docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md`](docs/FLOA-MARIPOSA-VISUAL-SYSTEM.md).
 
+New production utility: [`poster-layered-psd-export`](skills/poster-layered-psd-export/) exports real poster layers to Photoshop PSD with an editability manifest. See [`docs/LAYERED-PSD-EXPORT.md`](docs/LAYERED-PSD-EXPORT.md).
+
 ## Start here: using the Skills
 
 Read [`docs/USAGE.en.md`](docs/USAGE.en.md) first. It explains how beginners can import and call these Skills in Codex, WorkBuddy / Workbuddy, and other agents that support custom Skill folders or Markdown instructions, including platform ratios and `test` / `accepted` delivery states.
@@ -38,6 +40,10 @@ The same source can take different paths, but it is never forced into one templa
 Public example:
 
 [FLOA Mariposa Neo-Editorial Visual Language](examples/floa-mariposa-visual-system.png)<br><img src="examples/floa-mariposa-visual-system.png" alt="FLOA Mariposa Neo-Editorial Visual Language" width="360">
+
+### New production utility · Layered Photoshop PSD (Unreleased)
+
+[`poster-layered-psd-export`](skills/poster-layered-psd-export/) · [feature guide](docs/LAYERED-PSD-EXPORT.md) writes aligned RGBA layers, opacity, blend modes, Unicode names, and a merged preview to a PSD with an editability manifest.
 
 ### Our Original Skills
 

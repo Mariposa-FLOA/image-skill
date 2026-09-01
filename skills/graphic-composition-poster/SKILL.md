@@ -140,6 +140,10 @@ Before delivery, confirm:
 
 If the governing relation is weak, rebuild from the blank plane instead of adding effects.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD or wants to continue editing in Photoshop, plan the layer ownership before rendering. Keep the colour field, source anchor, geometric counter-shape, live-copy candidate, texture, and shadow as separate aligned RGBA assets whenever they are real independent roles. Build a `project.json` manifest and use `poster-layered-psd-export` to write and validate the PSD. A flattened PNG cannot be honestly separated after the fact; text is only “live” when the host actually created a native type layer.
+
 ## Format and delivery
 
 - When no ratio is specified, inspect the source orientation, crop, grid, and quiet zone and choose the canvas that preserves the graphic composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
