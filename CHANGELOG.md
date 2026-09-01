@@ -7,6 +7,7 @@
 - Added adaptive background guidance: analyse each poster's palette, composition, typography, material, and motif before choosing collage layers; keep linework subordinate when collage is stronger.
 - Refreshed the chat-ready export for `page-flip-showcase`.
 - Added cross-agent delivery instructions covering one-file upload, full-folder import, host capability checks, and a minimal self-test for Codex, WorkBuddy, and other agents.
+- Published the current 1080 × 1440 MP4 page-flip demonstration under `examples/page-flip-showcase.mp4`.
 
 ## v1.0.4 — 2026-09-01
 

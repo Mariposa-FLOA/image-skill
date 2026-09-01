@@ -71,6 +71,8 @@ Y2K · URBAN SIGNAL（变体 / variant）
 
 See the [complete gallery](examples/README.md). RED SIGNAL and URBAN SIGNAL are the maintainer's supplied Skill outputs, preserved unchanged.
 
+The page-flip showcase also includes a [real MP4 page-flip demo](examples/page-flip-showcase.mp4).
+
 ## Installation
 
 Clone the repository and copy the Skill you need into your Codex Skills directory:
