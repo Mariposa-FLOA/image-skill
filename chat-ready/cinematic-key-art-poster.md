@@ -175,6 +175,10 @@ Typography may become part of the story world through interruption, erosion, con
 - Keep hands, limbs, eyewear, jewelry, tools, vehicles, and architecture structurally coherent.
 - When a face is obscured or shown from behind, preserve that storytelling choice rather than inventing a frontal portrait.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD or wants to continue editing in Photoshop, plan the key-art layer ownership before rendering. Keep the environment, subject, transformed prop, light/atmosphere, title, and texture as separate aligned assets whenever they are real independent roles, then use `poster-layered-psd-export` to write and validate the PSD. If the host only produced a flattened image, report that limitation instead of inventing semantic layers or live type.
+
 ## Format
 
 - If no ratio is specified, use the source-aware canvas chosen above; do not force a theatrical one-sheet or stretch the result. Follow an explicit user ratio only when one is supplied.

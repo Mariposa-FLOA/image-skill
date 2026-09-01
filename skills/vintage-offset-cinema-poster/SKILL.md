@@ -33,6 +33,10 @@ Create one original 2–6 word title and one restrained tagline unless the user 
 
 Preserve people, viewpoint, pose, clothing, vehicles, objects, and architecture. Keep faces recognizable when visible and do not invent a frontal face from a back view. Ensure hands, steering wheels, dashboards, roads, and object contact remain coherent.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, preserve the real print construction as separate aligned assets: paper/field, ink planes, halftone or registration, source anchor, title, and shadow. Use `poster-layered-psd-export` to write and validate the PSD; do not create fake layers by duplicating one distressed image.
+
 ## Format and quality gate
 
 - If no ratio is specified, use the source-aware canvas chosen above; do not force a theatrical format or stretch the result. Follow an explicit user ratio only when one is supplied.

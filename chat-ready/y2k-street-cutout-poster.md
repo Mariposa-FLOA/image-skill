@@ -47,6 +47,10 @@ When rejected, rebuild the crop, scale relation, graphic mechanism, and palette 
 - Keep hands, fingers, phones, jewelry, eyewear, and foreshortened objects anatomically coherent. If an enlarged crop is used, it must belong to the same person and object.
 - When the source shows only a back or obscured face, preserve that viewpoint and do not invent a front-facing identity.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, keep the real cutout subject, background colour field, sticker/cut-paper shapes, typography, texture, and shadow as separate aligned assets before rendering. Use `poster-layered-psd-export` to write and validate the PSD, and label text as raster unless the host made native type layers.
+
 ## Format and originality
 
 - When no ratio is specified, inspect the source pose, cutout silhouette, type field, and negative space and choose the canvas that makes the page read best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.

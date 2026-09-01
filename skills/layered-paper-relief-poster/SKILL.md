@@ -31,6 +31,10 @@ Use one short title and optional two-word secondary line. Derive the wording fro
 
 Preserve identity cues, expression, body proportions, pose, hairstyle, clothing silhouette, pet breed, and object relationships. A visible face must use layered planes for eyes, nose, mouth, and jaw; never use a blank oval. Preserve obscured or back-facing viewpoints. Keep fingers, wheels, straps, frames, and architectural joints coherent.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, preserve the actual relief construction as separate aligned layers: paper field, cut planes, subject/object planes, type cutouts, depth shadows, and highlights. Use `poster-layered-psd-export` to write and validate the file. Do not manufacture extra paper layers from a flattened render.
+
 ## Format and quality gate
 
 - When no ratio is specified, inspect the source orientation, subject scale, and negative space and choose the canvas that preserves the composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.

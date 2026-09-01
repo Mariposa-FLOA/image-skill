@@ -31,6 +31,10 @@ Let one hand-drawn headline ride a contour or occupy a curve-created pocket. Add
 
 Preserve recognizable face structure, expression, pose, body proportions, clothing, pet identity, and object interaction. A visible face must remain legible through drawing, never erased by motion lines. Preserve back views. Keep hands, straps, wheels, tools, and contact points coherent.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, keep the source anchor, contour field, key line groups, type, colour field, and shadow as separate aligned RGBA assets wherever they are independently useful. Use `poster-layered-psd-export` to write and validate the PSD, and identify raster text honestly.
+
 ## Format and quality gate
 
 - When no ratio is specified, inspect the source orientation, subject gesture, and negative space and choose the canvas that preserves the force path best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.

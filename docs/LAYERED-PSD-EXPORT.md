@@ -2,6 +2,8 @@
 
 仓库新增 `poster-layered-psd-export`，用于把已经完成分层规划的海报导出为可以在 Photoshop 继续编辑的 PSD。
 
+当前海报类 Skill 已统一接入这条分层交付分支：视觉 Skill 负责从生成开始规划真实图层，`poster-layered-psd-export` 负责写入和验证 PSD。
+
 ## 真实支持什么
 
 - PSD 画布尺寸、DPI 和 RGB/8 位信息；

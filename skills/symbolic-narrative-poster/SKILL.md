@@ -146,6 +146,10 @@ Before delivery, verify:
 - Nothing resembles a copy of a reference’s exact composition, palette, title treatment, or punchline.
 - It is materially distinct from existing cinematic, Y2K, collage, and graphic-composition Skills.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, plan the visual metaphor as separate useful layers: source anchor, transformed symbol, field, type, light, and shadow. Use `poster-layered-psd-export` to write and validate the file. Do not invent editable parts that were only generated as a single composite image.
+
 ## Format and delivery
 
 - When no ratio is specified, inspect the source fact, transformed field, and negative space and choose the canvas that makes the visual sentence clearest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.

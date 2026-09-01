@@ -31,6 +31,10 @@ Use one very short title or vertical word, incised or stamped into a structural 
 
 When people appear, preserve viewpoint, silhouette, pose, identity cues, and proportions; use more facial detail only if the face is a true focal point. Never erase a prominent face into anonymous darkness. Keep architecture and object connections plausible.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, keep the mineral field, carved source mass, light event, type, and shadow as separate aligned assets when they are real independent roles. Use `poster-layered-psd-export` to write and validate the PSD; a flat render cannot honestly expose hidden carving or live text.
+
 ## Format and quality gate
 
 - When no ratio is specified, inspect the source orientation, subject mass, void, and luminous event and choose the canvas that preserves the value architecture best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.

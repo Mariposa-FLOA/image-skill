@@ -148,6 +148,10 @@ Before delivery, confirm:
 
 If a distortion cannot be explained by a material surface, rebuild it rather than covering it with a stronger grade.
 
+## Editable Photoshop branch
+
+When the user asks for a layered PSD, keep the source anchor, optical medium, refraction/reflection layer, background, type, and shadows separate when the construction actually supports it. Use `poster-layered-psd-export` to write and validate the file. If the refraction is baked into one flat image, report that it is not independently editable.
+
 ## Format and delivery
 
 - When no ratio is specified, inspect the source orientation, optical medium, anchor, and quiet area and choose the canvas that makes the physical event clearest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
