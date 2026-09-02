@@ -148,6 +148,10 @@ Before delivery, confirm:
 
 If a distortion cannot be explained by a material surface, rebuild it rather than covering it with a stronger grade.
 
+## V3 Optical hierarchy upgrade
+
+Choose one optical law and make it affect at least two readable properties of the source—such as position plus scale, edge plus colour, or depth plus sharpness. Keep one anchor sharp enough to verify identity, one medium boundary visible enough to explain the event, and one quiet area free of competing effects. Do not layer glass, prism, mirror, blur, and glow as separate ideas.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep the source anchor, optical medium, refraction/reflection layer, background, type, and shadows separate when the construction actually supports it. Use `poster-layered-psd-export` to write and validate the file. If the refraction is baked into one flat image, report that it is not independently editable.

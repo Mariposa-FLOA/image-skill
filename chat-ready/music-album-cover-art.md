@@ -153,6 +153,10 @@ Proof every character in order. Reject pseudo-letters, accidental words, fake lo
 - Keep a back view or obscured face when it carries the source's emotional meaning; do not invent a frontal identity.
 - If the cover is a full redraw, preserve the source's semantic facts while changing the image-making method. Do not merely filter the original photo.
 
+## V3 Release-cover hierarchy upgrade
+
+Before polishing a cover, rank the release idea into one first read, one source anchor, one type/lockup relationship, and one quiet zone. Let the artwork remain identifiable without the artist name or title; keep the title, artist identity, and release metadata in a deliberate hierarchy rather than filling every edge. If the cover could be swapped with a generic fashion, lifestyle, or music thumbnail without changing its meaning, rebuild the source-specific visual event.
+
 ## Editable layered delivery
 
 Read [references/editable-layer-delivery.md](references/editable-layer-delivery.md) whenever the user wants secondary editing, variants, localisation, or an accepted final. Plan layers before generation; a flattened render cannot become honestly editable after the fact.

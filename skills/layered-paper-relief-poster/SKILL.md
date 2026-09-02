@@ -31,6 +31,10 @@ Use one short title and optional two-word secondary line. Derive the wording fro
 
 Preserve identity cues, expression, body proportions, pose, hairstyle, clothing silhouette, pet breed, and object relationships. A visible face must use layered planes for eyes, nose, mouth, and jaw; never use a blank oval. Preserve obscured or back-facing viewpoints. Keep fingers, wheels, straps, frames, and architectural joints coherent.
 
+## V3 Relief hierarchy upgrade
+
+Assign every plane a clear elevation and keep one motivated light direction. Use three to five meaningful depth levels, with the hero subject or type receiving the strongest edge separation and the background planes remaining quieter. A layer is successful only when removing it changes the silhouette, depth, or light logic; do not add equal-thickness paper pieces as decoration.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, preserve the actual relief construction as separate aligned layers: paper field, cut planes, subject/object planes, type cutouts, depth shadows, and highlights. Use `poster-layered-psd-export` to write and validate the file. Do not manufacture extra paper layers from a flattened render.

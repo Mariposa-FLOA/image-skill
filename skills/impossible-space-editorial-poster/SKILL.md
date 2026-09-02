@@ -143,6 +143,10 @@ If one severe identity, perspective, collision, or text failure remains, make on
 
 When evaluating or extending the Skill itself, read [references/validated-tests.md](references/validated-tests.md) for demonstrated route behavior and failure boundaries. Do not copy those sample layouts into unrelated images.
 
+## V3 Spatial clarity upgrade
+
+Make the contradiction readable through three depth levels: stable source plane, changed threshold/plane, and one transformed anchor. The anchor must remain the first recognisable subject while the impossible relation becomes the second read. Use one camera logic, one light direction, and one collision; remove any floating object or extra portal that does not explain the spatial sentence.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, preserve the actual spatial construction as separate aligned layers: background field, depth planes, source subject, occlusion/collision planes, typography, light, and shadow. Use `poster-layered-psd-export` to write and validate the file. If the impossible space was rendered as one flat image, do not claim that its hidden planes are independently editable.

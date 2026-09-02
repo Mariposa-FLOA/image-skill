@@ -33,6 +33,10 @@ Create one original 2–6 word title and one restrained tagline unless the user 
 
 Preserve people, viewpoint, pose, clothing, vehicles, objects, and architecture. Keep faces recognizable when visible and do not invent a frontal face from a back view. Ensure hands, steering wheels, dashboards, roads, and object contact remain coherent.
 
+## V3 Plate hierarchy upgrade
+
+Use the paper field, dark key plate, one dominant spot colour, and one small counter-accent as a deliberate value ladder. Let the charged crop or directional device do the narrative work before halftone and wear appear. Misregistration should reveal a plate relationship; if it reads as random dirt, remove it and repair the crop or colour separation.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, preserve the real print construction as separate aligned assets: paper/field, ink planes, halftone or registration, source anchor, title, and shadow. Use `poster-layered-psd-export` to write and validate the PSD; do not create fake layers by duplicating one distressed image.

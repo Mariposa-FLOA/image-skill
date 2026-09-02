@@ -7,6 +7,7 @@
 - Standardized the Photoshop layer-planning handoff across the poster-oriented Skills so PSD output is considered before rendering, not retrofitted from a flattened image.
 - Added a portable poster-editing package builder that bundles the PSD, aligned layer PNGs, merged preview, normalized manifest, and editing notes in one handoff directory.
 - Added a visual direction selector, hierarchy ratios, and local source-signal analyzer so FLOA Mariposa visuals can choose a governing composition before colour, type, and material treatment.
+- Upgraded the remaining specialist visual Skills with mechanism-specific hierarchy checks for key art, screenprint, impossible space, contour, relief, mineral, collage, optics, symbolism, offset, Y2K, album covers, and page-flip presentation.
 - Added `floa-mariposa-visual-system`, a brand-specific Neo-Editorial visual system for the maintainer's product FLOA Mariposa, with reusable references, copy rules, series guidance, and cross-agent chat delivery.
 - Added one maintainer-authorized public example image for `floa-mariposa-visual-system`; the remaining source poster set stays outside the repository.
 - Upgraded `page-flip-showcase` from a static page-turn treatment to three explicit output modes: static showcase, clickable one-page-at-a-time viewer, and locally rendered MP4 page-flip animation.

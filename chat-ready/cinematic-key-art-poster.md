@@ -175,6 +175,10 @@ Typography may become part of the story world through interruption, erosion, con
 - Keep hands, limbs, eyewear, jewelry, tools, vehicles, and architecture structurally coherent.
 - When a face is obscured or shown from behind, preserve that storytelling choice rather than inventing a frontal portrait.
 
+## V3 Visual direction upgrade
+
+Before rendering, rank the image into three reads: **hero event**, **source anchor**, and **title**. The hero event should occupy roughly half the visual weight and remain understandable without copy. Use no more than one major transformation, one counterweight, and two meaningful atmosphere zones. If the poster could be reduced to a generic streaming thumbnail by removing the title, redesign the event, depth planes, or omission before polishing.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD or wants to continue editing in Photoshop, plan the key-art layer ownership before rendering. Keep the environment, subject, transformed prop, light/atmosphere, title, and texture as separate aligned assets whenever they are real independent roles, then use `poster-layered-psd-export` to write and validate the PSD. If the host only produced a flattened image, report that limitation instead of inventing semantic layers or live type.

@@ -146,6 +146,10 @@ Before delivery, verify:
 - Nothing resembles a copy of a reference’s exact composition, palette, title treatment, or punchline.
 - It is materially distinct from existing cinematic, Y2K, collage, and graphic-composition Skills.
 
+## V3 Metaphor hierarchy upgrade
+
+Limit the poster to one source-derived metaphor, one visible transformation, and one type measure. The metaphor should remain legible without an explanatory paragraph; the image relation carries the idea and the title only sharpens it. If two symbols compete, keep the one that depends most specifically on the supplied source and remove the other.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, plan the visual metaphor as separate useful layers: source anchor, transformed symbol, field, type, light, and shadow. Use `poster-layered-psd-export` to write and validate the file. Do not invent editable parts that were only generated as a single composite image.

@@ -31,6 +31,10 @@ Use meaningful source text when it helps; otherwise derive a short original phra
 
 Keep recognizable faces, skin tone, expression, clothing, object relationships, and body proportions. Apply flattering cleanup only. Preserve back views and obscured faces rather than inventing identities. Keep hands, pets, wheels, eyewear, and architecture coherent.
 
+## V3 Collage hierarchy upgrade
+
+Build the collage around exactly three roles: one truthful photographic anchor, one printed or typographic extension, and one paper/colour gesture. Let the anchor carry recognition, the extension carry meaning, and the gesture carry rhythm. Keep the anchor large enough to read at thumbnail size and remove any fragment that does not change the relationship between those three roles.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep the truthful photo anchor, printed extension, cut-paper pieces, type, texture, and shadow as separately aligned assets whenever they are real roles. Use `poster-layered-psd-export` to write and validate the PSD, and do not pretend a flattened collage has editable source fragments.

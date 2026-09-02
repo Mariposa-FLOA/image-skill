@@ -47,6 +47,10 @@ When rejected, rebuild the crop, scale relation, graphic mechanism, and palette 
 - Keep hands, fingers, phones, jewelry, eyewear, and foreshortened objects anatomically coherent. If an enlarged crop is used, it must belong to the same person and object.
 - When the source shows only a back or obscured face, preserve that viewpoint and do not invent a front-facing identity.
 
+## V3 Cutout hierarchy upgrade
+
+Keep one recognisable cutout as the hero, one enlarged detail as the secondary read, and one graphic interruption that responds to the pose or accessory. Use a neutral field to give high-chroma accents room to work. If the page needs more than one sticker pile, burst, chrome effect, and neon treatment to feel energetic, rebuild the crop and scale relation instead.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep the real cutout subject, background colour field, sticker/cut-paper shapes, typography, texture, and shadow as separate aligned assets before rendering. Use `poster-layered-psd-export` to write and validate the PSD, and label text as raster unless the host made native type layers.

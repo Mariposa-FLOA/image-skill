@@ -31,6 +31,10 @@ Let one hand-drawn headline ride a contour or occupy a curve-created pocket. Add
 
 Preserve recognizable face structure, expression, pose, body proportions, clothing, pet identity, and object interaction. A visible face must remain legible through drawing, never erased by motion lines. Preserve back views. Keep hands, straps, wheels, tools, and contact points coherent.
 
+## V3 Line rhythm upgrade
+
+Give the contour field three readable densities: a sparse quiet zone, a medium transition zone, and a concentrated action zone. Let line direction follow a real source force—gaze, gesture, wind, road, garment, or object trajectory—and keep the subject edge clearer than the field around it. Do not fill the canvas evenly or let decorative lines compete with the source anchor and type.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep the source anchor, contour field, key line groups, type, colour field, and shadow as separate aligned RGBA assets wherever they are independently useful. Use `poster-layered-psd-export` to write and validate the PSD, and identify raster text honestly.

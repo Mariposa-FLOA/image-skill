@@ -31,6 +31,10 @@ Use one very short title or vertical word, incised or stamped into a structural 
 
 When people appear, preserve viewpoint, silhouette, pose, identity cues, and proportions; use more facial detail only if the face is a true focal point. Never erase a prominent face into anonymous darkness. Keep architecture and object connections plausible.
 
+## V3 Luminous-event upgrade
+
+Spend the visual brightness on one motivated luminous event. Keep most of the field dark enough for the carved source mass to read, reserve the sharpest edge and warmest value for the focal reveal, and let secondary mineral detail fall back into the value structure. If there are multiple competing glows, reduce them to one event before adding surface texture.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep the mineral field, carved source mass, light event, type, and shadow as separate aligned assets when they are real independent roles. Use `poster-layered-psd-export` to write and validate the PSD; a flat render cannot honestly expose hidden carving or live text.

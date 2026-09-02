@@ -31,6 +31,10 @@ Use one compressed display headline as a structural block, plus at most one shor
 
 Preserve identity, expression, hairstyle, skin tone, pose, clothing logic, and important objects. Faces must retain eyes, nose, mouth, and chin through simplified planes. Do not create blank faces or generic models. Keep hands and object connections anatomically plausible.
 
+## V3 Ink hierarchy upgrade
+
+Treat ink economy as the visual hierarchy: paper first, dark key shape second, one dominant high-purity ink third, and one supporting accent last. Keep focal contours in the clearest and largest shapes; let background detail become coarser and quieter. If every plate is equally saturated or equally detailed, reduce the plates before adding registration or distress.
+
 ## Editable Photoshop branch
 
 When the user asks for a layered PSD, keep each real ink plane, halftone/registration layer, source anchor, type block, and background as separate aligned RGBA assets before rendering. Use `poster-layered-psd-export` to write and validate the PSD, and label raster text honestly. Do not split a flattened screenprint into fake ink layers after the fact.
