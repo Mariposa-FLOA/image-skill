@@ -87,6 +87,29 @@ Use the swap test: if an unrelated image could occupy the same design without ch
 
 ## Core visual grammar
 
+### Visual direction selector
+
+Choose one primary direction from the source before choosing effects:
+
+- **Signal** — a dark or saturated field, one luminous/colour interruption, and a readable communication, screen, or night-space cue;
+- **Threshold** — a calm field, one opening/beam/plane, and an isolated figure or object that creates anticipation;
+- **Orbit** — a path, circular relation, repeated frame, or receding axis that makes movement or becoming visible;
+- **Archive** — a restrained value system, measured grid, source text/fragment, and controlled print or registration behaviour.
+
+Use one primary direction and at most one supporting move. Do not combine all four. Direction is a composition decision, not a colour preset.
+
+### Scale and hierarchy ratios
+
+Use these as visual checks rather than rigid templates:
+
+- primary visual mass: roughly 45–65% of the canvas;
+- secondary counter-shape or spatial plane: roughly 20–35%;
+- accent event: roughly 5–12%;
+- purposeful quiet zone: at least 15% when the subject and copy allow it;
+- no more than two type families, three type scales, and two text colours in one poster.
+
+If every element has equal size, saturation, or contrast, remove or subordinate elements before adding detail.
+
 ### 1. Colour territories
 
 Start from the source and assign colour roles instead of applying a preset. The reference family often supports:
@@ -159,6 +182,10 @@ Decide whether the user wants a single poster, a repeatable series, a product/ca
 - **one-off experiments:** effects or props that should not become permanent rules.
 
 Do not promote every repeated surface effect into a brand rule.
+
+### Step 1.5 — measure the source when local tools are available
+
+For a local image, run `scripts/analyze_poster_direction.py` before writing the final art direction. Use its palette, ratio, visual-anchor candidates, and quiet-zone candidates as evidence, then confirm them visually. The script is a heuristic assistant; it cannot read faces, exact words, or the meaning of a metaphor.
 
 ### Step 2 — extract the brand system
 
@@ -266,3 +293,7 @@ For accepted visuals in a local workspace, use the host's configured accepted-ou
 - Read [references/visual-language.md](references/visual-language.md) when you need the detailed brand map, source-derived motif catalogue, or palette/type guidance.
 - Read [references/brand-copy-contract.md](references/brand-copy-contract.md) when the user supplies product names, slogans, campaign copy, or a lockup that must remain exact.
 - Read [references/series-system.md](references/series-system.md) when building more than one poster and deciding what remains fixed versus what changes.
+
+## Scripts
+
+- `scripts/analyze_poster_direction.py` — extract lightweight palette, tone, grid activity, anchor candidates, and a direction suggestion from a local poster image.

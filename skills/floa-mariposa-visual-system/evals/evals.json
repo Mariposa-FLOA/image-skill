@@ -48,6 +48,18 @@
       "prompt": "用户没有给宣传文案，只说产品叫 FLOA Mariposa。请做视觉方案，不要编造产品功能、发布日期、客户、奖项或技术参数。",
       "expected_output": "A concise visual direction using the exact product name only, with no unsupported claims or fake editorial metadata.",
       "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "请根据这张海报判断它更适合 Signal、Threshold、Orbit 还是 Archive，只选一个主导方向，再设计 FLOA Mariposa 视觉，不要把四种方向全部堆上去。",
+      "expected_output": "One selected visual direction drives the composition, with at most one supporting move and no overloaded combination of all four modes.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "这张图要做成有审美的品牌海报。请控制主视觉、次级形状、强调色和安静区的比例，不要让所有文字、形状和颜色同样抢眼。",
+      "expected_output": "A clear visual hierarchy with a dominant mass, subordinate counter-shape, measured accent, quiet zone, and restrained type system.",
+      "files": []
     }
   ]
 }

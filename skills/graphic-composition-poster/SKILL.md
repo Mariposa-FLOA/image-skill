@@ -22,6 +22,12 @@ Treat the poster as a designed plane, not a photo with decorations. Before rende
 
 Make a wordless thumbnail pass first. If the image has no visual hierarchy without text, change the crop, scale, or dominant shape before writing copy. When a result is rejected, change at least three structural decisions—axis, scale, type behaviour, colour/value family, or negative-space geometry—instead of adding more type or effects.
 
+## V3 Visual hierarchy upgrade
+
+Before committing to a layout, choose one primary read from **type mass**, **source crop**, **figure-ground**, **colour territory**, or **spatial interruption**. Give it roughly half the visual weight of the poster. Add only one counter-shape and one quiet zone; keep secondary detail subordinate. Use a 60/30/10 relationship as a starting check for field, anchor, and accent, then adjust to the source. Do not let every shape, word, and colour compete at the same volume.
+
+Typography should use no more than two families and three scales by default. A title must share an edge, axis, crop, or measure with the image; if it can be moved anywhere without changing the composition, it is decoration and needs a structural reset.
+
 ## What this Skill owns
 
 This Skill is for **graphic composition**: an image can become an oversized crop, a fragment in a grid, a counter-shape inside type, a strip of evidence, or a color-and-scale event. It does not require an imagined plot, genre, or film title.

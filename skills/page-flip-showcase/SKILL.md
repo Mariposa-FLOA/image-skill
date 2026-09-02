@@ -96,6 +96,10 @@ Change the page structure or crop before adding more props, texture, or effects.
 
 Aim for the feeling of a small art book, contact-sheet folio, or premium editorial portfolio: generous breathing room, tactile but clean paper, a clear sequence, and a page action that can be understood in one glance. The supplied images should do the emotional or informational work; the book is the framing device.
 
+## Visual hierarchy upgrade
+
+Treat the flipbook as a sequence of poster compositions, not a repeated mockup. For each active page, choose one first read—image anchor, type mass, colour field, or source-derived fragment—and keep the book/page mechanics secondary. Vary the background composition with the active poster while preserving a stable page safe zone. Use one dominant collage relationship, one quiet area, and at most one small identity mark; remove lines, cards, and decorative elements that do not improve the page read.
+
 ## Adaptive collage background
 
 Do not reuse one fixed red-blue backdrop for every input set. Before building the background, read each poster as design evidence:
