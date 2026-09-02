@@ -79,6 +79,16 @@ python3 skills/poster-layered-psd-export/scripts/validate_psd.py \
 
 The validator checks the Photoshop signature, RGB/8 structure, canvas, layer count, layer records, channel data, compression sections, Unicode names, and composite image data.
 
+For a portable handoff, package the PSD together with the preview, aligned layer PNGs, normalized project manifest, and editing notes:
+
+```bash
+python3 skills/poster-layered-psd-export/scripts/build_editable_poster_package.py \
+  --project path/to/project.json \
+  --output path/to/poster-editing-package
+```
+
+The package writes `editable/poster.psd`, `editable/poster.manifest.json`, `preview/final.png`, `layers/`, `project.json`, and `EDITING.md`. It refuses to overwrite an existing package directory.
+
 ## Text and editability truth
 
 The exporter creates raster pixel layers. A layer named `headline [raster text]` can be moved, masked, recoloured, erased, and retouched in Photoshop, but its characters are not a native Photoshop type layer.

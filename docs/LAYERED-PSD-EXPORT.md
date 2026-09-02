@@ -69,6 +69,16 @@ python3 skills/poster-layered-psd-export/scripts/validate_psd.py \
 
 输出 PSD 和同名 `.manifest.json`。导出器拒绝覆盖已有文件。
 
+如果要把工程完整交给自己、Photoshop 或其他智能体，使用便携编辑包：
+
+```bash
+python3 skills/poster-layered-psd-export/scripts/build_editable_poster_package.py \
+  --project path/to/project.json \
+  --output path/to/poster-editing-package
+```
+
+编辑包会把 `poster.psd`、合并预览、全部分层 PNG、规范化的 `project.json` 和 `EDITING.md` 放在同一个目录，避免 PSD 打开后找不到原始图层素材。
+
 ## 和海报 Skill 一起使用
 
 ```text

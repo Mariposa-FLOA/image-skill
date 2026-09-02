@@ -5,6 +5,7 @@
 - Added `poster-layered-psd-export`, a local PSD writer and structural validator for poster projects with aligned RGBA layers, Unicode layer names, opacity, blend modes, merged preview, and an editability manifest.
 - Added truthful raster-text and flattened-input boundaries so poster Skills do not claim semantic layers or live Photoshop text that were never created.
 - Standardized the Photoshop layer-planning handoff across the poster-oriented Skills so PSD output is considered before rendering, not retrofitted from a flattened image.
+- Added a portable poster-editing package builder that bundles the PSD, aligned layer PNGs, merged preview, normalized manifest, and editing notes in one handoff directory.
 - Added `floa-mariposa-visual-system`, a brand-specific Neo-Editorial visual system for the maintainer's product FLOA Mariposa, with reusable references, copy rules, series guidance, and cross-agent chat delivery.
 - Added one maintainer-authorized public example image for `floa-mariposa-visual-system`; the remaining source poster set stays outside the repository.
 - Upgraded `page-flip-showcase` from a static page-turn treatment to three explicit output modes: static showcase, clickable one-page-at-a-time viewer, and locally rendered MP4 page-flip animation.

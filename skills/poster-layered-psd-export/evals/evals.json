@@ -24,6 +24,12 @@
       "prompt": "请验证导出的 PSD 是否有正确画布尺寸、图层数量、图层顺序、透明度和合并预览，不要只检查文件扩展名。",
       "expected_output": "The validator checks PSD structure, layer records, channel data, compression, and composite image data rather than relying on the extension.",
       "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "我要把海报工程交给 Photoshop 和另一个智能体继续编辑，请把 PSD、预览、全部分层 PNG、项目清单和编辑说明打成一个不覆盖已有文件的编辑包。",
+      "expected_output": "A portable editing package contains a verified PSD, manifest, preview, aligned layer PNGs, normalized project JSON, and editing notes, while refusing to overwrite an existing directory.",
+      "files": []
     }
   ]
 }
