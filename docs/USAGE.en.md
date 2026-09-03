@@ -64,6 +64,8 @@ Use `floa-mariposa-visual-system` for brand-specific FLOA Mariposa posters, camp
 
 Use `poster-layered-psd-export` when a poster must continue into Photoshop as a verified layered PSD; pair it with the upstream poster Skill that creates the actual layer assets.
 
+Use `glitchy-glam-editorial-visual` for current fashion, beauty, product, and social imagery built around one controlled beauty fracture rather than a generic glitch filter.
+
 Use `cinematic-key-art-poster` for film narrative key art, `graphic-composition-poster` for crop/grid/type composition, `impossible-space-editorial-poster` for spatial contradiction, `music-album-cover-art` for record identity and layered masters, `optical-refraction-visual` for believable transparent media, `symbolic-narrative-poster` for one visual metaphor, and `y2k-street-cutout-poster` for Y2K street collage. Use the matching Skill for screenprint, contour, paper relief, mineral relief, mixed media, offset print, or page-turn presentation.
 
 Choose one governing Skill per image. State a platform ratio only when needed; otherwise let the Skill infer a source-preserving canvas. Do not ask conflicting Skills to take over at once.

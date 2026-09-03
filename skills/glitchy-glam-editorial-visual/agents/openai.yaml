@@ -1,0 +1,5 @@
+interface:
+  display_name: "错位华丽编辑视觉"
+  short_description: "用一次有控制的错位打造当代时髦的人物与产品视觉"
+  brand_color: "#5B6FF2"
+  default_prompt: "Use $glitchy-glam-editorial-visual to create an original polished editorial image with one controlled beauty fracture from my uploaded image or brief."

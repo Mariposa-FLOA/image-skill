@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added `glitchy-glam-editorial-visual`, a trend-aware image Skill for fashion, beauty, product, and social visuals built around one controlled beauty fracture instead of generic full-frame glitch effects.
 - Added `poster-layered-psd-export`, a local PSD writer and structural validator for poster projects with aligned RGBA layers, Unicode layer names, opacity, blend modes, merged preview, and an editability manifest.
 - Added truthful raster-text and flattened-input boundaries so poster Skills do not claim semantic layers or live Photoshop text that were never created.
 - Standardized the Photoshop layer-planning handoff across the poster-oriented Skills so PSD output is considered before rendering, not retrofitted from a flattened image.

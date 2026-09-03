@@ -1,0 +1,41 @@
+{
+  "skill_name": "glitchy-glam-editorial-visual",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把这张人像做成现在很流行的 Glitchy Glam 时尚视觉，要高级、好看，但只能有一次有控制的错位，不要满屏故障特效。",
+      "expected_output": "A polished editorial portrait with one controlled beauty fracture, preserved identity, restrained type/effects, and no full-frame glitch noise.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把我的产品图做成 Pinterest 感的时髦商业视觉，可以用冷蓝和高光，但不要做成赛博朋克，也不要改变产品形状。",
+      "expected_output": "A source-faithful product visual using cool colour and controlled gloss/offset, without cyberpunk scenery or altered product geometry.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想要一张 avant-garde beauty editorial，左右妆容和颜色可以不对称，但人物脸不能变形，文字只放一个短标题。",
+      "expected_output": "A deliberate asymmetry treatment with intact facial identity, one short integrated title, and no anatomy errors.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "不要只给我一个 glitch 滤镜。请先做干净的主体，再选择一个具体的视觉断裂，让画面在缩略图里也能看懂。",
+      "expected_output": "The workflow establishes a clean source anchor first, selects one meaningful fracture, and checks thumbnail hierarchy before finishing.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "把这张图做成 PSD，背景、主体、错位效果、文字和阴影都要能在 Photoshop 里继续编辑。",
+      "expected_output": "The agent plans real independent layers before rendering, exports a verified PSD through poster-layered-psd-export, and truthfully labels raster text if applicable.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "我给你一张参考图，请吸收它的时髦感，但不要复制它的构图、颜色组合或标志性元素，做一张新的编辑视觉。",
+      "expected_output": "An original source-specific editorial image that transfers high-level energy only and avoids copying layout, palette signature, or recognizable device.",
+      "files": []
+    }
+  ]
+}

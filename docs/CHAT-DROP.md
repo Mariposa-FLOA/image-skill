@@ -64,3 +64,14 @@
 导出 PSD 和分层清单；文字如果不是原生 PS 文字层，请标记为栅格文字。
 先返回 test。
 ```
+
+## Glitchy Glam 图片 Skill
+
+一次性使用时，下载 [`chat-ready/glitchy-glam-editorial-visual.md`](../chat-ready/glitchy-glam-editorial-visual.md)，和人像、时尚或产品图一起上传：
+
+```text
+请按附件中的 Glitchy Glam Editorial Visual 规则处理这张图。
+先让主体清晰、好看、有编辑感，再加入一次受控的错位或不对称。
+不要满屏 glitch、赛博朋克、Y2K 贴纸或随机扫描线；保留人物身份或产品形状。
+先返回 test。
+```

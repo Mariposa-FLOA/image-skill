@@ -8,6 +8,8 @@ New brand Skill: [`floa-mariposa-visual-system`](skills/floa-mariposa-visual-sys
 
 New production utility: [`poster-layered-psd-export`](skills/poster-layered-psd-export/) exports real poster layers to Photoshop PSD with an editability manifest. See [`docs/LAYERED-PSD-EXPORT.md`](docs/LAYERED-PSD-EXPORT.md).
 
+New trend image Skill: [`glitchy-glam-editorial-visual`](skills/glitchy-glam-editorial-visual/), also named “Glitchy Glam Editorial Visual,” creates current fashion, beauty, product, and social imagery through one controlled asymmetry, chromatic echo, crop fracture, or digital/physical mismatch. See [`docs/GLITCHY-GLAM-EDITORIAL-VISUAL.md`](docs/GLITCHY-GLAM-EDITORIAL-VISUAL.md).
+
 ## Start here: using the Skills
 
 Read [`docs/USAGE.en.md`](docs/USAGE.en.md) first. It explains how beginners can import and call these Skills in Codex, WorkBuddy / Workbuddy, and other agents that support custom Skill folders or Markdown instructions, including platform ratios and `test` / `accepted` delivery states.
@@ -44,6 +46,14 @@ Public example:
 ### New production utility · Layered Photoshop PSD (Unreleased)
 
 [`poster-layered-psd-export`](skills/poster-layered-psd-export/) · [feature guide](docs/LAYERED-PSD-EXPORT.md) writes aligned RGBA layers, opacity, blend modes, Unicode names, and a merged preview to a PSD with an editability manifest.
+
+### New trend image Skill · Glitchy Glam (Unreleased)
+
+[`glitchy-glam-editorial-visual`](skills/glitchy-glam-editorial-visual/) · [feature guide](docs/GLITCHY-GLAM-EDITORIAL-VISUAL.md) builds a clean, desirable subject first, then introduces one controlled visual fracture instead of full-frame glitch effects.
+
+### New trend image Skill · Glitchy Glam (Unreleased)
+
+[`glitchy-glam-editorial-visual`](skills/glitchy-glam-editorial-visual/) · [feature guide](docs/GLITCHY-GLAM-EDITORIAL-VISUAL.md) builds a clean, desirable subject first, then introduces one controlled visual fracture instead of full-frame glitch effects.
 
 ### Our Original Skills
 
