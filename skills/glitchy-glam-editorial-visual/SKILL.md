@@ -1,6 +1,6 @@
 ---
 name: glitchy-glam-editorial-visual
-description: "Create original attention-stopping fashion, beauty, portrait, product, and social visuals through one controlled beauty fracture: polished subject clarity interrupted by deliberate asymmetry, chromatic offset, crop shift, reflective surface, or digital/physical mismatch. Use whenever the user asks for Pinterest-inspired trendy imagery, glitchy glam, avant-garde beauty, asymmetric editorial, glossy surreal product visuals, or a current image style that feels fashionable and distinctive. Do not reduce it to random glitch, cyberpunk, Y2K, a generic beauty filter, or copied trend imagery."
+description: "Create original attention-stopping fashion, beauty, portrait, product, and social visuals through one controlled beauty fracture: polished subject clarity interrupted by deliberate asymmetry, chromatic offset, crop shift, reflective surface, or digital/physical mismatch. Use whenever the user asks for Pinterest-inspired trendy imagery, glitchy glam, avant-garde beauty, asymmetric editorial, glossy surreal product visuals, or a current image style that feels fashionable and distinctive, but first analyze the scene, shot scale, people, objects, light, and source geometry to confirm this route is the best fit. Do not reduce it to random glitch, cyberpunk, Y2K, a generic beauty filter, or copied trend imagery."
 ---
 
 # Glitchy Glam Editorial Visual
@@ -61,6 +61,65 @@ Before rendering, write a compact internal brief:
 - **layer plan:** background, source anchor, fracture, colour/graphic plane, type, and finish when editable output is requested.
 
 Do not begin with the word “glitch.” Begin with what is beautiful and what precise relationship will be interrupted.
+
+## Source-first route gate
+
+Use this Skill only after reading the source's scene, shot scale, people, objects, light, and strongest edge. The fracture must be chosen from what the image gives you:
+
+- close portrait or beauty detail → deliberate asymmetry, skin/colour echo, or a restrained crop fracture;
+- medium fashion portrait → garment, accessory, pose, or shadow-based mismatch;
+- full-body or wide scene → one spatial or digital/physical interruption that follows the environment's axis;
+- product/object close-up → gloss interruption, material mismatch, or contour echo tied to the product shape;
+- group scene or busy composition → avoid face-level glitch; use one group-level crop, colour field, or environmental fracture;
+- character sheet → use it for identity only, never copy its grid, labels, or moodboard layout.
+
+If the source is better served by a cinematic, optical, collage, symbolic, or geometric route, hand off instead of forcing Glitchy Glam. The trend name is a possible direction, not the decision.
+
+## Build protocol: isolate the source before adding the fracture
+
+### 1. Segment according to the shot
+
+Read the scene and shot scale first, then isolate only the regions the chosen fracture needs:
+
+- **close portrait:** protect eyes, nose, lips, freckles, hairline, and face contour; use a cheek/ear/hair/accessory region for asymmetry or a small colour echo;
+- **medium fashion shot:** separate face, garment, hands, accessory, and background plane; let the fracture follow a shoulder, sleeve, hem, or shadow;
+- **full-body or wide scene:** preserve the ground, architecture, horizon, and cast shadow; use one environmental crop, colour plane, or offset shadow rather than a face-level glitch;
+- **product/object:** isolate the product silhouette, label, functional parts, and contact shadow; apply gloss, colour, or offset only to a meaningful surface or contour;
+- **group scene:** protect each face and relationship; use one group-level crop, colour field, or environmental interruption, not multiple individual face effects.
+
+Use clean masks or transparent layers where available. Never let the fracture destroy hair strands, fingers, facial landmarks, product lettering, or the contact between an object and its environment. A character sheet supplies identity evidence; segment the person from the sheet only if the host can preserve the features, and never copy the sheet's grid or labels into the final image.
+
+### 2. Establish the clean base
+
+Compose the scene, subject scale, camera crop, key light, and quiet zone before styling. The base image must already look like a deliberate fashion, beauty, or product editorial without glitch effects. If the base is weak, changing the fracture will only hide the problem.
+
+### 3. Add colour selectively
+
+Choose a base value, one glamour highlight, one signal colour, and a quiet neutral. Apply colour with masks, planes, reflected light, or selected styling regions. For example, a cool blue can belong to one garment edge or shadow while a warm red belongs to one highlight; do not tint the whole image or split every edge into RGB. Preserve natural skin and product material unless the brief explicitly asks for a transformation.
+
+### 4. Add the fracture once
+
+Use one mechanism—chromatic echo, deliberate asymmetry, crop fracture, gloss interruption, digital/physical mismatch, or type-body collision. Define its exact region, edge, opacity, and visual purpose. Add at most one small supporting cue. The fracture must change the reading of the clean base; otherwise remove it.
+
+### 5. Add type only after the image works
+
+Use no text by default for a beauty test. When text is requested, use exact copy, a clear hierarchy, and a real relationship to the crop, contour, or empty field. Set text in a live local layer or SVG when it needs to be correct or editable. Never use random pseudo-editorial microcopy to make the image feel fashionable.
+
+### 6. Keep editable layers when requested
+
+Plan these real roles before rendering:
+
+```text
+background / scene field
+source anchor / subject cutout
+glamour light / cast shadow
+fracture / selected offset or surface
+colour plane / accent styling
+type / approved lockup
+texture / finishing detail
+```
+
+Use `poster-layered-psd-export` for PSD output. Mark text as raster unless the host created a native Photoshop type layer. Do not turn a flattened image into a fake multi-layer file.
 
 ## Choose one fracture mechanism
 

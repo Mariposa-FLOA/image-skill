@@ -15,6 +15,10 @@ Darkness is a value architecture, not a black filter. Before rendering, name the
 
 The poster must work without its inscription. Use one material world and at most one controlled fissure/bloom; no multiple glows, neon stripes, fantasy runes, fog sludge, random pitting, sensor grain, or crushed faces. If the result is merely moody or muddy, change the mass arrangement and light source before changing texture.
 
+## Source-to-reliquary construction
+
+Classify the scene, shot scale, people, objects, voids, and brightest source feature before carving. Segment the main mass, void, secondary structure, luminous event, shadow, and inscription area. Build the dark value architecture first; add one warm or cool light event only where the source supports it; add sparse type after the carved silhouette reads. Close objects and silhouettes can carry mineral detail, while a wide scene needs large readable masses. Do not bury a face or product under a generic dark treatment.
+
 ## Reliquary construction
 
 - Reduce the source to three or four monumental relief masses: foreground silhouette, architecture or object block, void, and luminous event.

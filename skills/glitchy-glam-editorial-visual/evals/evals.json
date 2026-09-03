@@ -36,6 +36,18 @@
       "prompt": "我给你一张参考图，请吸收它的时髦感，但不要复制它的构图、颜色组合或标志性元素，做一张新的编辑视觉。",
       "expected_output": "An original source-specific editorial image that transfers high-level energy only and avoids copying layout, palette signature, or recognizable device.",
       "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "我给你一张人物设定卡。请先判断它是近景人物、全身人物还是带场景的角色资料，再决定是否适合 Glitchy Glam；不要直接复制设定卡的排版。",
+      "expected_output": "The agent analyzes shot scale and source role first, selects Glitchy Glam only if supported, and creates a new composition without copying the character-sheet layout.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "请说明这张图应该怎么分割人物、背景和物品，哪些区域可以加色，文字应该放在哪里，然后再做一张图。",
+      "expected_output": "The workflow makes a semantic segmentation and layer plan, applies regional colour, and places exact text only after the source composition is resolved.",
+      "files": []
     }
   ]
 }

@@ -11,6 +11,10 @@ Use the image-generation tool with the uploaded image as the semantic and struct
 
 Do not visualize “music” literally by default. Never add a waveform, tuning fork, headphones, microphone, cassette, speaker, equalizer, musical note, vinyl record, neon sound rings, or floating particles unless the source and release brief specifically make that object meaningful. A cover should look like a designed record, not like an AI illustration of the word music.
 
+## Source-to-cover construction
+
+Read the source's scene, shot scale, artist/person, object, gesture, and available negative space before choosing the cover mode. Segment the artist or source anchor, environment or supporting object, colour field, cover event, type-safe area, and release lockup area. Build the wordless cover and its value hierarchy first; add colour to meaningful planes or material zones; add exact artist/title type only after the cover event reads at thumbnail size. A close portrait may favour identity and one surface change, while a wide scene or object can carry place, scale, or a conceptual relation. Do not force every release into a portrait or literal music symbol.
+
 ## What this Skill owns
 
 This Skill translates musical qualities into visual decisions:

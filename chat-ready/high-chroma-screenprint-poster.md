@@ -15,6 +15,10 @@ Separate the image into a designed ink system before adding print character. Def
 
 Halftone is a controlled tonal construction, not random dirt. Use a deliberate dot scale and quiet paper field; never add sensor grain, speckle, digital noise, arbitrary scratches, or excessive registration drift. Faces, hands, vehicles, and object joins get fewer, larger, clearer shapes than background detail. If the page is weak, change the ink separation or crop—not the amount of texture.
 
+## Source-to-ink construction
+
+Read the scene, shot scale, people, objects, and strongest source contour before separating plates. Segment the paper field, dark key shape, dominant ink, supporting ink, source anchor, and type area by visual role. Apply colour as discrete ink regions or halftone masks, not a global filter; reserve the cleanest shapes and highest contrast for the anchor. Add exact type only after the no-text plate reads, then keep each real plate and text role separate for editing.
+
 ## Print construction
 
 - Reduce the source to four functional layers: dark keyline, paper base, dominant high-purity ink, and one supporting ink. A fifth neutral may be used only for face or object clarity.

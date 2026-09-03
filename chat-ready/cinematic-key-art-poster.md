@@ -22,6 +22,10 @@ This Skill is a campaign-image system, not a title generator. Before rendering, 
 
 The render order is **structure → source fidelity → light/value → colour → type → clean master**. Do not ask effects, grain, glow, or typography to rescue a weak composition. At thumbnail size the viewer must read the event first, the source anchor second, and the title third.
 
+## Source-to-image construction
+
+Read the scene type, shot scale, people, objects, light direction, and depth before choosing the cinematic route. Segment the foreground, midground, background, subject, symbolic object, light event, and title-safe area according to the narrative job of each region. Build the wordless key art from those parts, then assign one colour temperature and one counter-accent to selected planes or masks. Add the title only after the image works, and keep it on its own live or raster layer according to the host. A close face-led shot needs identity and light; a wide location needs environmental scale; an object-led shot needs a motivated symbolic relationship. Do not force every source into a theatrical wide composition.
+
 When no ratio is specified, inspect the source orientation, hero event, and negative space and choose the canvas that makes the key-art read strongest. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 
 Default to a clean digital master: no random grain, sensor noise, dirty masks, AI micro-texture, fake film wear, or unmotivated lens effects. “Cinematic” means authored staging, light, omission, and tension—not a LUT.

@@ -20,6 +20,10 @@ Impossible space is a single legible contradiction, not a pile of warped objects
 5. the motivated light and value separation that make the planes readable;
 6. the type edge or interval that belongs to the same spatial rule.
 
+## Source-to-space construction
+
+Classify the scene, shot scale, people, objects, planes, and thresholds before transforming anything. Segment the stable source plane, changed plane, anchor, occlusion, cast shadow, and type-safe area. Build the perspective and light first; apply colour to planes that clarify depth; add type only when its edge follows the same spatial rule. A close portrait may need a small face/plane interruption, while a wide interior or street scene can support a larger threshold. If the source has no meaningful plane or edge, route away from this Skill.
+
 Build a wordless thumbnail first. Every overlap needs a continuous perspective, edge, and light explanation. Default to a clean digital master with calm surfaces—no random particles, fog speckle, lens dirt, or texture pasted over a broken spatial relation. If the result feels “weird” for the wrong reason, rebuild the planes and camera relationship; do not intensify the distortion.
 
 ## Read the source as space

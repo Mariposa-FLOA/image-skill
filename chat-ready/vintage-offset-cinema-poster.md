@@ -17,6 +17,10 @@ Use halftone and plate behaviour as controlled structure, not a dirt pass. Defau
 
 When no ratio is specified, inspect the source orientation, directional force, and title geometry and choose the canvas that preserves the print composition best. Follow an explicit user ratio only when one is supplied; never stretch the result to fit.
 
+## Source-to-plate construction
+
+Read the scene, shot scale, people, objects, directional force, and source text before separating the print. Segment paper, dark key plate, dominant spot plate, counter-accent, source anchor, halftone shadow, and title area. Build the crop and value ladder first, apply colour as limited spot plates, then add controlled halftone and type. Close portraits need face-safe plate shapes; wide scenes need a readable directional path. Do not use distress to conceal a weak separation.
+
 ## Cinematic print grammar
 
 - Find the source's strongest directional device: road, gaze, hand, vehicle, corridor, horizon, architecture, or shadow. Use it to set a diagonal or off-axis reading path.

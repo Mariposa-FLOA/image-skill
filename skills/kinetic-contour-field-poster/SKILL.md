@@ -15,6 +15,10 @@ The contour field is a diagram of one real force, not a decorative background. N
 
 Pass the no-line test: the drawn subject and page composition must still have a clear hierarchy before the contours are added. Pass the no-text test: type may follow a contour only after the movement reads. Use calm paper and clean ink by default—no neon trails, vector-perfect waves, random spirals, grain clouds, or overfilled line fields. If rejected, change the force path and subject/canvas relationship, not just line density.
 
+## Source-to-line construction
+
+Classify the scene, shot scale, people, objects, and real force before drawing. Segment the recognisable subject, the force origin, the pressure point, the stopping edge, the quiet paper field, and the type-safe area. Build the subject and composition first; add colour only to a restrained contact region or line family; add type after the movement reads. For a close portrait, keep facial landmarks and hairline clear; for a wide scene, let the environment determine the contour path. If no meaningful force is visible, do not invent decorative waves.
+
 ## Drawing system
 
 - Rebuild the subject with loose ink wash, graphite, dry brush, and selective opaque paper. Do not retain photographic pixels.

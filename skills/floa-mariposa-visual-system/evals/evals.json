@@ -60,6 +60,18 @@
       "prompt": "这张图要做成有审美的品牌海报。请控制主视觉、次级形状、强调色和安静区的比例，不要让所有文字、形状和颜色同样抢眼。",
       "expected_output": "A clear visual hierarchy with a dominant mass, subordinate counter-shape, measured accent, quiet zone, and restrained type system.",
       "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "我给你一张角色设定卡，不要照抄设定卡的排版。请先分析场景、景别、人物特征和可用的物品/材质，再决定是做近景人物视觉、全身场景视觉还是物品叙事视觉。",
+      "expected_output": "The agent treats the sheet as identity evidence, classifies scene/shot/people/objects, selects the best visual route, and creates a new composition instead of copying the sheet layout.",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "不要先决定风格。请先从这张图分析人物、物品、背景、光线和留白，再说明应该怎样分割、上色、排字和安排图层。",
+      "expected_output": "A source-first construction plan covers semantic segmentation, composition, regional colour, exact typography, and an honest editable layer plan before rendering.",
+      "files": []
     }
   ]
 }

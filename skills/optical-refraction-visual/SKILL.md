@@ -22,6 +22,10 @@ The optical medium is the protagonist, but it cannot become a generic glass over
 
 Run the **no-prop test**: if the same result works by simply posing the subject beside a pane, mirror, or acrylic panel, the concept has failed. Run the **no-text test** before adding any copy. Default to zero grain, dust, fingerprints, scratches, dirty condensation, and AI micro-patterns; optical complexity must come from geometry, light, and continuity.
 
+## Source-to-optics construction
+
+Classify the scene, shot scale, people, objects, surface edges, and light before choosing the medium. Segment the protected anchor, optical medium boundary, affected region, unaffected region, reflection/refraction path, and type-safe area. Build the clean source and physical medium first; apply colour only as a consequence of the medium or light; add text after the optical relationship is legible. A face-led close-up may use a small eye/hair/glass relation, while a product or wide scene may support a larger transparent plane. If the source gives no credible optical opportunity, route away from this Skill.
+
 ## What this Skill owns
 
 This Skill makes **optics the protagonist**. The selected subject stays recognisable, but a coherent transparent or reflective medium redirects attention, splits a silhouette, compresses a view, shifts depth, or creates a second reading. The material is not set dressing: it must make the image impossible to compose in the same way without it.

@@ -72,6 +72,67 @@ Before generating or composing, silently write a short internal brief with:
 
 If the design cannot be described in one visual sentence, simplify the concept before adding detail.
 
+## Source-first visual route gate
+
+Do not choose a visual style from a trend word alone. First classify the supplied material:
+
+- **scene:** studio, room, street, architecture, nature, stage, abstract field, or no scene;
+- **shot scale:** macro/detail, close portrait, medium, full body, wide environment, overhead, or a designed sheet;
+- **people:** one person, multiple people, silhouette, face-led portrait, gesture-led body, relationship, or no person;
+- **objects:** product, prop, vehicle, garment, signage, texture, reflective surface, or repeated form;
+- **light and space:** key light direction, depth planes, perspective, dominant empty area, and strongest source edge.
+
+Then select the visual mechanism that the source naturally supports. Use a close portrait for face, skin, hair, accessory, makeup, or intimate light; use a medium/full figure for clothing, gesture, silhouette, or body-to-space relationships; use a wide scene for architecture, path, scale, atmosphere, or spatial contradiction; use an object close-up for material, contour, reflection, or product-led geometry. A character sheet is an identity reference, not a composition template: extract the person's features and build a new scene suited to the requested output.
+
+If the source does not support the chosen mechanism, route to a better visual Skill before rendering. Never force a wide architectural treatment onto a face-led close-up, a face-level effect onto a crowded group, or a decorative product backdrop onto an object whose material or function should lead.
+
+## Construction protocol: segment → compose → colour → type → finish
+
+### 1. Segment the source semantically
+
+Before styling, make a visual segmentation map—not just a rectangular crop:
+
+- **protected anchor:** face, body, product, object, hands, logo, or supplied text that must remain faithful;
+- **scene planes:** sky, wall, floor, room, street, water, window, shadow, or background field;
+- **supporting objects:** props, vehicles, garments, signage, repeated forms, or source-specific fragments;
+- **light structure:** key light, cast shadow, reflection, highlight, and depth separation;
+- **copy areas:** existing words to preserve and quiet areas where new exact type may be placed.
+
+Use masks, clean cutouts, or full-canvas transparent PNG layers when the host supports them. Keep hair, fingers, eyewear, product edges, and small but identifying details out of careless selections. Do not segment a source into invented objects just to create more layers. If the host cannot make real masks or layers, describe the segmentation as a compositing plan and report the limitation.
+
+### 2. Compose before styling
+
+Choose the canvas from the source's scene and shot scale. Decide the hero anchor, eye path, dominant axis, counter-shape, and quiet zone before adding colour or text. A close portrait needs enough face/skin/eye detail; a full-body or wide scene needs enough environment to make scale and movement legible; a product close-up needs a clean silhouette and material edge.
+
+### 3. Add colour by role and region
+
+Assign colours to **field**, **anchor**, **signal**, **depth**, and **light**. Apply them to selected regions, planes, masks, or source-derived shapes—not as a global filter. Keep two to four dominant colours, one clear value hierarchy, and one accent event. Preserve skin, product material, and important source colours unless the brief explicitly calls for a transformation. Add gradients only when they explain light or depth; use flat planes when the composition is graphic.
+
+### 4. Add text as live structure
+
+Use exact user-supplied text. Decide its role, scale, alignment, crop, baseline, and relation to the source edge before placing it. Use local live text, SVG, or layout tools when spelling and later editing matter; use image-model text only for a rough visual test. Keep the product name `FLOA Mariposa` intact, do not create fake metadata, and do not fill empty space with decorative copy. The text layer must be separate when an editable deliverable is requested.
+
+### 5. Preserve the layer plan
+
+For PSD delivery, keep meaningful roles separate from the beginning:
+
+```text
+01 background / colour field
+02 scene planes / architecture
+03 protected source anchor
+04 supporting objects or graphic shapes
+05 colour accent / light event
+06 FLOA Mariposa or approved headline
+07 texture / print treatment
+08 shadow / finishing adjustment
+```
+
+Only create layers that represent real visual decisions. Hand the resulting manifest to `poster-layered-psd-export`; never duplicate one flattened image into fake semantic layers.
+
+### 6. Review the composite and the parts
+
+Check the flat image at thumbnail, normal, and close detail size, then toggle the planned layers. Confirm the subject remains recognizable, the new colour is regional and purposeful, the text is accurate, the visual event is clear, and removing each layer changes something meaningful. If the flat result works but the layers do not correspond to real decisions, the export is not ready.
+
 ## Source reading
 
 Read the supplied image as evidence, not as a prompt to invent a new subject. Record:

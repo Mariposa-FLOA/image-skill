@@ -26,6 +26,10 @@ Before rendering, perform four checks:
 
 If the result reads as “a colour grade plus text,” restart with a new source fact or composition—not a larger title. If the user rejects it, change the operation, dominant mass, anchor scale, and type behaviour before making another render.
 
+## Source-to-metaphor construction
+
+Read the scene, shot scale, people, objects, and one concrete source fact before choosing the metaphor. Segment the source anchor, the fact that will transform, the unchanged field, the transformed graphic territory, and the type-safe area. Keep the source fact believable first, apply colour to distinguish the transformation from the field, and add exact type only after the metaphor reads without words. Close details can become a precise absence or crop; wide scenes can become a path, threshold, or scale relation. Do not add a symbol that the source cannot support.
+
 ## Find the visual sentence
 
 Read the source for a concrete tension: distance, repetition, obstruction, passage, imbalance, absence, containment, waiting, split attention, arrival, or drift. Select one tension only.

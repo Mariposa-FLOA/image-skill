@@ -20,6 +20,8 @@ Avoid: <unwanted elements>.
 Return a test image first; do not archive automatically.
 ```
 
+For visual tasks, do not provide only a style adjective. When a source image exists, the agent should inspect the scene, shot scale, people, objects, light, and negative space before deciding segmentation, composition, regional colour, type placement, and layers. If a character sheet and final image are both supplied, state that the sheet is identity reference only.
+
 ## Codex
 
 ```bash

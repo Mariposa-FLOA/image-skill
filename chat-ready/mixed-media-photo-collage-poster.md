@@ -15,6 +15,10 @@ The collage must have one physical reason for being assembled. Lock the photogra
 
 Run the no-text test before placing type: the photo opening, extension, and paper gesture must already create a readable hierarchy. Keep the master clean and flat by default; use one controlled paper/ink treatment only. No random grain, dirty tears, excessive halftone, fake labels, template stickers, or pasted boxes across faces. If rejected, change the opening/crop, extension direction, and colour mass instead of filling the page with more collage pieces.
 
+## Source-to-collage construction
+
+Read the scene, shot scale, people, objects, and physical textures before cutting the image. Segment one truthful photo anchor, the source structure that can extend beyond it, the paper field, the saturated gesture, and the type-safe area. Compose the opening and extension first; add colour to the paper gesture or printed continuation rather than tinting the whole photo; add short exact type after the three collage roles read. A close portrait needs a protected face opening, while a wide scene may use horizon, road, or architecture as the extension.
+
 ## Visual grammar
 
 - Preserve one irregular photographic opening containing the source's essential person, relationship, place, or object. Never leave the complete rectangular photo visible.

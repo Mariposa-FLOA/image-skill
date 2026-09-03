@@ -28,6 +28,10 @@ Before committing to a layout, choose one primary read from **type mass**, **sou
 
 Typography should use no more than two families and three scales by default. A title must share an edge, axis, crop, or measure with the image; if it can be moved anywhere without changing the composition, it is decoration and needs a structural reset.
 
+## Source-first composition build
+
+Before choosing a grid or crop, classify the scene, shot scale, people, objects, light, and strongest source edge. Segment the protected subject/object, background planes, graphic evidence, colour regions, and type-safe area according to their compositional roles. Build the crop and hierarchy from those regions; apply colour to selected fields or shapes rather than tinting indiscriminately; add exact text only after the image relation reads. A close portrait may need a face-safe crop, a full-body figure may need body-to-space scale, and an object close-up may need a contour-led layout. If the source does not support the chosen grid or type relation, change the composition family.
+
 ## What this Skill owns
 
 This Skill is for **graphic composition**: an image can become an oversized crop, a fragment in a grid, a counter-shape inside type, a strip of evidence, or a color-and-scale event. It does not require an imagined plot, genre, or film title.

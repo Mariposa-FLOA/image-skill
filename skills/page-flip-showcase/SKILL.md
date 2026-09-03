@@ -42,6 +42,8 @@ Before rendering, identify the minimum available facts:
 
 When the user has not specified these, use the default output above, preserve upload order, and place the active page-turn on the right side. Ask for the images only when none are available; do not invent source images.
 
+Before choosing the presentation background, inspect each page's scene, shot scale, people, objects, colour, and quiet area. Select a page-specific visual anchor and safe crop; do not make every page share one background treatment simply because they are in the same flipbook.
+
 ## Workflow
 
 ### 1. Inspect the source set

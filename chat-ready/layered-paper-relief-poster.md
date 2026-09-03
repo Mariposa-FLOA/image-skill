@@ -15,6 +15,10 @@ Design the relief as a physical scene before styling it. Lock one source-specifi
 
 Typography belongs to the same depth logic as the image and must not be pasted on afterward. The wordless thumbnail must have a clear mass and reading path. Use matte paper, consistent edge softness, and restrained cast shadows; reject plastic shine, clay, fake photographic patches, random fibres, grain, and excessive micro-cutouts. If rejected, rebuild the depth planes or crop rather than adding more layers.
 
+## Source-to-relief construction
+
+Read the scene, shot scale, people, objects, silhouette, and light direction before cutting paper. Segment the ground stock, environment, hero subject, foreground anchors, type cutouts, and cast-shadow areas by depth role. Establish three to five meaningful planes first, choose one accent colour for one plane or edge, and integrate type as a cut, recess, or raised piece only after the silhouette reads. A crowded source may need a selective crop; do not turn every detail into a separate paper fragment.
+
 ## Relief system
 
 - Convert the composition into 5–9 depth planes: ground stock, major environment, subject silhouette, clothing folds, face or object details, foreground anchors, and optional lettering.

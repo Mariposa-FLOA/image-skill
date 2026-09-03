@@ -17,6 +17,10 @@ The page must work as a silhouette at thumbnail size and as a readable portrait 
 
 When rejected, rebuild the crop, scale relation, graphic mechanism, and palette family together. Do not fix a weak page by adding more stickers, type, chrome, or neon.
 
+## Source-to-cutout construction
+
+Read the scene, shot scale, person count, pose, clothing, accessories, objects, and empty space before cutting. Segment the main person, one optional detail crop, the colour field, one supporting graphic action, and the type-safe area. Compose the cutout and its silhouette first; add selective colour to clothing, accessories, or the field; add short exact type after the figure reads. A close portrait should protect facial landmarks, while a full-body street shot can use pose and perspective as the graphic engine.
+
 ## Build the poster
 
 1. Read the source before designing: identify the primary person, face visibility, pose, foreshortened objects, clothing, accessories, dominant direction, useful negative space, and legible source text.
